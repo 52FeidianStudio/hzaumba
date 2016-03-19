@@ -15,23 +15,26 @@ ul{
 a{
 	text-decoration:none;
 }
-/*外部包裹区域*/
-#wrapper{
-	width:980px;
-	height:800px;
-	margin:0 auto;
+
+.top{
+	width:100%;
+	height:5px;
+	display:block;
+	float:left;
+	background:green;
 }
 /*头部*/
 #head{
-	width:100%;
+	width:980px;
 	height:110px;
 	background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fafafa));
 	background:-webkit-linear-gradient(#fff 0%, #fafafa 100%);
 	background:-moz-linear-gradient(#fff 0%, #fafafa 100%);
 	background:-o-linear-gradient(#fff 0%, #fafafa 100%);
 	background:linear-gradient(#fff 0%, #fafafa 100%);
-	float:left;
+	margin:0 auto;
 }
+
 div.logo{
 	display:inline-block;
 	float:left;
@@ -45,7 +48,7 @@ div.logo img{
 div.logo h1{
 	font-size:1.5em;
 	display:inline-block;
-	line-height:120px;
+	margin-top:45px;
 	font-weight:400;
 	color:#1967B5;
 	text-shadow:-1px -1px white,
@@ -70,8 +73,8 @@ div.head-word p:nth-child(2){
 	margin-left:100px;
 }
 /*导航栏*/
-nav{
-	height:50px;
+#nav{
+	height:60px;
 	width:100%;
 	background:-webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#fff));
 	background:-webkit-linear-gradient(#fafafa 0%, #fff 100%);
@@ -81,26 +84,43 @@ nav{
 	float:left;
 	box-shadow:0px 0px 2px #999;
 }
-nav ul{
-	height:50px;
-	width:100%;
-	float:left;
+#nav ul{
+	height:60px;
+	width:980px;
+	margin:0 auto;
 }
-nav ul li{
+#nav ul li{
 	float:left;
 	width:11.111%;
 	text-align:center;
-	line-height:50px;
+	line-height:60px;
 }
-nav ul li a{
+#nav ul li a{
 	width:100%;
-	height:50px;
+	height:60px;
 	display:inline-block;
 	color:#333;
 }
-nav ul li:hover a{
+#nav ul li:hover a{
 	color:#2174b7;
 	background:#f6f6f6;
 	box-shadow:0px 0px 2px #ccc;
 	border-radius:8px;
+}
+footer{
+	height:100px;
+	width:100%;
+	box-shadow:0px 0px 5px #666;
+	float:left;
+	margin-top:20px;
+}
+footer h1{
+	font-size:0.9em;
+	color:#666;
+	font-weight:400;
+	text-align:center;
+	line-height:30px;
+}
+footer h1:nth-child(1){
+	margin-top:18px;
 }
