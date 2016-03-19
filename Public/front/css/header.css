@@ -107,23 +107,23 @@ div.head-word p:nth-child(2){
 	box-shadow:0px 0px 2px #ccc;
 	border-radius:8px;
 }
-footer{
+#footer{
 	height:100px;
 	width:100%;
 	box-shadow:0px 0px 5px #666;
 	float:left;
 	margin-top:20px;
 }
-footer h1{
+#footer h1{
 	font-size:0.9em;
 	color:#666;
 	font-weight:400;
 	text-align:center;
 	line-height:30px;
 }
-footer h1:nth-child(1){
+#footer h1:nth-child(1){
 	margin-top:18px;
 }
-footer h1 a{
+#footer h1 a{
 	color:#666;
 }

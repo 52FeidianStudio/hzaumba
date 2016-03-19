@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="top"></div>
-    <header id="head">
+    <div id="head">
         <div class="logo">
             <img src="__PUBLIC__/front/images/logo_school.png" alt="">
             <h1>MBA教育中心</h1>
@@ -23,7 +23,7 @@
             <p>攻读华中农业大学工商管理硕士</p>
             <p>将是您事业成功的新起点</p>
         </div>
-    </header>
+    </div>
     <div id="nav">
         <ul>        
             <li><a href="">首页</a></li>
@@ -92,7 +92,7 @@
     <div id="wrapper">
         <div class="main">
             <!-- 新闻中心&通知公告 -->
-            <section class="content">
+            <div class="content">
                 <span>
                     <a href="" class="head-title choose">新闻中心</a>
                     <a href="" class="head-title">通知公告</a>
@@ -121,9 +121,9 @@
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- 招生信息&教务信息 -->
-            <section class="content">
+            <div class="content">
                 <span>
                     <a href="" class="head-title choose">招生信息</a>
                     <a href="" class="head-title">教务信息</a>
@@ -150,30 +150,30 @@
                         </ul>
                     </div>
                 </div> 
-            </section>
+            </div>
             <!-- 右侧边栏 -->
-            <section class="content side">
-                <section class="side-content">
+            <div class="content side">
+                <div class="side-content">
                     <a href="http://yjsjw.hzau.edu.cn/gmis/login.aspx" target="_blanket"><img src="__PUBLIC__/front/images/yjs.png" alt="研究生信息管理系统"></a>
-                </section>
-                <section class="side-content">
+                </div>
+                <div class="side-content">
                     <a onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&amp;sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;" target="_blank;" ;="" href="http://sighttp.qq.com/cgi-bin/check?sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf" target="_blanket">
                         <img src="__PUBLIC__/front/images/zszx.gif" alt="招生咨询">
                     </a>
-                </section>
-                <section class="side-content">
+                </div>
+                <div class="side-content">
                     <a href="" target="_blanket"><img src="__PUBLIC__/front/images/download.jpg" alt="下载中心"></a>
-                </section>
-                <section class="side-content">
+                </div>
+                <div class="side-content">
                     <a href="" target="_blanket"><img src="__PUBLIC__/front/images/yqlj.jpg" alt="友情链接"></a>
-                </section>
-            </section>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
+    <div id="footer">
         <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
         <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
-    </footer>
+    </div>
     <script>
         $(function(){
             $(".head-title").mouseover(function(){
