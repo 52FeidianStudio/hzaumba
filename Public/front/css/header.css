@@ -124,3 +124,6 @@ footer h1{
 footer h1:nth-child(1){
 	margin-top:18px;
 }
+footer h1 a{
+	color:#666;
+}

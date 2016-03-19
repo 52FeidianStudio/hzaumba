@@ -101,9 +101,15 @@
                     <!-- 新闻中心 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">新闻中心</a></li>
-                            <li><a href="">新闻中心</a></li>
-                            <li><a href="">新闻中心</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
                         </ul>
                     </div>
                     <!-- 通知公告 -->
@@ -135,6 +141,12 @@
                     <div class="content-div">
                          <ul>
                             <li><a href="">教务信息</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
                         </ul>
                     </div>
                 </div> 
@@ -145,7 +157,9 @@
                     <a href="http://yjsjw.hzau.edu.cn/gmis/login.aspx" target="_blanket"><img src="/hzaumba/Public/front/images/yjs.png" alt="研究生信息管理系统"></a>
                 </section>
                 <section class="side-content">
-                     <a href="" target="_blanket"><img src="/hzaumba/Public/front/images/zszx.gif" alt="招生咨询"></a>
+                    <a onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&amp;sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;" target="_blank;" ;="" href="http://sighttp.qq.com/cgi-bin/check?sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf" target="_blanket">
+                        <img src="/hzaumba/Public/front/images/zszx.gif" alt="招生咨询">
+                    </a>
                 </section>
                 <section class="side-content">
                     <a href="" target="_blanket"><img src="/hzaumba/Public/front/images/download.jpg" alt="下载中心"></a>
@@ -171,5 +185,6 @@
             })
         })
     </script>
+    <!-- <iframe style="display:none;" src="tencent://message/?uin=2403602150&Site=&menu=yes"></iframe> -->
 </body>
 </html>
