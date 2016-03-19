@@ -1,21 +1,21 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
 	<meta charset="utf-8" />
 	<title>华中农业大学MBA教育中心</title>
 	<meta name="keywords" content="华中农业大学MBA教育中心">
 	<meta name="description" content="华中农业大学MBA教育中心">
-	<link rel="stylesheet" href="__PUBLIC__/front/css/header.css">
-	<link rel="stylesheet" href="__PUBLIC__/front/css/index.css">
-	<link rel="stylesheet" href="__PUBLIC__/front/css/style.css">
-    <!--[if IE]><link rel="stylesheet" href="__PUBLIC__/front/css/ie.css"><![endif]-->
-    <!--[if lte IE 9]><script type="text/javascript" src="__PUBLIC__/front/js/ie.js"></script><![endif]-->
+	<link rel="stylesheet" href="/hzaumba/Public/front/css/header.css">
+	<link rel="stylesheet" href="/hzaumba/Public/front/css/index.css">
+	<link rel="stylesheet" href="/hzaumba/Public/front/css/style.css">
+    <!--[if IE]><link rel="stylesheet" href="/hzaumba/Public/front/css/ie.css"><![endif]-->
+    <!--[if lte IE 9]><script type="text/javascript" src="/hzaumba/Public/front/js/ie.js"></script><![endif]-->
 </head>
 <body>
 <div id="wrapper">
 	<header id="head">
 		<div class="logo">
-			<img src="__PUBLIC__/front/images/logo_school.png" alt="">
+			<img src="/hzaumba/Public/front/images/logo_school.png" alt="">
 			<h1>MBA教育中心</h1>
 		</div>
 		<div class="head-word">
@@ -48,16 +48,16 @@
                     <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
                     <ul>
                         <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
-                            <img src="__PUBLIC__/front/images/index1.jpg" style="width: 100%;" class="set-img">
+                            <img src="/hzaumba/Public/front/images/index1.jpg" style="width: 100%;" class="set-img">
                         </div>
                         <li class="num0 img">
-                            <img src="__PUBLIC__/front/images/index1.jpg" alt="Clouds" title="Clouds"  class="set-img"/>
+                            <img src="/hzaumba/Public/front/images/index1.jpg" alt="Clouds" title="Clouds"  class="set-img"/>
                         </li>
                         <li class="num1 img">
-                            <img src="__PUBLIC__/front/images/index2.jpg" alt="Typewriter" title="Typewriter" class="set-img" />
+                            <img src="/hzaumba/Public/front/images/index2.jpg" alt="Typewriter" title="Typewriter" class="set-img" />
                         </li>
                         <li class="num2 img">
-                            <img src="__PUBLIC__/front/images/index3.jpg" alt="Bicycle" title="Bicycle" class="set-img" />
+                            <img src="/hzaumba/Public/front/images/index3.jpg" alt="Bicycle" title="Bicycle" class="set-img" />
                         </li>
                     </ul>
                      
