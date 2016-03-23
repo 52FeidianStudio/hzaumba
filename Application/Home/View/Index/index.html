@@ -13,30 +13,7 @@
     <script src="__PUBLIC__/front/js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
-<div class="top"></div>
-    <div id="head">
-        <div class="logo">
-            <img src="__PUBLIC__/front/images/logo_school.png" alt="">
-            <h1>MBA教育中心</h1>
-        </div>
-        <div class="head-word">
-            <p>攻读华中农业大学工商管理硕士</p>
-            <p>将是您事业成功的新起点</p>
-        </div>
-    </div>
-    <div id="nav">
-        <ul>        
-            <li><a href="">首页</a></li>
-            <li><a href="">中心概况</a></li>
-            <li><a href="">项目介绍</a></li>
-            <li><a href="">师资力量</a></li>
-            <li><a href="">招生信息</a></li>
-            <li><a href="">教学管理</a></li>
-            <li><a href="">职业发展</a></li>
-            <li><a href="">MBA联合会</a></li>
-            <li><a href="">联系我们</a></li>
-        </ul>
-    </div>
+<include file="./Application/Home/View/Public/header.html" />
 	<div id="index-img">
 		<section class="index-img-gun">
 			<center>
@@ -157,8 +134,8 @@
                     <a href="http://yjsjw.hzau.edu.cn/gmis/login.aspx" target="_blanket"><img src="__PUBLIC__/front/images/yjs.png" alt="研究生信息管理系统"></a>
                 </div>
                 <div class="side-content">
-                    <a onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&amp;sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;" target="_blank;" ;="" href="http://sighttp.qq.com/cgi-bin/check?sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf" target="_blanket">
-                        <img src="__PUBLIC__/front/images/zszx.gif" alt="招生咨询">
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2403602150&site=qq&menu=yes">
+                        <img src="__PUBLIC__/front/images/zszx.gif" alt="招生咨询" title="点击这里给我发消息"/>
                     </a>
                 </div>
                 <div class="side-content">
@@ -170,10 +147,7 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
-        <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
-    </div>
+<include file="./Application/Home/View/Public/footer.html" />
     <script>
         $(function(){
             $(".head-title").mouseover(function(){
@@ -183,6 +157,7 @@
                 $(this).parents("span").siblings("div").children("div").removeClass("show-content-div");
                 $(this).parents("span").siblings("div").children("div").eq(index).addClass("show-content-div");
             })
+
         })
     </script>
     <!-- <iframe style="display:none;" src="tencent://message/?uin=2403602150&Site=&menu=yes"></iframe> -->

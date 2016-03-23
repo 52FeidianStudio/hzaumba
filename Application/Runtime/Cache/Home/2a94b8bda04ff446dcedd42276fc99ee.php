@@ -13,30 +13,85 @@
     <script src="/hzaumba/Public/front/js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
+<!-- 
+
+头部，导航栏
+
+ -->
 <div class="top"></div>
-    <div id="head">
-        <div class="logo">
-            <img src="/hzaumba/Public/front/images/logo_school.png" alt="">
-            <h1>MBA教育中心</h1>
-        </div>
-        <div class="head-word">
-            <p>攻读华中农业大学工商管理硕士</p>
-            <p>将是您事业成功的新起点</p>
-        </div>
+<div id="head">
+    <div class="logo">
+        <img src="/hzaumba/Public/front/images/mba_logo.png" alt="">
     </div>
-    <div id="nav">
-        <ul>        
-            <li><a href="">首页</a></li>
-            <li><a href="">中心概况</a></li>
-            <li><a href="">项目介绍</a></li>
-            <li><a href="">师资力量</a></li>
-            <li><a href="">招生信息</a></li>
-            <li><a href="">教学管理</a></li>
-            <li><a href="">职业发展</a></li>
-            <li><a href="">MBA联合会</a></li>
-            <li><a href="">联系我们</a></li>
-        </ul>
+    <div class="head-word">
+        <p>理论与实务并重</p>
+        <p>本土与国际复合</p>
     </div>
+</div>
+<div id="nav">
+    <ul class="first-ul">        
+        <li><a href="">首页</a></li>
+        <li>
+            <a href="">中心概况</a>
+            <ul class="second-ul">
+                <span></span>
+                <li><a href="">中心简介</a></li>
+                <li><a href="">组织机构</a></li>
+                <li><a href="">教育理念</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">项目介绍</a>
+            <ul class="second-ul">
+                <span></span>
+                <li><a href="">mba项目</a></li>
+                <li><a href="">edp项目</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">师资力量</a>
+            <ul class="second-ul">
+                <span></span>
+                <li><a href="">校内导师</a></li>
+                <li><a href="">校外导师</a></li>
+                <li><a href="">合作企业</a></li>
+            </ul>
+        </li>
+        <li><a href="">招生信息</a></li>
+        <li>
+            <a href="">教学管理</a>
+            <ul class="second-ul">
+                <span></span>
+                <li><a href="">培养方案</a></li>
+                <li><a href="">论文指导</a></li>
+                <li><a href="">管理实践</a></li>
+                <li><a href="">课程安排</a></li>
+                <li><a href="">答辩安排</a></li>
+            </ul>
+        </li>
+        <li><a href="">职业发展</a></li>
+        <li>
+            <a href="">MBA联合会</a>
+            <ul class="second-ul">
+                <span></span>
+                <li><a href="">联合会章程</a></li>
+                <li><a href="">组织机构</a></li>
+                <li><a href="">校友风采</a></li>
+            </ul>
+        </li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<script>
+$(function(){
+    $(".first-ul li").mouseover(function(){
+        $(this).children(".second-ul").show();
+    })
+    $(".first-ul li").mouseout(function(){
+        $(this).children(".second-ul").hide();
+    })
+})
+</script>
 	<div id="index-img">
 		<section class="index-img-gun">
 			<center>
@@ -157,8 +212,8 @@
                     <a href="http://yjsjw.hzau.edu.cn/gmis/login.aspx" target="_blanket"><img src="/hzaumba/Public/front/images/yjs.png" alt="研究生信息管理系统"></a>
                 </div>
                 <div class="side-content">
-                    <a onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&amp;sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;" target="_blank;" ;="" href="http://sighttp.qq.com/cgi-bin/check?sigkey=05a5a2c2a488eb0e9ba69bea78c111ed849f09e37c24490b989263ec2dd1f06c3ee09defd0288bb869907b992f9fe4606438a03e3d189d213527a2647a37b0cf" target="_blanket">
-                        <img src="/hzaumba/Public/front/images/zszx.gif" alt="招生咨询">
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2403602150&site=qq&menu=yes">
+                        <img src="/hzaumba/Public/front/images/zszx.gif" alt="招生咨询" title="点击这里给我发消息"/>
                     </a>
                 </div>
                 <div class="side-content">
@@ -170,10 +225,10 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
-        <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
-    </div>
+<div id="footer">
+    <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
+    <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
+</div>
     <script>
         $(function(){
             $(".head-title").mouseover(function(){
@@ -183,6 +238,7 @@
                 $(this).parents("span").siblings("div").children("div").removeClass("show-content-div");
                 $(this).parents("span").siblings("div").children("div").eq(index).addClass("show-content-div");
             })
+
         })
     </script>
     <!-- <iframe style="display:none;" src="tencent://message/?uin=2403602150&Site=&menu=yes"></iframe> -->

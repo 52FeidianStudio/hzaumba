@@ -40,10 +40,10 @@ div.logo{
 	float:left;
 }
 div.logo img{
-	margin-top:15px;
+	margin-top:5px;
 	float:left;
-	width:250px;
-	height:70px;
+	width:290px;
+	height:90px;
 }
 div.logo h1{
 	font-size:1.5em;
@@ -84,29 +84,84 @@ div.head-word p:nth-child(2){
 	float:left;
 	box-shadow:0px 0px 2px #999;
 }
-#nav ul{
+/*一级导航*/
+#nav ul.first-ul{
 	height:60px;
 	width:980px;
 	margin:0 auto;
 }
-#nav ul li{
+#nav ul.first-ul li{
 	float:left;
 	width:11.111%;
 	text-align:center;
 	line-height:60px;
+	position: relative;
 }
-#nav ul li a{
+#nav ul.first-ul li a{
 	width:100%;
 	height:60px;
 	display:inline-block;
 	color:#333;
+	font-weight:500;
 }
-#nav ul li:hover a{
+
+#nav ul.first-ul li a:hover{
 	color:#2174b7;
 	background:#f6f6f6;
 	box-shadow:0px 0px 2px #ccc;
 	border-radius:8px;
 }
+/*二级导航*/
+#nav ul.second-ul{
+	width:130%;
+	position:absolute;
+	left:0;
+	top:60px;
+	display:inline-block;
+	z-index:999;
+	display:none;
+}
+#nav ul.first-ul li:hover ul.second-ul{
+	box-shadow:0px 0px 2px #ccc;
+	border-radius:8px;
+	background:#f6f6f6;
+}
+#nav ul.second-ul span{
+	height:3px;
+	width:100%;
+	background:#164B77;
+	display:block;
+}
+#nav ul.second-ul li{
+	float:left;
+	width:100%;
+	text-align:left;
+	text-indent:25px;
+	line-height:50px;
+	background:#f6f6f6;
+	border-bottom:1px solid #aaa;
+}
+#nav ul.second-ul li:last-child{
+	border-bottom:0px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+#nav ul.second-ul li a{
+	width:100%;
+	float:left;
+	height:50px;
+	display:block;
+	color:#333;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+#nav ul.second-ul li:hover a{
+	color:#2174b7;
+	/*background:green;*/
+	box-shadow:0px 0px 0px #fff;
+	/*border-radius:0px;*/
+}
+/*尾部*/
 #footer{
 	height:100px;
 	width:100%;
