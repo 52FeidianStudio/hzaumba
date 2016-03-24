@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/index.css">
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/style.css">
     <!--[if IE]><link rel="stylesheet" href="/hzaumba/Public/front/css/ie.css"><![endif]-->
-    <!--[if lte IE 9]><script type="text/javascript" src="/hzaumba/Public/front/js/ie.js"></script><![endif]-->
+    <!-- [if lte IE 9]><script type="text/javascript" src="/hzaumba/Public/front/js/ie.js"></script><![endif] -->
     <script src="/hzaumba/Public/front/js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
+<!-- 头部 -->
 <!-- 
 
 头部，导航栏
@@ -30,56 +31,56 @@
 </div>
 <div id="nav">
     <ul class="first-ul">        
-        <li><a href="">首页</a></li>
+        <li><a href="/hzaumba/index.php/Home/Index/index" class="first-a">首页</a></li>
         <li>
-            <a href="">中心概况</a>
+            <a href="/hzaumba/index.php/Home/Center/center" class="first-a">中心概况</a>
             <ul class="second-ul">
                 <span></span>
-                <li><a href="">中心简介</a></li>
-                <li><a href="">组织机构</a></li>
-                <li><a href="">教育理念</a></li>
+                <li><a href="/hzaumba/index.php/Home/Center/center">中心简介</a></li>
+                <li><a href="/hzaumba/index.php/Home/Center/organization">组织机构</a></li>
+                <li><a href="/hzaumba/index.php/Home/Center/edu">教育理念</a></li>
             </ul>
         </li>
         <li>
-            <a href="">项目介绍</a>
+            <a href="/hzaumba/index.php/Home/Introduce/mbaprj" class="first-a">项目介绍</a>
             <ul class="second-ul">
                 <span></span>
-                <li><a href="">mba项目</a></li>
-                <li><a href="">edp项目</a></li>
+                <li><a href="/hzaumba/index.php/Home/Introduce/mbaprj">MBA项目</a></li>
+                <li><a href="/hzaumba/index.php/Home/Introduce/edpprj">EDP项目</a></li>
             </ul>
         </li>
         <li>
-            <a href="">师资力量</a>
+            <a href="/hzaumba/index.php/Home/Teacher/inschool" class="first-a">师资力量</a>
             <ul class="second-ul">
                 <span></span>
-                <li><a href="">校内导师</a></li>
-                <li><a href="">校外导师</a></li>
-                <li><a href="">合作企业</a></li>
+                <li><a href="/hzaumba/index.php/Home/Teacher/inschool">校内导师</a></li>
+                <li><a href="/hzaumba/index.php/Home/Teacher/outschool">校外导师</a></li>
+                <li><a href="/hzaumba/index.php/Home/Teacher/company">合作企业</a></li>
             </ul>
         </li>
-        <li><a href="">招生信息</a></li>
+        <li><a href="/hzaumba/index.php/Home/Zhaosheng/zhaosheng" class="first-a">招生信息</a></li>
         <li>
-            <a href="">教学管理</a>
+            <a href="/hzaumba/index.php/Home/Manage/peiyang" class="first-a">教学管理</a>
             <ul class="second-ul">
                 <span></span>
-                <li><a href="">培养方案</a></li>
-                <li><a href="">论文指导</a></li>
-                <li><a href="">管理实践</a></li>
-                <li><a href="">课程安排</a></li>
-                <li><a href="">答辩安排</a></li>
+                <li><a href="/hzaumba/index.php/Home/Manage/peiyang">培养方案</a></li>
+                <li><a href="/hzaumba/index.php/Home/Manage/lunwen">论文指导</a></li>
+                <li><a href="/hzaumba/index.php/Home/Manage/shijian">管理实践</a></li>
+                <li><a href="/hzaumba/index.php/Home/Manage/course">课程安排</a></li>
+                <li><a href="/hzaumba/index.php/Home/Manage/dabian">答辩安排</a></li>
             </ul>
         </li>
-        <li><a href="">职业发展</a></li>
+        <li><a href="/hzaumba/index.php/Home/Career/career" class="first-a">职业发展</a></li>
         <li>
-            <a href="">MBA联合会</a>
+            <a href="/hzaumba/index.php/Home/MbaUnion/zhangcheng" class="first-a">MBA联合会</a>
             <ul class="second-ul">
                 <span></span>
-                <li><a href="">联合会章程</a></li>
-                <li><a href="">组织机构</a></li>
-                <li><a href="">校友风采</a></li>
+                <li><a href="/hzaumba/index.php/Home/MbaUnion/zhangcheng">联合会章程</a></li>
+                <li><a href="/hzaumba/index.php/Home/MbaUnion/zuzhi">组织机构</a></li>
+                <li><a href="/hzaumba/index.php/Home/MbaUnion/schoolmate">校友风采</a></li>
             </ul>
         </li>
-        <li><a href="">联系我们</a></li>
+        <li><a href="/hzaumba/index.php/Home/Contact/contact" class="first-a">联系我们</a></li>
     </ul>
 </div>
 <script>
@@ -92,8 +93,9 @@ $(function(){
     })
 })
 </script>
+<!-- end -->
 	<div id="index-img">
-		<section class="index-img-gun">
+		<div class="index-img-gun">
 			<center>
 			<section id="rt-showcase-surround">
                 <div class="csslider1 autoplay">
@@ -142,15 +144,15 @@ $(function(){
                 </div>
 			</section>        <!-- /slider -->
 			</center>
-		</section>
+		</div>
 	</div>
     <div id="wrapper">
         <div class="main">
             <!-- 新闻中心&通知公告 -->
             <div class="content">
                 <span>
-                    <a href="" class="head-title choose">新闻中心</a>
-                    <a href="" class="head-title">通知公告</a>
+                    <a href="javascript:;" class="head-title choose">新闻中心</a>
+                    <a href="javascript:;" class="head-title">通知公告</a>
                 </span>
                 <div class="content-div-area">
                     <!-- 新闻中心 -->
@@ -180,8 +182,8 @@ $(function(){
             <!-- 招生信息&教务信息 -->
             <div class="content">
                 <span>
-                    <a href="" class="head-title choose">招生信息</a>
-                    <a href="" class="head-title">教务信息</a>
+                    <a href="javascript:;" class="head-title choose">招生信息</a>
+                    <a href="javascript:;" class="head-title">教务信息</a>
                 </span>
                 <div class="content-div-area">
                     <!-- 招生信息 -->
@@ -225,10 +227,12 @@ $(function(){
             </div>
         </div>
     </div>
+<!-- 尾部 -->
 <div id="footer">
     <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
     <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
 </div>
+<!-- end -->
     <script>
         $(function(){
             $(".head-title").mouseover(function(){

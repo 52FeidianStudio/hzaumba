@@ -1,14 +1,14 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class CenterController extends Controller {
-    public function center(){
+class MbaUnionController extends Controller {
+    public function schoolmate(){
        $this->display();
     }
-    public function edu(){
+    public function zhangcheng(){
        $this->display();
     }
-    public function organization(){
+    public function zuzhi(){
        $this->display();
     }
 }

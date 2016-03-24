@@ -1,6 +1,7 @@
 #index-img{
 	width:100%;
-	height:290px;
+	min-width:1100px;
+	height:310px;
 	float:left;
 	margin-top:5px;
 	padding-top:20px;
@@ -10,22 +11,22 @@
 }
 .index-img-gun{
 	/*padding:10px;*/
-	width:980px;
-	height:290px;
+	width:1100px;
+	height:310px;
 	margin:0 auto;
 }
  .set-img{
- 	width:980px;
- 	height:290px;
+ 	width:1100px;
+ 	height:310px;
 
  }
  #wrapper{
-	width:980px;
+	width:1100px;
 	height:800px;
 	margin:0 auto;
 }
 .main{
- 	width:980px;
+ 	width:100%;
  	height:470px;
  	float:left;
  	/*background:red;*/
@@ -34,13 +35,12 @@
  }
 
 .content{
- 	width:32%;
+ 	width:32.5%;
  	height:430px;
  	box-shadow:0px 0px 5px #666;
  	float:left;
  	margin-top:10px;
- 	margin-left:1%;
- 	margin-right:1%;
+ 	margin-left:2%;
  	border-top-left-radius:5px;
  	border-top-right-radius:5px;
  }
@@ -126,11 +126,11 @@
 	友情链接
 */
 .side{
-	width:30%;
+	width:27%;
 	height:350px;
 	box-shadow:0px 0px 5px #666;
-	float:left;
-	margin-left:1%;
+	float:right;
+	margin-right:2%;
 	padding-top:10px;
 }
 .side-content{
@@ -158,6 +158,9 @@
 	height:70px;
 	float:left;
 	border-radius:5px;
+}
+.side-content a img:hover{
+	margin:1px;
 }
 /*.side-content a h1{
 	line-height:60px;
