@@ -99,7 +99,7 @@ $(function(){
 		</div>
 		<div class="content">
 			<h1>联合会章程</h1>
-<pre></pre>
+<pre><?php echo ($con); ?></pre>
 		</div>
 	</div>
 </div>

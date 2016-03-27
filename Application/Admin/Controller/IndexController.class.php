@@ -1,8 +1,40 @@
 <?php
-namespace Home\Controller;
+// 本类由系统自动生成，仅供测试用途
+namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
-    public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover,{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+	//判断是否已登录
+	public function _initialize(){
+		//dump($_SESSION);
+		if($_SESSION['user']==""){
+			$this->redirect('Login/index');
+		}
+	}
+    public function fzt(){
+    	$this->display();
     }
+    public function about(){
+    	$this->display();
+    }
+     public function buttonsandicons(){
+        $name=I('get.name');
+		$this->assign('name',$name);
+		$m=M('contents');
+		$where['cid']=1;
+		$arr=$m->where($where)->find();
+		$con=$arr[$name];
+		$this->assign('con',$con);
+    	$this->display();
+    }
+	//记录数据
+	public function record(){
+		$col_name=I('get.name');
+		if($col_name){
+			$map[$col_name]=I('post.con');
+			$where['cid']=1;
+			$m=M('contents');
+			$m->where($where)->save($map);
+		}
+		$this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	}
 }
