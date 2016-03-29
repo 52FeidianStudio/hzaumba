@@ -27,7 +27,7 @@
 }
 .main{
  	width:100%;
- 	height:470px;
+ 	height:440px;
  	float:left;
  	/*background:red;*/
  	box-shadow:0px 0px 10px #999;
@@ -36,7 +36,7 @@
 
 .content{
  	width:32.5%;
- 	height:430px;
+ 	height:410px;
  	box-shadow:0px 0px 5px #666;
  	float:left;
  	margin-top:10px;
@@ -78,7 +78,7 @@
  }
 .content-div-area{
  	width:100%;
- 	height:400px;
+ 	height:360px;
  	margin-top:10px;
  	float:left;
  	overflow:hidden;
@@ -86,7 +86,6 @@
 .content-div{
 	width:100%;
 	height:380px;
-	/*background:red;*/
 	display:none;
  }
 .show-content-div{
@@ -94,8 +93,7 @@
 }
 .content-div ul{
 	width:100%;
-	height:380px;
-	
+	height:360px;
  }
 .content-div ul li{
 	width:90%;
@@ -113,9 +111,35 @@
 }
 .content-div ul li a{
 	color:#555;
+	width:75%;
+	float:left;
+	display:inline-block;
+	/*background:yellow;*/
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
 }
 .content-div ul li a:hover{
 	color:orange;
+}
+.content-div ul li i{
+	min-width:25%;
+	/*background:red;*/
+	font-size:0.8em;
+	font-style:normal;
+	/*text-align:left;*/
+	float:right;
+	text-indent:0px;
+}
+.content-div ul a.readmore{
+	float:right;
+	line-height:40px;
+	margin-right:8%;
+	color:#2A7EC3;
+	font-weight:300;
+}
+.content-div ul a.readmore:hover{
+	text-decoration:underline;
 }
 
 
@@ -127,7 +151,7 @@
 */
 .side{
 	width:27%;
-	height:350px;
+	height:380px;
 	box-shadow:0px 0px 5px #666;
 	float:right;
 	margin-right:2%;
@@ -141,7 +165,7 @@
 	border-radius:5px;
 	/*border-bottom:1px solid #999;*/
 	box-shadow:4px 4px 4px #ccc;
-	margin-top:13px;
+	margin-top:15px;
 }
 .side-content:hover{
 	box-shadow:4px 4px 4px #999;

@@ -38,7 +38,7 @@
                         <a class="close" data-dismiss="alert" href="#">&times;</a>
                         Press enter key or click the Submit button
                     </div>
-                    <form method="post" action="/hzaumba/index.php/Admin/Login/do_login" class="bootstrap-admin-login-form" onsubmit="return submitTest();" name="form">
+                    <form method="post" action=" <?php echo U('Admin/Login/do_login');?>" class="bootstrap-admin-login-form" onsubmit="return submitTest();" name="form">
                         <h1>Login</h1>
                         <div class="form-group">
                             <input class="form-control" type="text" name="email" placeholder="管理员账号">

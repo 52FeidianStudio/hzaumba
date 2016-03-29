@@ -59,3 +59,76 @@
 	white-space: -o-pre-wrap;    /* Opera 7 */
 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+
+/*下载中心*/
+.download-ul{
+	width:80%;
+	margin-left:10%;
+	float:left;
+	margin-bottom:40px;
+
+}
+.download-ul li{
+	border-bottom:1px dashed #999;
+	line-height:35px;
+	background: url(../images/arrow_go.png) 1.2% center no-repeat;
+	text-indent:1.8em;
+}
+.download-ul li i{
+	font-style:normal;
+	font-size:10px;
+	float:left;
+	line-height:35px;
+	/*text-indent:3em;*/
+	margin-right:0.5em;
+}
+.download-ul li a{
+	color:#444;
+	/*font-weight:400;*/
+}
+.download-ul li a:hover{
+	color:orange;
+}
+.download-ul li h6{
+	font-size:0.8em;
+	display:inline-block;
+	float:right;
+	margin-right:1em;
+	font-weight:400;
+	color:#333;
+}
+.ul-nav{
+	width:50%;
+	height:30px;
+	margin-left:25%;
+	margin-bottom:50px;
+	/*background:red;*/
+	float:left;
+	text-align:center;
+	line-height:30px;
+}
+.ul-nav i{
+	font-style:normal;
+	font-size:0.9em;
+	float:left;
+}
+.ul-nav span{
+}
+.ul-nav span a{
+	padding-left:10px;
+	padding-right:10px;
+	color:#666;
+	display:inline-block;
+	font-weight:300;
+	margin-left:5px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	border:1px solid #aaa;
+	font-size:0.9em;
+}
+.ul-nav span a:hover{
+	background:#2A7EC3;
+	color:#fff;
+}

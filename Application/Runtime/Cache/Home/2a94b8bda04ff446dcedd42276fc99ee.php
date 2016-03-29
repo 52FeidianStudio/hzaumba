@@ -158,23 +158,24 @@ $(function(){
                     <!-- 新闻中心 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
+                            <a href="/hzaumba/index.php/Home/Index/news" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 通知公告 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">通知公告</a></li>
-                            <li><a href="">通知公告</a></li>
-                            <li><a href="">通知公告</a></li>
+                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
+                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
+                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
+                            <a href="/hzaumba/index.php/Home/Index/tongzhi" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div>
@@ -189,21 +190,23 @@ $(function(){
                     <!-- 招生信息 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">招生信息</a></li>
-                            <li><a href="">招生信息</a></li>
-                            <li><a href="">招生信息</a></li>
+                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
+                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
+                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
+                            <a href="/hzaumba/index.php/Home/Index/zhaosheng" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 教务信息 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">教务信息</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a></li>
+                            <li><a href="">教务信息</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
+                            <a href="/hzaumba/index.php/Home/Index/manage" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div> 
@@ -219,10 +222,10 @@ $(function(){
                     </a>
                 </div>
                 <div class="side-content">
-                    <a href="" target="_blanket"><img src="/hzaumba/Public/front/images/download.jpg" alt="下载中心"></a>
+                    <a href="/hzaumba/index.php/Home/Index/download"><img src="/hzaumba/Public/front/images/download.jpg" alt="下载中心"></a>
                 </div>
                 <div class="side-content">
-                    <a href="" target="_blanket"><img src="/hzaumba/Public/front/images/yqlj.jpg" alt="友情链接"></a>
+                    <a href="/hzaumba/index.php/Home/Index/link"><img src="/hzaumba/Public/front/images/yqlj.jpg" alt="友情链接"></a>
                 </div>
             </div>
         </div>
@@ -230,7 +233,7 @@ $(function(){
 <!-- 尾部 -->
 <div id="footer">
     <h1>地址：湖北省武汉市洪山区南湖狮子山一号   邮编：430070   TEL：027-87282679   FAX：027-87282973 </h1>
-    <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="">管理</a>   </h1>
+    <h1>版权所有：华中农业大学MBA教育中心  技术支持：沸点工作室  <a href="/hzaumba/index.php/Admin/Login/index">管理</a>   </h1>
 </div>
 <!-- end -->
     <script>
