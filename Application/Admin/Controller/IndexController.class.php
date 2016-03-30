@@ -28,6 +28,13 @@ class IndexController extends Controller {
 			$sea['cid']=3;
 			$tre=$m->field($name)->where($sea)->find();
 			$this->assign('cb',$tre[$name]);
+			//右边页面的输入选择
+			if($tre[$name]=="collapseZero"){
+				$ym="xinxi";
+			}else{
+				$ym="other";
+			}
+			$this->assign('ym',$ym);
 		}
 		$where['cid']=1;
 		$arr=$m->field($name)->where($where)->find();

@@ -115,7 +115,17 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                       
+                        <li class="submenu">
+                            <a  class="dropmenu" href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
+                            <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="xwzx"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx"   ><i class="glyphicon glyphicon-chevron-right"></i>新闻中心</a></li>
+                                <li id="tzgg"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i> 通知公告</a></li>
+                                <li id="xxjw"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>教务信息</a></li>
+								 <li id="xxzs"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxzs"   ><i class="glyphicon glyphicon-chevron-right"></i>招生信息</a></li>
+                                <li id="xzzx"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> 下载中心</a></li>
+                                <li id="yqlj"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>友情链接</a></li>
+                            </ul>
+                        </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
                             <ul id="collapseOne" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
