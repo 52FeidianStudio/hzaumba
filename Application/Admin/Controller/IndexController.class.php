@@ -20,12 +20,22 @@ class IndexController extends Controller {
         $name=I('get.name');
 		$this->assign('name',$name);
 		$m=M('contents');
+		if($name){
+			$map['cid']=2;
+			$str=$m->field($name)->where($map)->find();
+			$this->assign('zd',$str[$name]);
+			//侧边栏的状态
+			$sea['cid']=3;
+			$tre=$m->field($name)->where($sea)->find();
+			$this->assign('cb',$tre[$name]);
+		}
 		$where['cid']=1;
-		$arr=$m->where($where)->find();
+		$arr=$m->field($name)->where($where)->find();
 		$con=$arr[$name];
 		$this->assign('con',$con);
     	$this->display();
     }
+
 	//记录数据
 	public function record(){
 		$col_name=I('get.name');

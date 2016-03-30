@@ -78,32 +78,11 @@
                     <div class="col-lg-12">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
-                                <li class="text">Change size:</li>
-                                <li><a class="size-changer small">Small</a></li>
-                                <li><a class="size-changer large active">Large</a></li>
+                                <li class="text"></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
-                                <!--<li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li>
-                                    <a href="#">Reminders <i class="glyphicon glyphicon-bell"></i></a>
-                                </li>-->
-                                <li>
-                                    <a href="#">设置 <i class="glyphicon glyphicon-cog"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#">返回首页 <i class="glyphicon glyphicon-share-alt"></i></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" role="button" class="dropdown-toggle" data-hover="dropdown"> <i class="glyphicon glyphicon-user"></i> Username <i class="caret"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="presentation" class="divider"></li>
-                                        <li><a href="index.html">Logout</a></li>
-                                    </ul>
-                                </li>
+                                <li>理论与务实并重</br>本土与国际复合</li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -123,7 +102,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="about.html">Admin Panel</a>
+                            <a class="navbar-brand" href=""style="color:#ff7f50;">华中农业大学MBA后台管理系统</a>
                         </div>  
                     </div>
                 </div>
@@ -137,54 +116,54 @@
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
                        
-                        <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj"><i class="glyphicon glyphicon-chevron-right"></i>中心简介</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> 组织机构</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>教育理念</a></li>
+                        <li class="submenu">
+                            <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
+                            <ul id="collapseOne" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="zxjj"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>中心简介</a></li>
+                                <li id="zzjg"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> 组织机构</a></li>
+                                <li id="jyln"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>教育理念</a></li>
                             </ul>
                         </li>
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i> MBA项目</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>EDP项目</a></li>
+                         <li class="submenu">
+                            <a  href="#collapseTwo"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
+                            <ul id="collapseTwo" class=" panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                               <li id="mba_xm"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i> MBA项目</a></li>
+                                <li id="edp_xm"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>EDP项目</a></li>
                             </ul>
                         </li>
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>校内导师</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>校外导师</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>合作企业</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-down"></i> 招生信息</a></li>
-
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>培养方案</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>论文指导</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>管理实践</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>课程安排</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>答辩安排</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-down"></i>职业发展</a></li>
-
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>联合会章程</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>组织机构</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>校友风采</a></li>
+                         <li class="submenu">
+                            <a href="#collapseThree"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
+                            <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="xnds"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>校内导师</a></li>
+                                <li id="xwds"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>校外导师</a></li>
+                                <li id="hzqy"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>合作企业</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-down"></i>联系我们</a></li>
+                        <li id="zsxx"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-right"></i> 招生信息</a></li>
+
+                         <li class="submen">
+                            <a  href="#collapseFour"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
+                            <ul id="collapseFour"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="pyfa"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>培养方案</a></li>
+                                <li id="lwzd"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>论文指导</a></li>
+                                <li id="glsj"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>管理实践</a></li>
+                                <li id="kcap"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>课程安排</a></li>
+                                <li id="dbap"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>答辩安排</a></li>
+                            </ul>
+                        </li>
+                        <li id="zyfz"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-right"></i>职业发展</a></li>
+
+                         <li class="submenu">
+                            <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
+                            <ul id="collapseFive"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="lhhzc"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>联合会章程</a></li>
+                               <li id="org"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>组织机构</a></li>
+                                <li id="xyfc"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>校友风采</a></li>
+                            </ul>
+                        </li>
+
+                        <li id="lxwm"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
 
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
@@ -199,7 +178,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="page-header">
-                                <h1>Buttons & Icons</h1>
+                                <h3><?php echo ($zd); ?></h3>
                             </div>
                         </div>
                     </div>
@@ -208,7 +187,7 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">Bootstrap Switch buttons (the On-Off buttons)</div>
+                                    <div class="text-muted bootstrap-admin-box-title">welcome to background management system !</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
                                       
@@ -225,13 +204,13 @@
         
 
         <!-- footer -->
-        <div class="navbar navbar-footer">
+        <div class="navbar navbar-footer"style="background:#dcdcdc;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <footer role="contentinfo">
-                            <p class="left">Bootstrap 3.x Admin Theme</p>
-                            <p class="right">&copy; 2013 <a href="http://www.meritoo.pl" target="_blank">Meritoo.pl</a></p>
+                        <footer role="contentinfo" >
+                            <p class="left" style="margin-left:180px;">© 2016 华中农业大学</p>
+                            <p class="right" style="margin-right:60px;">技术支持：沸点工作室</p>
                         </footer>
                     </div>
                 </div>
@@ -240,6 +219,7 @@
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="/hzaumba/Public/Back/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/hzaumba/Public/Back/js/jquery.min.js"></script>
         <script type="text/javascript" src="/hzaumba/Public/Back/js/twitter-bootstrap-hover-dropdown.min.js"></script>
         <script type="text/javascript" src="/hzaumba/Public/Back/js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="/hzaumba/Public/Back/vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
@@ -273,7 +253,17 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
+		    	$('#<?php echo ($name); ?>').addClass('active');
+				var cbl="<?php echo ($cb); ?>";
+				if(cbl){
+				     //alert(cbl);
+				    $('#<?php echo ($cb); ?>').collapse('hide');
+				}
             });
+              // $(function () { $('#collapseOne').collapse('hide')});
+               /*$(function () { $('#collapseTwo').collapse('hide')});
+               $(function () { $('#collapseFour').collapse('hude')});*/
+ 
         </script>
     </body>
 </html>
