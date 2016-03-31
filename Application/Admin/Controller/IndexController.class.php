@@ -30,7 +30,17 @@ class IndexController extends Controller {
 			$this->assign('cb',$tre[$name]);
 			//右边页面的输入选择
 			if($tre[$name]=="collapseZero"){
-				$ym="xinxi";
+				if($str[$name]=="友情链接"){
+						$ym="xinxi";
+			        	//获取首页右边的信息
+			        	$home=M('home');
+			        	$hq['class']=$str[$name];
+				        $info=$home->field('hid,title,content')->where($hq)->select();
+				       //dump($info);
+				        $this->assign('info',$info);		
+				}else{
+					$ym="shouye";
+				}	
 			}else{
 				$ym="other";
 			}
@@ -43,7 +53,7 @@ class IndexController extends Controller {
     	$this->display();
     }
 
-	//记录数据
+	//记录数据other页面
 	public function record(){
 		$col_name=I('get.name');
 		if($col_name){
@@ -53,5 +63,41 @@ class IndexController extends Controller {
 			$m->where($where)->save($map);
 		}
 		$this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	}
+	//记录数据home页面
+	public function record_home(){
+		$col_name=I('get.name');
+		$map['class']=I('get.class');
+		$m=M('home');
+		if($map['class']=="下载中心"){
+			
+		}else{
+			$map['title']=I('post.title');
+			$map['content']=I('post.con');
+			$map['date']=date('y-m-d');
+			$m->add($map);
+		}
+        $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	}
+	//修改数据home页面
+	public function update_home(){
+		//dump($_POST);dump($_GET);exit;
+		$col_name=I('get.name');
+		$map['hid']=I('post.hid');
+		$data['title']=I('post.title');
+		$data['content']=I('post.con');
+		$m=M('home');
+		$m->where($map)->save($data);
+        $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	}
+	//删除链接
+	public function delete_link(){
+		$col_name=I('get.name');
+		$where['hid']=I('get.hid');
+		if($where['hid']){
+			$m=M('home');
+			$m->where($where)->delete();
+		}
+		 $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
 	}
 }

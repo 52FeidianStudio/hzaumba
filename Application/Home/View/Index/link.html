@@ -22,10 +22,9 @@
 		<div class="content">
 			<h1>友情链接</h1>
 			<ul class="download-ul">
-				<li><a href="http://www.hzau.edu.cn/2014/ch/" target="_blanket">华农主页</a></li>
-				<li><a href="http://yjs.hzau.edu.cn/" target="_blanket">研究生院</a></li>
-				<li><a href="http://yz.chsi.com.cn/" target="_blanket">中国研究生招生信息网</a></li>
-				
+			<volist name="info" id="vo">
+				<li><a href="{$vo.content}" target="_blanket">{$vo.title}</a></li>
+		    </volist>
 			</ul>
 		</div>
 	</div>

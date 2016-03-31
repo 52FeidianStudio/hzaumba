@@ -62,29 +62,7 @@
             .panel-bootstrap-switch .bootstrap-switch-footer{
                 margin-top: 20px;
             }
-            .p{
-                 animation:myfirst 5s;
-                 -webkit-animation:myfirst 5s;
-                 animation-iteration-count: infinite;
-                 animation-direction: alternate;
-             }
-                @keyframes myfirst
-                    {
-                    0%   {background: red; left:0%; }
-                    25%  {background: yellow; left:25%;}
-                    50%  {background: blue; left:50%;}
-                    75%  {background: green; left:75%;}
-                    100% {background: red; left:100%;}
-                    }
-
-                    @-webkit-keyframes myfirst /* Safari and Chrome */
-                    {
-                    0%   {background: red; left:0%;}
-                    25%  {background: yellow; left:25%;}
-                    50%  {background: blue; left:50%; }
-                    75%  {background: green; left:75%;}
-                    100% {background: red; left:100%;}
-                    }
+       
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -95,7 +73,7 @@
     </head>
     <body class="bootstrap-admin-with-small-navbar">
         <!-- small navbar -->
-         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
+       <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -138,9 +116,9 @@
                             <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
                             <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
                                 <li id="xwzx"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
-                                <li id="tzgg"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
+                                <li id="tzgg"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; 通知公告</a></li>
                                 <li id="xxjw"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
-								 <li id="xxzs"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+								 <li id="xxzs"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxzs"   ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
                             </ul>
@@ -201,24 +179,21 @@
                     </ul>
                 </div>
 
+
                 <!-- content -->
                 <div class="col-md-10">
+
+                   
 
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title"><?php echo ($zd); ?></div>
+                                    <div class="text-muted bootstrap-admin-box-title">welcome to background management system !</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
-								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-					        	<form action="/hzaumba/index.php/Admin/Index/record_home?class=<?php echo ($zd); ?>&name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="shouye">
-								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text"/><br/><br/>
-                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con"><?php echo ($con); ?></textarea>
-                                 <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
-                                </form>       
-							    <!--友情链接页面-->	
-						 <div style="height:460px;width:900px;display:none;" id="xinxi">
+                                      
+                                 <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj" style="height:460px;width:900px;">
                                  &nbsp;&nbsp; &nbsp;&nbsp; 
                              <table class="table table-bordered table-striped border table-condensed text-center " >    
                                 <div class="row">                      
@@ -228,49 +203,31 @@
                                       <th style="text-align:center;">编辑</th>
                                      
                                    </tr>
-								  <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                      <td><?php echo ($vo["title"]); ?></td>
-                                      <td><a><?php echo ($vo["content"]); ?></a></td>
-                                      <td><input type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal_update<?php echo ($i); ?>" value="修改" onclick="f1({vo.title});"/>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs"value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
+                                   <tr>
+                                      <td>华农主页</td>
+                                      <td><a>http://www.hzau.edu.cn</a></td>
+                                      <td><input type="submit" class="btn btn-info btn-xs"value="修改"/>&nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-info btn-xs"value="删除"/></td>
                                    </tr>
-								     <!--模态框修改-->
-								  <div class="modal fade" id="myModal_update<?php echo ($i); ?>" tabindex="-1" role="dialog" 
-                                     aria-labelledby="myModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-									 <form action="/hzaumba/index.php/Admin/Index/update_home?name=<?php echo ($name); ?>" method="POST" name="jaj">
-                                        <div class="modal-content">
-                                           <div class="modal-header">
+                                   <tr>
+                                      <td>研究生院</td>
+                                      <td><a>http://yjs.hzau.edu.cn/</a></td>
+                                      <td><input type="submit" class="btn btn-info btn-xs"value="修改"/>&nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-info btn-xs"value="删除"/></td>
+                                   </tr>
+                                   <tr>
+                                      <td>中国研究生招生信息网</td>
+                                      <td><a>http://yz.chsi.com.cn/</a></td>
+                                      <td><input type="submit" class="btn btn-info btn-xs"value="修改"/>&nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-info btn-xs"value="删除"/></td>
+                                   </tr>
                                   
-                                              <h4 class="modal-title" id="myModalLabel">
-                                                 在这里添加链接
-                                              </h4>
-                                           </div>
-                                           <div class="modal-body">
-										      <input name="hid" type="hidden" value="<?php echo ($vo["hid"]); ?>"/>
-                                              <input name="title" id="update_title" class="form-control" placeholder="请输入链接名称"  type="text" value="<?php echo ($vo["title"]); ?>"/><br/>
-                                              <input name="con" id="update_con" class="form-control" placeholder="请输入链接"  type="text" value="<?php echo ($vo["content"]); ?>"/><br/>
-                                           </div>
-                                           <div class="modal-footer">
-                                              <button type="button" class="btn btn-default" 
-                                                 data-dismiss="modal">关闭
-                                              </button>
-                                              <button type="submit" class="btn btn-primary">
-                                                 提交更改
-                                              </button>
-                                           </div>
-                                        </div><!-- /.modal-content -->
-									</form>
-                                  </div><!-- /.modal -->
-                                  </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                                  
                                  </div>
                                  </table>            
-                                 <input type="button" class="btn btn-primary right" data-toggle="modal" 
+                                 <input type="submit" class="btn btn-primary right" data-toggle="modal" 
                                     data-target="#myModal"style="margin-right:20px;margin-top:88px;" value="添加"/>
-                                   <!--模态框提交--->
+
                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
                                      aria-labelledby="myModalLabel" aria-hidden="true">
                                      <div class="modal-dialog">
-									 <form action="/hzaumba/index.php/Admin/Index/record_home?class=友情链接&name=<?php echo ($name); ?>" method="POST" name="jaj">
                                         <div class="modal-content">
                                            <div class="modal-header">
                                   
@@ -279,29 +236,21 @@
                                               </h4>
                                            </div>
                                            <div class="modal-body">
-                                              <input name="title" id="" class="form-control" placeholder="请输入链接名称"  type="text"/><br/>
-                                              <input name="con" id="" class="form-control" placeholder="请输入链接"  type="text"/><br/>
+                                              <input name="" id="" class="form-control" placeholder="请输入链接名称"  type="text"/><br/>
+                                              <input name="" id="" class="form-control" placeholder="请输入链接"  type="text"/><br/>
                                            </div>
                                            <div class="modal-footer">
                                               <button type="button" class="btn btn-default" 
                                                  data-dismiss="modal">关闭
                                               </button>
-                                              <button type="submit" class="btn btn-primary">
+                                              <button type="button" class="btn btn-primary">
                                                  提交更改
                                               </button>
                                            </div>
                                         </div><!-- /.modal-content -->
-									</form>
                                   </div><!-- /.modal -->
                                   </div>
-								
-                                </div>       
-								
-							
-                                 <!--除首页外其他页面-->
-                                 <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="other">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>
-                                <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
+
                                 </form>       
                             </div>
                         </div>
@@ -309,7 +258,7 @@
                 </div>  
             </div>
         </div>
-        
+                          
 
         <!-- footer -->
         <div class="navbar navbar-footer"style="background:#dcdcdc;">
@@ -366,19 +315,9 @@
 				if(cbl){
 				     //alert(cbl);
 				    $('#<?php echo ($cb); ?>').collapse('hide');
-					
 				}
-				$('#<?php echo ($ym); ?>').css('display','block');
-				
-				
             });
-		  //删除链接
-          function delete_link(hid){
-		      var r=confirm("是否删除");
-              if (r==true){
-                 window.location.href="/hzaumba/index.php/Admin/Index/delete_link?hid="+hid+"&name=<?php echo ($name); ?>";
-              }
-		  }
+             
  
         </script>
     </body>

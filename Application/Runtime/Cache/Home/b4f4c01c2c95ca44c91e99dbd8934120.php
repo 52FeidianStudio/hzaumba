@@ -95,12 +95,14 @@ $(function(){
 <div id="wrapper">
 	<div id="main-content">
 		<div class="location">
-			当前所在位置：<a href="/hzaumba/index.php/Home/Index/index">首页</a> > <a href="/hzaumba/index.php/Home/Index/link">友情链接</a>
+			当前所在位置：<a href="/hzaumba/index.php/Home/Index/index">首页</a> > <a href="/hzaumba/index.php/Home/Index/news"><?php echo ($class); ?></a>
 		</div>
 		<div class="content">
-			<h1>友情链接</h1>
+			<h1><?php echo ($class); ?></h1>
 			<ul class="download-ul">
-			<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo ($vo["content"]); ?>" target="_blanket"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+			<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><!--<li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($new["hid"]); ?>" target="_blanket"><?php echo ($vo["title"]); ?></a><i><?php echo ($vo["date"]); ?></i></li>-->
+				 <li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($vo["hid"]); ?>"><?php echo ($vo["title"]); ?></a><i><?php echo ($vo["date"]); ?></i></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				
 			</ul>
 		</div>
 	</div>

@@ -158,24 +158,16 @@ $(function(){
                     <!-- 新闻中心 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <a href="/hzaumba/index.php/Home/Index/news" class="readmore">››read more</a>
+						    <?php if(is_array($info_new)): $i = 0; $__LIST__ = $info_new;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$new): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($new["hid"]); ?>"><?php echo ($new["title"]); ?></a><i><?php echo ($new["date"]); ?></i></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                            <a href="/hzaumba/index.php/Home/Index/commen?class=新闻中心" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 通知公告 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <a href="/hzaumba/index.php/Home/Index/tongzhi" class="readmore">››read more</a>
+						 
+                            <?php if(is_array($info_tzgg)): $i = 0; $__LIST__ = $info_tzgg;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$new): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($new["hid"]); ?>"><?php echo ($new["title"]); ?></a><i><?php echo ($new["date"]); ?></i></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                            <a href="/hzaumba/index.php/Home/Index/commen?class=通知公告" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div>
@@ -190,23 +182,15 @@ $(function(){
                     <!-- 招生信息 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <a href="/hzaumba/index.php/Home/Index/zhaosheng" class="readmore">››read more</a>
+                            <?php if(is_array($info_zsxx)): $i = 0; $__LIST__ = $info_zsxx;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$new): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($new["hid"]); ?>"><?php echo ($new["title"]); ?></a><i><?php echo ($new["date"]); ?></i></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                            <a href="/hzaumba/index.php/Home/Index/commen?class=招生信息" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 教务信息 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">教务信息</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <a href="/hzaumba/index.php/Home/Index/manage" class="readmore">››read more</a>
+                             <?php if(is_array($info_jwxx)): $i = 0; $__LIST__ = $info_jwxx;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$new): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/index.php/Home/Index/information.html?hid=<?php echo ($new["hid"]); ?>"><?php echo ($new["title"]); ?></a><i><?php echo ($new["date"]); ?></i></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                            <a href="/hzaumba/index.php/Home/Index/commen?class=教务信息" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div> 
