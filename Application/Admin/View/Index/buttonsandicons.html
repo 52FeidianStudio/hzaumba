@@ -134,7 +134,7 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                        <li >
+                        <li class="submenu">
                             <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
                             <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
                                 <li id="xwzx"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
@@ -212,11 +212,32 @@
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
 								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-					        	<form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj" style="display:none;" id="shouye">
+						  <div style="height:460px;width:900px;display:none;" id="shouye">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">   
+								
+                                   <tr>
+                                      <th style="text-align:center;">标题</th>
+                                      <th style="text-align:center;">编辑</th>
+								   </tr>
+								   <volist name="info" id="vo">
+                                   <tr>								
+                                      <td>{$vo.title}</td>
+                                     
+                                      <td><a role="button" class="btn btn-info btn-xs" href="__URL__/button.html?name={$name}&hid={$vo.hid}"/>修改</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
+                                   </tr>
+								    </volist> 
+								</div>
+								
+							</table>
+							 <a role="button" class="btn btn-success right " style="margin-right:20px;margin-top:320px;" href="__URL__/button.html?name={$name}" />添加</a></br></br>
+							</div>
+					        	<!--<form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj" style="display:none;" id="shouye">
 								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text"/><br/><br/>
                                 内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$con}</textarea>
                                  <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
-                                </form>       
+                                </form>       -->
 								<!--下载中心页面-->
 						<div style="height:460px;width:900px;display:none;" id="download">
                                  &nbsp;&nbsp; &nbsp;&nbsp; 
@@ -235,7 +256,9 @@
                                    </tr>
 								    </volist> 
 								</div>
+								
 							</table>
+							
 						<form method="post" enctype="multipart/form-data" action="__URL__/record_file?name={$name}" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
                             <div class="form-group">
                                  <label class="sr-only" for="name" >名称</label>

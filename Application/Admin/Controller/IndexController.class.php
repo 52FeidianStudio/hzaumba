@@ -10,7 +10,29 @@ class IndexController extends Controller {
 			$this->redirect('Login/index');
 		}
 	}
-    public function fzt(){
+    public function button(){
+		$name=I('get.name');
+		$this->assign('name',$name);
+		$m=M('contents');
+		if($name){
+			$map['cid']=2;
+			$str=$m->field($name)->where($map)->find();
+			$this->assign('zd',$str[$name]);
+			//侧边栏的状态
+			$sea['cid']=3;
+			$tre=$m->field($name)->where($sea)->find();
+			$this->assign('cb',$tre[$name]);
+			       $home=M('home');
+				   $hq['hid']=I('get.hid');
+				   if($hq['hid']){
+					    $ym="xiugai";
+					    $info=$home->field('hid,title,content')->where($hq)->find();
+					    $this->assign('info',$info);	
+				   }else{
+					    $ym="tianjia";
+				   }
+				   $this->assign('ym',$ym);
+		}
     	$this->display();
     }
     public function about(){
@@ -32,21 +54,19 @@ class IndexController extends Controller {
 			if($tre[$name]=="collapseZero"){
 				if($str[$name]=="友情链接"){
 						$ym="xinxi";
-			        	//获取首页右边的信息
-			        	$home=M('home');
-			        	$hq['class']="友情链接";
-				        $info=$home->field('hid,title,content')->where($hq)->select();
-				       //dump($info);
-				        $this->assign('info',$info);		
+			        	
 				}else if($str[$name]=="下载中心"){
-					    $home=M('home');
-			        	$hq['class']="下载中心";
-				        $info_file=$home->field('hid,title,content')->where($hq)->select();
-						$this->assign('file',$info_file);
-					$ym="download";
+			        	
+					    $ym="download";
 				}else{
+					
 					$ym="shouye";
 				}	
+				   $home=M('home');
+				   $hq['class']=$str[$name];
+			       $info=$home->field('hid,title,content')->where($hq)->select();
+				   //dump($info);
+				   $this->assign('info',$info);		
 			}else{
 				$ym="other";
 			}
@@ -93,6 +113,7 @@ class IndexController extends Controller {
 		$map['hid']=I('post.hid');
 		$data['title']=I('post.title');
 		$data['content']=I('post.con');
+		$data['date']=date("y-m-d");
 		$m=M('home');
 		$m->where($map)->save($data);
         $this->redirect('Index/buttonsandicons',array('name'=>$col_name));

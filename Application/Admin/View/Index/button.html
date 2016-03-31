@@ -62,6 +62,29 @@
             .panel-bootstrap-switch .bootstrap-switch-footer{
                 margin-top: 20px;
             }
+            .p{
+                 animation:myfirst 5s;
+                 -webkit-animation:myfirst 5s;
+                 animation-iteration-count: infinite;
+                 animation-direction: alternate;
+             }
+                @keyframes myfirst
+                    {
+                    0%   {background: red; left:0%; }
+                    25%  {background: yellow; left:25%;}
+                    50%  {background: blue; left:50%;}
+                    75%  {background: green; left:75%;}
+                    100% {background: red; left:100%;}
+                    }
+
+                    @-webkit-keyframes myfirst /* Safari and Chrome */
+                    {
+                    0%   {background: red; left:0%;}
+                    25%  {background: yellow; left:25%;}
+                    50%  {background: blue; left:50%; }
+                    75%  {background: green; left:75%;}
+                    100% {background: red; left:100%;}
+                    }
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,37 +95,17 @@
     </head>
     <body class="bootstrap-admin-with-small-navbar">
         <!-- small navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
+         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
-                                <li class="text">Change size:</li>
-                                <li><a class="size-changer small">Small</a></li>
-                                <li><a class="size-changer large active">Large</a></li>
-                            </ul>
+                            
                             <ul class="nav navbar-nav navbar-right">
-                                <!--<li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li><a href="http://www.hzau.edu.cn">Link</a></li>
+                                <li><a href="http://yjs.hzau.edu.cn/">Link</a></li>
                                 <li>
-                                    <a href="#">Reminders <i class="glyphicon glyphicon-bell"></i></a>
-                                </li>-->
-                                <li>
-                                    <a href="#">设置 <i class="glyphicon glyphicon-cog"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#">返回首页 <i class="glyphicon glyphicon-share-alt"></i></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" role="button" class="dropdown-toggle" data-hover="dropdown"> <i class="glyphicon glyphicon-user"></i> Username <i class="caret"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="presentation" class="divider"></li>
-                                        <li><a href="index.html">Logout</a></li>
-                                    </ul>
+                                    <a href="#">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -117,13 +120,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="about.html">Admin Panel</a>
+                            
+                            <a class="navbar-brand" href=""style="color:#ff7f50;">华中农业大学MBA后台管理系统</a>
                         </div>  
                     </div>
                 </div>
@@ -136,55 +134,65 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                       
-                        <li data-toggle="collapse"   data-target="#demo">
-                            <a href=""><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side panel-collapse collapse" id="demo">
-                                <li><a href="__URL__/buttonsandicons.html?name=zxjj"><i class="glyphicon glyphicon-chevron-right"></i>中心简介</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> 组织机构</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>教育理念</a></li>
+                        <li class="submenu">
+                            <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
+                            <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="xwzx"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
+                                <li id="tzgg"><a href="__URL__/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
+                                <li id="xxjw"><a href="__URL__/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
+								 <li id="xxzs"><a href="__URL__/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+                                <li id="xzzx"><a href="__URL__/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
+                                <li id="yqlj"><a href="__URL__/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
                             </ul>
                         </li>
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i> MBA项目</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>EDP项目</a></li>
+                        <li class="submenu">
+                            <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
+                            <ul id="collapseOne" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="zxjj"><a href="__URL__/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;中心简介</a></li>
+                                <li id="zzjg"><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="jyln"><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教育理念</a></li>
                             </ul>
                         </li>
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>校内导师</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>校外导师</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>合作企业</a></li>
+                         <li class="submenu">
+                            <a  href="#collapseTwo"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
+                            <ul id="collapseTwo" class=" panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                               <li id="mba_xm"><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; MBA项目</a></li>
+                                <li id="edp_xm"><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;EDP项目</a></li>
                             </ul>
                         </li>
-
-                        <li><a href="__URL__/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-down"></i> 招生信息</a></li>
-
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>培养方案</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>论文指导</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>管理实践</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>课程安排</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>答辩安排</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="__URL__/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-down"></i>职业发展</a></li>
-
-                         <li class="disabled">
-                            <a href="forms.html"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
-                            <ul class="nav navbar-collapse bootstrap-admin-navbar-side">
-                                <li><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>联合会章程</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>组织机构</a></li>
-                                <li><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>校友风采</a></li>
+                         <li class="submenu">
+                            <a href="#collapseThree"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
+                            <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="xnds"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
+                                <li id="xwds"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
+                                <li id="hzqy"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="__URL__/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-down"></i>联系我们</a></li>
+                        <li ><a href="__URL__/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-right"></i> 招生信息</a></li>
+
+                         <li class="submen">
+                            <a  href="#collapseFour"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
+                            <ul id="collapseFour"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="pyfa"><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;培养方案</a></li>
+                                <li id="lwzd"><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;论文指导</a></li>
+                                <li id="glsj"><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;管理实践</a></li>
+                                <li id="kcap"><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;课程安排</a></li>
+                                <li id="dbap"><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;答辩安排</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="__URL__/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-right"></i>职业发展</a></li>
+
+                         <li class="submenu">
+                            <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
+                            <ul id="collapseFive"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="lhhzc"><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;联合会章程</a></li>
+                               <li id="org"><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="xyfc"><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校友风采</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="__URL__/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
 
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
@@ -198,24 +206,25 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="page-header">
-                                <h1>Buttons & Icons</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">Bootstrap Switch buttons (the On-Off buttons)</div>
+                                    <div class="text-muted bootstrap-admin-box-title">{$zd}</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
-                                      
-                                 <form action="__URL__/record?name={$name}" method="POST" name="jaj">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con">{$con}</textarea>
-                                <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
-                                </form>       
+								<!--新闻中心、通知公告、招生信息、教务信息页面修改页面-->
+						 
+					        	<form action="__URL__/update_home?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai" style="display:none">
+								<input name="hid" type="hidden" value="{$info.hid}"/>
+								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value="{$info.title}"/><br/><br/>
+                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
+                                 <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="修改"/></br></br>
+                                </form>      
+                           <!--新闻中心、通知公告、招生信息、教务信息页面添加页面-->
+						      <form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj"  id="tianjia" style="display:none">
+								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value=""/><br/><br/>
+                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con"></textarea>
+                                 <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
+                                </form>   
                             </div>
                         </div>
                     </div>
@@ -225,13 +234,13 @@
         
 
         <!-- footer -->
-        <div class="navbar navbar-footer">
+        <div class="navbar navbar-footer"style="background:#dcdcdc;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <footer role="contentinfo">
-                            <p class="left">Bootstrap 3.x Admin Theme</p>
-                            <p class="right">&copy; 2013 <a href="http://www.meritoo.pl" target="_blank">Meritoo.pl</a></p>
+                        <footer role="contentinfo" >
+                            <p class="left" style="margin-left:180px;">© 2016 华中农业大学</p>
+                            <p class="right" style="margin-right:60px;">技术支持：沸点工作室</p>
                         </footer>
                     </div>
                 </div>
@@ -240,12 +249,14 @@
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="__PUBLIC__/Back/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Back/js/jquery.min.js"></script>
         <script type="text/javascript" src="__PUBLIC__/Back/js/twitter-bootstrap-hover-dropdown.min.js"></script>
         <script type="text/javascript" src="__PUBLIC__/Back/js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="__PUBLIC__/Back/vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
 
         <script type="text/javascript">
             $(function() {
+			
                 /*
                  * Initialize all the inputs
                  */
@@ -273,7 +284,20 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
+		    	$('#{$name}').addClass('active');
+				var cbl="{$cb}";
+				if(cbl){
+				     //alert(cbl);
+				    $('#{$cb}').collapse('hide');
+					
+				}
+				
+				$('#{$ym}').css('display','block');
+			//	alert('{$ym}');
+				
             });
+		
+ 
         </script>
     </body>
 </html>
