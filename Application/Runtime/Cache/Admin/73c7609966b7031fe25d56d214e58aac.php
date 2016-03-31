@@ -217,6 +217,35 @@
                                 内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con"><?php echo ($con); ?></textarea>
                                  <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
                                 </form>       
+								<!--下载中心页面-->
+						<div style="height:460px;width:900px;display:none;" id="download">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">   
+								
+                                   <tr>
+                                      <th style="text-align:center;">文件名</th>
+                                      <th style="text-align:center;">编辑</th>
+								   </tr>
+								   <?php if(is_array($file)): $i = 0; $__LIST__ = $file;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
+                                      <td><?php echo ($vo["title"]); ?></td>
+                                     
+                                      <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba/Public/download/<?php echo ($vo["content"]); ?>"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
+                                   </tr><?php endforeach; endif; else: echo "" ;endif; ?> 
+								</div>
+							</table>
+						<form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/Admin/Index/record_file?name=<?php echo ($name); ?>" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                            <div class="form-group">
+                                 <label class="sr-only" for="name" >名称</label>
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                            </div>
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <input type="file" id="inputfile" name="con">
+                            </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                        </form>
+						</div>
 							    <!--友情链接页面-->	
 						 <div style="height:460px;width:900px;display:none;" id="xinxi">
                                  &nbsp;&nbsp; &nbsp;&nbsp; 
@@ -226,8 +255,9 @@
                                       <th style="text-align:center;">友情链接</th>
                                       <th style="text-align:center;">网址</th>
                                       <th style="text-align:center;">编辑</th>
-                                     
-                                   </tr>
+                                 </tr>
+								
+                                  
 								  <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                       <td><?php echo ($vo["title"]); ?></td>
                                       <td><a><?php echo ($vo["content"]); ?></a></td>
@@ -334,6 +364,7 @@
 
         <script type="text/javascript">
             $(function() {
+			
                 /*
                  * Initialize all the inputs
                  */
@@ -368,8 +399,9 @@
 				    $('#<?php echo ($cb); ?>').collapse('hide');
 					
 				}
-				$('#<?php echo ($ym); ?>').css('display','block');
 				
+				$('#<?php echo ($ym); ?>').css('display','block');
+			//	alert('<?php echo ($ym); ?>');
 				
             });
 		  //删除链接

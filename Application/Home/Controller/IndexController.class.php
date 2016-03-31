@@ -26,6 +26,11 @@ class IndexController extends Controller {
        $this->display();
     }
     public function download(){
+		$home=M('home');
+		 $hq_d['class']="下载中心";
+	     $info_jwxx=$home->order('hid desc')->where($hq_d)->select();
+	    //dump($info);
+        $this->assign('info_file',$info_jwxx);
        $this->display();
     }
     public function link(){

@@ -297,3 +297,28 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
 
+[ 2016-03-31T17:31:46+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005674s ]
+
+[ 2016-03-31T18:50:05+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005960s ]
+
+[ 2016-03-31T18:50:34+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+
+[ 2016-03-31T18:51:25+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+
+[ 2016-03-31T18:51:29+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002922s ]
+

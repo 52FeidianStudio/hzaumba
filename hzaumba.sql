@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016-03-31 10:21:19
+-- Generation Time: 2016-03-31 12:59:21
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS `mba_home` (
   `content` text NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`hid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- 转存表中的数据 `mba_home`
@@ -112,7 +112,9 @@ INSERT INTO `mba_home` (`hid`, `class`, `title`, `content`, `date`) VALUES
 (8, '新闻中心', '6666666666666', '88888888888888', '2016-03-31'),
 (9, '通知公告', '666666666666', '8888888888888', '2016-03-31'),
 (10, '招生信息', '2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动', '66666666666', '2016-03-31'),
-(11, '教务信息', '关于四六级考试的说明', '考生须知', '2016-03-31');
+(11, '教务信息', '关于四六级考试的说明', '考生须知', '2016-03-31'),
+(13, '下载中心', '第二个上传文件', '56fcfc6b1f031.jpg', '2016-03-31'),
+(14, '下载中心', '第三个上传文', '56fcfe131af48.jpg', '2016-03-31');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

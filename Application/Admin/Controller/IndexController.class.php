@@ -34,16 +34,23 @@ class IndexController extends Controller {
 						$ym="xinxi";
 			        	//获取首页右边的信息
 			        	$home=M('home');
-			        	$hq['class']=$str[$name];
+			        	$hq['class']="友情链接";
 				        $info=$home->field('hid,title,content')->where($hq)->select();
 				       //dump($info);
 				        $this->assign('info',$info);		
+				}else if($str[$name]=="下载中心"){
+					    $home=M('home');
+			        	$hq['class']="下载中心";
+				        $info_file=$home->field('hid,title,content')->where($hq)->select();
+						$this->assign('file',$info_file);
+					$ym="download";
 				}else{
 					$ym="shouye";
 				}	
 			}else{
 				$ym="other";
 			}
+			
 			$this->assign('ym',$ym);
 		}
 		$where['cid']=1;
@@ -99,5 +106,32 @@ class IndexController extends Controller {
 			$m->where($where)->delete();
 		}
 		 $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	}
+	//记录上传文件
+	public function record_file(){
+    $config = array(
+        'maxSize'    =>    3145728,
+        'rootPath'   =>    './public/download/',
+        'savePath'   =>    '',
+        'saveName'   =>    array('uniqid',''),
+        //'exts'       =>    array('jpg', 'gif', 'png', 'jpeg'),
+        'autoSub'    =>    false,
+        'subName'    =>    array('date','Ymd'),
+    );
+    $upload = new \Think\Upload($config);// 实例化上传类
+	    // 上传单个文件 
+       $info   =   $upload->uploadOne($_FILES['con']);
+       if(!$info) {// 上传错误提示错误信息
+            $this->error($upload->getError());
+       }else{// 上传成功 获取上传文件信息
+	        $map['title']=I('post.title');
+			$map['content']=$info['savename'];
+			$map['class']='下载中心';
+			$map['date']=date('y-m-d');
+			$m=M('home');
+			$m->add($map);
+       }
+	   $col_name=I('get.name');
+	   $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
 	}
 }

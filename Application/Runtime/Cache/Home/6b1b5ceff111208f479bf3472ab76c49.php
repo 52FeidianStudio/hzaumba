@@ -100,17 +100,7 @@ $(function(){
 		<div class="content">
 			<h1>下载中心</h1>
 			<ul class="download-ul">
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				<li><a href="/hzaumba/Public/download/hzaumba.sql">hzaumba.sql</a><h6>2015-12-12</h6></li>
-				
+			<?php if(is_array($info_file)): $i = 0; $__LIST__ = $info_file;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/Public/download/<?php echo ($vo["content"]); ?>"><?php echo ($vo["title"]); ?></a><h6><?php echo ($vo["date"]); ?></h6></li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
 			<div class="ul-nav">
 				<i>共3 页 页次:1/3 页</i>
