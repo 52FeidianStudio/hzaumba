@@ -1608,6 +1608,7 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ 2016-03-29T21:25:19+08:00 ] ::1 /hzaumba/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
@@ -1798,6 +1799,8 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
 INFO: [ app_init ] --END-- [ RunTime:0.003087s ]
 =======
+=======
+>>>>>>> Stashed changes
 [ 2016-03-29T20:52:47+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
@@ -1822,5 +1825,8 @@ INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
