@@ -62,6 +62,29 @@
             .panel-bootstrap-switch .bootstrap-switch-footer{
                 margin-top: 20px;
             }
+            .p{
+                 animation:myfirst 5s;
+                 -webkit-animation:myfirst 5s;
+                 animation-iteration-count: infinite;
+                 animation-direction: alternate;
+             }
+                @keyframes myfirst
+                    {
+                    0%   {background: red; left:0%; }
+                    25%  {background: yellow; left:25%;}
+                    50%  {background: blue; left:50%;}
+                    75%  {background: green; left:75%;}
+                    100% {background: red; left:100%;}
+                    }
+
+                    @-webkit-keyframes myfirst /* Safari and Chrome */
+                    {
+                    0%   {background: red; left:0%;}
+                    25%  {background: yellow; left:25%;}
+                    50%  {background: blue; left:50%; }
+                    75%  {background: green; left:75%;}
+                    100% {background: red; left:100%;}
+                    }
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,17 +95,18 @@
     </head>
     <body class="bootstrap-admin-with-small-navbar">
         <!-- small navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
+         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
-                                <li class="text"></li>
-                            </ul>
+                            
                             <ul class="nav navbar-nav navbar-right">
-                                <li>理论与务实并重</br>本土与国际复合</li>
-                               
+                                <li><a href="http://www.hzau.edu.cn">Link</a></li>
+                                <li><a href="http://yjs.hzau.edu.cn/">Link</a></li>
+                                <li>
+                                    <a href="#">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -96,12 +120,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+                            
                             <a class="navbar-brand" href=""style="color:#ff7f50;">华中农业大学MBA后台管理系统</a>
                         </div>  
                     </div>
@@ -115,55 +134,65 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                       
+                        <li class="submenu">
+                            <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
+                            <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
+                                <li id="xwzx"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
+                                <li id="tzgg"><a href="__URL__/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
+                                <li id="xxjw"><a href="__URL__/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
+								 <li id="xxzs"><a href="__URL__/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+                                <li id="xzzx"><a href="__URL__/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
+                                <li id="yqlj"><a href="__URL__/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
+                            </ul>
+                        </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
                             <ul id="collapseOne" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="zxjj"><a href="__URL__/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>中心简介</a></li>
-                                <li id="zzjg"><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> 组织机构</a></li>
-                                <li id="jyln"><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>教育理念</a></li>
+                                <li id="zxjj"><a href="__URL__/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;中心简介</a></li>
+                                <li id="zzjg"><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="jyln"><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教育理念</a></li>
                             </ul>
                         </li>
                          <li class="submenu">
                             <a  href="#collapseTwo"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
                             <ul id="collapseTwo" class=" panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                               <li id="mba_xm"><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i> MBA项目</a></li>
-                                <li id="edp_xm"><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>EDP项目</a></li>
+                               <li id="mba_xm"><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; MBA项目</a></li>
+                                <li id="edp_xm"><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;EDP项目</a></li>
                             </ul>
                         </li>
                          <li class="submenu">
                             <a href="#collapseThree"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
                             <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="xnds"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>校内导师</a></li>
-                                <li id="xwds"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>校外导师</a></li>
-                                <li id="hzqy"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>合作企业</a></li>
+                                <li id="xnds"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
+                                <li id="xwds"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
+                                <li id="hzqy"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
-                        <li id="zsxx"><a href="__URL__/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-right"></i> 招生信息</a></li>
+                        <li ><a href="__URL__/buttonsandicons.html?name=zsxx"><i class="glyphicon glyphicon-chevron-right"></i> 招生信息</a></li>
 
                          <li class="submen">
                             <a  href="#collapseFour"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
                             <ul id="collapseFour"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="pyfa"><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>培养方案</a></li>
-                                <li id="lwzd"><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>论文指导</a></li>
-                                <li id="glsj"><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>管理实践</a></li>
-                                <li id="kcap"><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>课程安排</a></li>
-                                <li id="dbap"><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>答辩安排</a></li>
+                                <li id="pyfa"><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;培养方案</a></li>
+                                <li id="lwzd"><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;论文指导</a></li>
+                                <li id="glsj"><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;管理实践</a></li>
+                                <li id="kcap"><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;课程安排</a></li>
+                                <li id="dbap"><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;答辩安排</a></li>
                             </ul>
                         </li>
-                        <li id="zyfz"><a href="__URL__/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-right"></i>职业发展</a></li>
+                        <li><a href="__URL__/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-right"></i>职业发展</a></li>
 
                          <li class="submenu">
                             <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
                             <ul id="collapseFive"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="lhhzc"><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>联合会章程</a></li>
-                               <li id="org"><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>组织机构</a></li>
-                                <li id="xyfc"><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>校友风采</a></li>
+                                <li id="lhhzc"><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;联合会章程</a></li>
+                               <li id="org"><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="xyfc"><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校友风采</a></li>
                             </ul>
                         </li>
 
-                        <li id="lxwm"><a href="__URL__/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
+                        <li><a href="__URL__/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
 
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
@@ -177,21 +206,157 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="page-header">
-                                <h3>{$zd}</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">welcome to background management system !</div>
+                                    <div class="text-muted bootstrap-admin-box-title">{$zd}</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
-                                      
-                                 <form action="__URL__/record?name={$name}" method="POST" name="jaj">
+								<!--新闻中心、通知公告、招生信息、教务信息页面-->
+						  <div style="height:460px;width:900px;display:none;" id="shouye">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">   
+								
+                                   <tr>
+                                      <th style="text-align:center;">标题</th>
+                                      <th style="text-align:center;">编辑</th>
+								   </tr>
+								   <volist name="info" id="vo">
+                                   <tr>								
+                                      <td>{$vo.title}</td>
+                                     
+                                      <td><a role="button" class="btn btn-info btn-xs" href="__URL__/button.html?name={$name}&hid={$vo.hid}"/>修改</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
+                                   </tr>
+								    </volist> 
+								</div>
+								
+							</table>
+							 <a role="button" class="btn btn-success right " style="margin-right:20px;margin-top:320px;" href="__URL__/button.html?name={$name}" />添加</a></br></br>
+							</div>
+					        	<!--<form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj" style="display:none;" id="shouye">
+								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text"/><br/><br/>
+                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$con}</textarea>
+                                 <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
+                                </form>       -->
+								<!--下载中心页面-->
+						<div style="height:460px;width:900px;display:none;" id="download">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">   
+								
+                                   <tr>
+                                      <th style="text-align:center;">文件名</th>
+                                      <th style="text-align:center;">编辑</th>
+								   </tr>
+								   <volist name="file" id="vo">
+                                   <tr>								
+                                      <td>{$vo.title}</td>
+                                     
+                                      <td><a role="button" class="btn btn-info btn-xs" href="__PUBLIC__/download/{$vo.content}"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
+                                   </tr>
+								    </volist> 
+								</div>
+								
+							</table>
+							
+						<form method="post" enctype="multipart/form-data" action="__URL__/record_file?name={$name}" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                            <div class="form-group">
+                                 <label class="sr-only" for="name" >名称</label>
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                            </div>
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <input type="file" id="inputfile" name="con">
+                            </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                        </form>
+						</div>
+							    <!--友情链接页面-->	
+						 <div style="height:460px;width:900px;display:none;" id="xinxi">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">                      
+                                   <tr>
+                                      <th style="text-align:center;">友情链接</th>
+                                      <th style="text-align:center;">网址</th>
+                                      <th style="text-align:center;">编辑</th>
+                                 </tr>
+								
+                                  
+								  <volist name="info" id="vo">
+                                   <tr>
+                                      <td>{$vo.title}</td>
+                                      <td><a>{$vo.content}</a></td>
+                                      <td><input type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal_update{$i}" value="修改" onclick="f1({vo.title});"/>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs"value="删除" onclick="delete_link({$vo.hid})"/></td>
+                                   </tr>
+								     <!--模态框修改-->
+								  <div class="modal fade" id="myModal_update{$i}" tabindex="-1" role="dialog" 
+                                     aria-labelledby="myModalLabel" aria-hidden="true">
+                                     <div class="modal-dialog">
+									 <form action="__URL__/update_home?name={$name}" method="POST" name="jaj">
+                                        <div class="modal-content">
+                                           <div class="modal-header">
+                                  
+                                              <h4 class="modal-title" id="myModalLabel">
+                                                 在这里添加链接
+                                              </h4>
+                                           </div>
+                                           <div class="modal-body">
+										      <input name="hid" type="hidden" value="{$vo.hid}"/>
+                                              <input name="title" id="update_title" class="form-control" placeholder="请输入链接名称"  type="text" value="{$vo.title}"/><br/>
+                                              <input name="con" id="update_con" class="form-control" placeholder="请输入链接"  type="text" value="{$vo.content}"/><br/>
+                                           </div>
+                                           <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" 
+                                                 data-dismiss="modal">关闭
+                                              </button>
+                                              <button type="submit" class="btn btn-primary">
+                                                 提交更改
+                                              </button>
+                                           </div>
+                                        </div><!-- /.modal-content -->
+									</form>
+                                  </div><!-- /.modal -->
+                                  </div>
+                                  </volist>
+                                 </div>
+                                 </table>            
+                                 <input type="button" class="btn btn-primary right" data-toggle="modal" 
+                                    data-target="#myModal"style="margin-right:20px;margin-top:88px;" value="添加"/>
+                                   <!--模态框提交--->
+                                   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
+                                     aria-labelledby="myModalLabel" aria-hidden="true">
+                                     <div class="modal-dialog">
+									 <form action="__URL__/record_home?class=友情链接&name={$name}" method="POST" name="jaj">
+                                        <div class="modal-content">
+                                           <div class="modal-header">
+                                  
+                                              <h4 class="modal-title" id="myModalLabel">
+                                                 在这里添加链接
+                                              </h4>
+                                           </div>
+                                           <div class="modal-body">
+                                              <input name="title" id="" class="form-control" placeholder="请输入链接名称"  type="text"/><br/>
+                                              <input name="con" id="" class="form-control" placeholder="请输入链接"  type="text"/><br/>
+                                           </div>
+                                           <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" 
+                                                 data-dismiss="modal">关闭
+                                              </button>
+                                              <button type="submit" class="btn btn-primary">
+                                                 提交更改
+                                              </button>
+                                           </div>
+                                        </div><!-- /.modal-content -->
+									</form>
+                                  </div><!-- /.modal -->
+                                  </div>
+								
+                                </div>       
+								
+							
+                                 <!--除首页外其他页面-->
+                                 <form action="__URL__/record?name={$name}" method="POST" name="jaj" style="display:none;" id="other">
                                  &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con">{$con}</textarea>
                                 <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
                                 </form>       
@@ -226,6 +391,7 @@
 
         <script type="text/javascript">
             $(function() {
+			
                 /*
                  * Initialize all the inputs
                  */
@@ -258,11 +424,20 @@
 				if(cbl){
 				     //alert(cbl);
 				    $('#{$cb}').collapse('hide');
+					
 				}
+				
+				$('#{$ym}').css('display','block');
+			//	alert('{$ym}');
+				
             });
-              // $(function () { $('#collapseOne').collapse('hide')});
-               /*$(function () { $('#collapseTwo').collapse('hide')});
-               $(function () { $('#collapseFour').collapse('hude')});*/
+		  //删除链接
+          function delete_link(hid){
+		      var r=confirm("是否删除");
+              if (r==true){
+                 window.location.href="__URL__/delete_link?hid="+hid+"&name={$name}";
+              }
+		  }
  
         </script>
     </body>

@@ -80,24 +80,20 @@
                     <!-- 新闻中心 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <li><a href="">2015年英国曼彻斯特城市大学商学院MBA交流秋季项目启动</a><i>2015-12-12</i></li>
-                            <a href="__APP__/Home/Index/news" class="readmore">››read more</a>
+						    <volist name="info_new" id="new">
+                            <li><a href="__URL__/information.html?hid={$new.hid}">{$new.title}</a><i>{$new.date}</i></li>
+                             </volist>
+                            <a href="__APP__/Home/Index/commen?class=新闻中心" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 通知公告 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <li><a href="">通知公告</a><i>2015-12-12</i></li>
-                            <a href="__APP__/Home/Index/tongzhi" class="readmore">››read more</a>
+						 
+                            <volist name="info_tzgg" id="new">
+                              <li><a href="__URL__/information.html?hid={$new.hid}">{$new.title}</a><i>{$new.date}</i></li>
+                            </volist>
+                            <a href="__APP__/Home/Index/commen?class=通知公告" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div>
@@ -112,23 +108,19 @@
                     <!-- 招生信息 -->
                     <div class="content-div show-content-div">
                          <ul>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <li><a href="">招生信息</a><i>2015-12-12</i></li>
-                            <a href="__APP__/Home/Index/zhaosheng" class="readmore">››read more</a>
+                            <volist name="info_zsxx" id="new">
+                            <li><a href="__URL__/information.html?hid={$new.hid}">{$new.title}</a><i>{$new.date}</i></li>
+                             </volist>
+                            <a href="__APP__/Home/Index/commen?class=招生信息" class="readmore">››read more</a>
                         </ul>
                     </div>
                     <!-- 教务信息 -->
                     <div class="content-div">
                          <ul>
-                            <li><a href="">教务信息</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <li><a href="">武汉大学2016年上半年全国大学外语四、六级考试报</a><i>2015-12-12</i></li>
-                            <a href="__APP__/Home/Index/manage" class="readmore">››read more</a>
+                             <volist name="info_jwxx" id="new">
+                            <li><a href="__URL__/information.html?hid={$new.hid}">{$new.title}</a><i>{$new.date}</i></li>
+                             </volist>
+                            <a href="__APP__/Home/Index/commen?class=教务信息" class="readmore">››read more</a>
                         </ul>
                     </div>
                 </div> 
