@@ -64,6 +64,9 @@
                 margin-top: 20px;
             }
            
+     .current{background-color:rgba(0,255,150,0.5);}
+     .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
+    
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -208,7 +211,8 @@
 								</div>
 								
 							</table>
-							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:320px;" href="/hzaumba2.0/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>" />添加</a></br></br>
+							<div style="text-align:center;margin-top:300px;"><?php echo ($page); ?></div>
+							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:20px;" href="/hzaumba2.0/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>" />添加</a></br></br>
 							</div>
 					        	<!--<form action="/hzaumba2.0/index.php/Admin/Index/record_home?class=<?php echo ($zd); ?>&name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="shouye">
 								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text"/><br/><br/>
@@ -225,7 +229,7 @@
                                       <th style="text-align:center;">文件名</th>
                                       <th style="text-align:center;">编辑</th>
 								   </tr>
-								   <?php if(is_array($file)): $i = 0; $__LIST__ = $file;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
+								   <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
                                       <td><?php echo ($vo["title"]); ?></td>
                                      
                                       <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba2.0/Public/download/<?php echo ($vo["content"]); ?>"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
@@ -233,7 +237,7 @@
 								</div>
 								
 							</table>
-							
+							<div style="text-align:center;margin-top:300px;"><?php echo ($page); ?></div>
 						<form method="post" enctype="multipart/form-data" action="/hzaumba2.0/index.php/Admin/Index/record_file?name=<?php echo ($name); ?>" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
                             <div class="form-group">
                                  <label class="sr-only" for="name" >名称</label>
@@ -293,7 +297,8 @@
                                   </div><!-- /.modal -->
                                   </div><?php endforeach; endif; else: echo "" ;endif; ?>
                                  </div>
-                                 </table>            
+                                 </table>    
+                                 <div style="text-align:center;margin-top:300px;"><?php echo ($page); ?></div>								 
                                  <input type="button" class="btn btn-info right" data-toggle="modal" 
                                     data-target="#myModal"style="margin-right:20px;margin-top:88px;" value="添加"/>
                                    <!--模态框提交--->

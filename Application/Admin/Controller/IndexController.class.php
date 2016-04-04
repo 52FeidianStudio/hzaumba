@@ -64,7 +64,13 @@ class IndexController extends Controller {
 				}	
 				   $home=M('home');
 				   $hq['class']=$str[$name];
-			       $info=$home->field('hid,title,content')->where($hq)->select();
+			       //分页
+				    $count = $home->where($hq)->count();// 查询满足要求的总记录数
+		            $Page       = new \Think\Page($count,10);
+		            $show       = $Page->show();// 分页显示输出
+		            $Page->setConfig('header','页');
+			        $info=$home->field('hid,title,content')->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
+				    $this->assign('page',$show);// 赋值分页输出
 				   //dump($info);
 				   $this->assign('info',$info);		
 			}else{
