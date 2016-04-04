@@ -1,0 +1,243 @@
+[ 2016-04-04T21:15:41+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.090987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.106239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106602s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0907s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0198s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心'  [ RunTime:0.0005s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.399207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.399461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.052200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.052437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.097376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.097800s ]
+
+[ 2016-04-04T21:15:55+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000384s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.9947s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.3868s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心'  [ RunTime:0.0005s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2016-04-04T21:15:58+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=tzgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006016s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1981s ]
+SQL: SELECT `tzgg` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tzgg` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.1132s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '通知公告'  [ RunTime:0.0005s ]
+SQL: SELECT `tzgg` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000743s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028368s ]
+
+[ 2016-04-04T21:16:01+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xxjw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.7646s ]
+SQL: SELECT `xxjw` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xxjw` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.1253s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '教务信息'  [ RunTime:0.0044s ]
+SQL: SELECT `xxjw` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000764s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2016-04-04T21:16:03+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xxzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003638s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0823s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0611s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '招生信息'  [ RunTime:0.0010s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007362s ]
+
+[ 2016-04-04T21:16:06+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011717s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1724s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.1726s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心'  [ RunTime:0.0042s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001661s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002363s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009163s ]
+
+[ 2016-04-04T21:16:09+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=yqlj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011977s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1162s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.1272s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '友情链接'  [ RunTime:0.0056s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000546s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023290s ]
+
+[ 2016-04-04T21:16:18+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008457s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1685s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined variable: info E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 203 行.
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+NOTIC: [8] Undefined variable: info E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040064s ]
+
+[ 2016-04-04T21:16:20+08:00 ] ::1 /hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=zzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009501s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0871s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined variable: info E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 203 行.
+NOTIC: [8] Undefined variable: file E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 228 行.
+NOTIC: [8] Undefined variable: info E:\ruanjian\wamp\www\hzaumba2.0\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022652s ]
+

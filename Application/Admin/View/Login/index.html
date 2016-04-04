@@ -15,7 +15,7 @@
         <!-- Custom styles -->
         <style type="text/css">
             body{
-                background:url(__PUBLIC__/Back/images/3.jpg);
+                background:url(__PUBLIC__/Back/images/5.jpg);
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -34,10 +34,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="alert alert-info">
-                        <a class="close" data-dismiss="alert" href="#">&times;</a>
-                        Press enter key or click the Submit button
-                    </div>
                     <form method="post" action=" {:U('Admin/Login/do_login')}" class="bootstrap-admin-login-form" onsubmit="return submitTest();" name="form">
                         <h1>Login</h1>
                         <div class="form-group">
@@ -45,12 +41,6 @@
                         </div>
                         <div class="form-group">
                             <input class="form-control" type="password" name="password" placeholder="密码">
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="remember_me">
-                                Remember me
-                            </label>
                         </div>
                         <button class="btn btn-lg btn-primary" type="submit">登陆</button>
                     </form>

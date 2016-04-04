@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="__PUBLIC__/front/css/header.css">
 	<link rel="stylesheet" href="__PUBLIC__/front/css/main.css">
     <script src="__PUBLIC__/front/js/jquery-1.8.3.min.js"></script>
+	<style>
+     .current{background-color:rgba(0,255,150,0.5);}
+     .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
+    </style>
 </head>
 <body>
 <!-- 头部 -->
@@ -28,6 +32,7 @@
 		    </volist>
 				
 			</ul>
+			<div class="ul-nav">{$page}</div>
 		</div>
 	</div>
 </div>
