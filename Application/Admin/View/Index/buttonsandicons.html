@@ -7,6 +7,7 @@
 
         <!-- Bootstrap -->
         <link rel="stylesheet" media="screen" href="__PUBLIC__/Back/css/bootstrap.min.css">
+
         <link rel="stylesheet" media="screen" href="__PUBLIC__/Back/css/bootstrap-theme.min.css">
 
         <!-- Bootstrap Admin Theme -->
@@ -15,8 +16,8 @@
 
         <!-- Bootstrap Switch (the On-Off buttons) -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <link rel="stylesheet" href="vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
-        <link rel="stylesheet" href="css/bootstrap-switch-small.css">
+        <link rel="stylesheet" href="__PUBLIC__/Back/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/Back/css/bootstrap-switch-small.css">
         <link rel="stylesheet" href="http://bdmdesign.github.io/bootstrap-switch/static/stylesheets/flat-ui-fonts.css">
 
         <!-- Bootstrap Switch (the On-Off buttons). Theme's styles. -->
@@ -62,29 +63,10 @@
             .panel-bootstrap-switch .bootstrap-switch-footer{
                 margin-top: 20px;
             }
-            .p{
-                 animation:myfirst 5s;
-                 -webkit-animation:myfirst 5s;
-                 animation-iteration-count: infinite;
-                 animation-direction: alternate;
-             }
-                @keyframes myfirst
-                    {
-                    0%   {background: red; left:0%; }
-                    25%  {background: yellow; left:25%;}
-                    50%  {background: blue; left:50%;}
-                    75%  {background: green; left:75%;}
-                    100% {background: red; left:100%;}
-                    }
-
-                    @-webkit-keyframes myfirst /* Safari and Chrome */
-                    {
-                    0%   {background: red; left:0%;}
-                    25%  {background: yellow; left:25%;}
-                    50%  {background: blue; left:50%; }
-                    75%  {background: green; left:75%;}
-                    100% {background: red; left:100%;}
-                    }
+           
+     .current{background-color:rgba(0,255,150,0.5);}
+     .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
+    
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -105,7 +87,7 @@
                                 <li><a href="http://www.hzau.edu.cn">Link</a></li>
                                 <li><a href="http://yjs.hzau.edu.cn/">Link</a></li>
                                 <li>
-                                    <a href="#">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
+                                    <a href="__APP__/admin/Login/out_login">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -134,38 +116,38 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                        <li class="submenu">
+                        <li class="submenu" >
                             <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
                             <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="xwzx"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
-                                <li id="tzgg"><a href="__URL__/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
-                                <li id="xxjw"><a href="__URL__/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
-								 <li id="xxzs"><a href="__URL__/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
-                                <li id="xzzx"><a href="__URL__/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
-                                <li id="yqlj"><a href="__URL__/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
+                                <li id="xwzx" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
+                                <li id="tzgg" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
+                                <li id="xxjw" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
+								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+                                <li id="xzzx" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
+                                <li id="yqlj" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
                             <ul id="collapseOne" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="zxjj"><a href="__URL__/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;中心简介</a></li>
-                                <li id="zzjg"><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
-                                <li id="jyln"><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教育理念</a></li>
+                                <li id="zxjj" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=zxjj"   ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;中心简介</a></li>
+                                <li id="zzjg" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=zzjg"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="jyln" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=jyln"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教育理念</a></li>
                             </ul>
                         </li>
                          <li class="submenu">
                             <a  href="#collapseTwo"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>项目介绍</a>
                             <ul id="collapseTwo" class=" panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                               <li id="mba_xm"><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; MBA项目</a></li>
-                                <li id="edp_xm"><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;EDP项目</a></li>
+                               <li id="mba_xm" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=mba_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp; MBA项目</a></li>
+                                <li id="edp_xm" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=edp_xm"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;EDP项目</a></li>
                             </ul>
                         </li>
                          <li class="submenu">
                             <a href="#collapseThree"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
                             <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="xnds"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
-                                <li id="xwds"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
-                                <li id="hzqy"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
+                                <li id="xnds" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
+                                <li id="xwds" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
+                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
@@ -174,11 +156,11 @@
                          <li class="submen">
                             <a  href="#collapseFour"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>教学管理</a>
                             <ul id="collapseFour"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="pyfa"><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;培养方案</a></li>
-                                <li id="lwzd"><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;论文指导</a></li>
-                                <li id="glsj"><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;管理实践</a></li>
-                                <li id="kcap"><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;课程安排</a></li>
-                                <li id="dbap"><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;答辩安排</a></li>
+                                <li id="pyfa" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=pyfa"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;培养方案</a></li>
+                                <li id="lwzd" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=lwzd"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;论文指导</a></li>
+                                <li id="glsj" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=glsj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;管理实践</a></li>
+                                <li id="kcap" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=kcap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;课程安排</a></li>
+                                <li id="dbap" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=dbap"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;答辩安排</a></li>
                             </ul>
                         </li>
                         <li><a href="__URL__/buttonsandicons.html?name=zyfz"><i class="glyphicon glyphicon-chevron-right"></i>职业发展</a></li>
@@ -186,9 +168,9 @@
                          <li class="submenu">
                             <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>MBA联合会</a>
                             <ul id="collapseFive"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="lhhzc"><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;联合会章程</a></li>
-                               <li id="org"><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
-                                <li id="xyfc"><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校友风采</a></li>
+                                <li id="lhhzc" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=lhhzc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;联合会章程</a></li>
+                               <li id="org" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=org"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;组织机构</a></li>
+                                <li id="xyfc" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xyfc"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校友风采</a></li>
                             </ul>
                         </li>
 
@@ -231,7 +213,8 @@
 								</div>
 								
 							</table>
-							 <a role="button" class="btn btn-success right " style="margin-right:20px;margin-top:320px;" href="__URL__/button.html?name={$name}" />添加</a></br></br>
+							<div style="text-align:center;margin-top:300px;">{$page}</div>
+							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:20px;" href="__URL__/button.html?name={$name}" />添加</a></br></br>
 							</div>
 					        	<!--<form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj" style="display:none;" id="shouye">
 								标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text"/><br/><br/>
@@ -248,7 +231,7 @@
                                       <th style="text-align:center;">文件名</th>
                                       <th style="text-align:center;">编辑</th>
 								   </tr>
-								   <volist name="file" id="vo">
+								   <volist name="info" id="vo">
                                    <tr>								
                                       <td>{$vo.title}</td>
                                      
@@ -258,7 +241,7 @@
 								</div>
 								
 							</table>
-							
+							<div style="text-align:center;margin-top:300px;">{$page}</div>
 						<form method="post" enctype="multipart/form-data" action="__URL__/record_file?name={$name}" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
                             <div class="form-group">
                                  <label class="sr-only" for="name" >名称</label>
@@ -320,8 +303,9 @@
                                   </div>
                                   </volist>
                                  </div>
-                                 </table>            
-                                 <input type="button" class="btn btn-primary right" data-toggle="modal" 
+                                 </table>    
+                                 <div style="text-align:center;margin-top:300px;">{$page}</div>								 
+                                 <input type="button" class="btn btn-info right" data-toggle="modal" 
                                     data-target="#myModal"style="margin-right:20px;margin-top:88px;" value="添加"/>
                                    <!--模态框提交--->
                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
@@ -358,7 +342,7 @@
                                  <!--除首页外其他页面-->
                                  <form action="__URL__/record?name={$name}" method="POST" name="jaj" style="display:none;" id="other">
                                  &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con">{$con}</textarea>
-                                <input type="submit" class="btn btn-success right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
+                                <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
                                 </form>       
                             </div>
                         </div>

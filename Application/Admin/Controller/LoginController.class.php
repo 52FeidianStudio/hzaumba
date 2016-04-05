@@ -19,4 +19,9 @@ class LoginController extends Controller {
 			$this->redirect('index');
 		}
 	}
+	//退出登录
+	public function out_login(){
+		$_SESSION['user']="";
+		$this->redirect('index');
+	}
 }
