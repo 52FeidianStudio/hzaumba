@@ -99,10 +99,7 @@ $(function(){
 		</div>
 		<div class="content">
 			<h1><?php echo ($str["title"]); ?></h1>
-			<ul class="download-ul">
-				<?php echo ($str["content"]); ?>
-				
-			</ul>
+			<pre class="information-pre"><?php echo ($str["content"]); ?></pre>
 		</div>
 	</div>
 </div>

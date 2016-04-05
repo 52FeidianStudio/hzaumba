@@ -29,7 +29,7 @@ class IndexController extends Controller {
 		$home=M('home');
 		 $hq_d['class']="下载中心";
 		 $count = $home->where($hq_d)->count();// 查询满足要求的总记录数
-		 $Page       = new \Think\Page($count,6);
+		 $Page       = new \Think\Page($count,8);
 		 $show       = $Page->show();// 分页显示输出
 		 $Page->setConfig('header','页');
 	     $info_jwxx=$home->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq_d)->select();
@@ -43,7 +43,7 @@ class IndexController extends Controller {
 		$home=M('home');
 	    $hq['class']="友情链接";
 		 $count = $home->where($hq)->count();// 查询满足要求的总记录数
-		 $Page       = new \Think\Page($count,6);
+		 $Page       = new \Think\Page($count,10);
 		 $show       = $Page->show();// 分页显示输出
 		 $Page->setConfig('header','页');
 	    $info=$home->field('title,content')->limit($Page->firstRow.','.$Page->listRows)->order('hid desc')->where($hq)->select();

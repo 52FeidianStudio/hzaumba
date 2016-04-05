@@ -1,0 +1,1235 @@
+[ 2016-04-05T22:18:04+08:00 ] ::1 /hzaumba/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\hzaumba\Application\Admin\Controller\IndexController.class.php 第 9 行.
+
+[ 2016-04-05T22:18:05+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-04-05T22:18:35+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `mba_administrator` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `mba_administrator` WHERE `user` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-05T22:18:36+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0036s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 206 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 214 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 232 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 240 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 265 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2016-04-05T22:18:56+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zzjg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0059s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `zzjg` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 206 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 214 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 232 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 240 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 265 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-04-05T22:19:01+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=jyln
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0035s ]
+SQL: SELECT `jyln` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `jyln` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `jyln` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 206 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 214 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 232 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 240 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 265 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-04-05T22:19:04+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0038s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 206 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 214 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 232 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 240 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 265 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-04-05T22:19:12+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xxzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0037s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '招生信息' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '招生信息' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xxzs` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2016-04-05T22:19:27+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0036s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2016-04-05T22:19:36+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0034s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 194 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 195 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2016-04-05T22:19:37+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:19:37+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:19:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0038s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 194 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 195 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2016-04-05T22:19:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:19:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:20:03+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0061s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 194 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 195 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2016-04-05T22:20:03+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:20:03+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:20:08+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0047s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 194 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 195 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2016-04-05T22:20:08+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:20:08+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:20:09+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0041s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 194 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 195 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\fb5e7fad23a09d933d6bc337466f62b1.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-04-05T22:20:09+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:20:09+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:23:22+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0060s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2016-04-05T22:23:26+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0036s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-04-05T22:36:21+08:00 ] ::1 /hzaumba/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+ERR: 非法操作:index
+
+[ 2016-04-05T22:36:26+08:00 ] ::1 /hzaumba/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+ERR: 非法操作:index
+
+[ 2016-04-05T22:36:32+08:00 ] ::1 /hzaumba/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-04-05T22:36:37+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `mba_administrator` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `mba_administrator` WHERE `user` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T22:36:37+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0045s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 206 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 214 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 232 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 240 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 265 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 301 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-04-05T22:36:46+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0035s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-04-05T22:36:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0037s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0034s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `hid` = 17 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003461s ]
+
+[ 2016-04-05T22:36:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:36:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:45:53+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0045s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-04-05T22:45:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0034s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0033s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `hid` = 17 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2016-04-05T22:45:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:45:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:47:19+08:00 ] ::1 /hzaumba/index.php/Admin/Index/update_home?class=%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83&name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004335s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0046s ]
+SQL: UPDATE `mba_home` SET `title`='女子与宋仲基',`content`='李小姐和宋仲基的“结婚证”
+
+       韩剧《太阳的后裔》火遍全国，男主角宋仲基一度成为热门话题，甚至成为众多女性心目中的“新任老公”，他的白衬衫登记照也被网友恶搞，大家ps上自己的头像与宋仲基领“结婚证照”。26岁的李小姐也效仿ps上自己头像，并在网络上晒出“结婚证”，可结果并未娱乐他人，反而激怒了父亲……
+
+       晒与宋仲基的“结婚证照”，还开玩笑称“年底就办席”
+
+       最近韩剧《太阳的后裔》大火，男主角宋仲基的照片几乎刷屏朋友圈。清明节，从事策划工作的26岁李小姐趁着放假，一个人在巴蜀城6栋的家中耍手机。她并不“哈韩”，也没有追剧，只不过看见网上疯传“宋仲基的白衬衫登记照”，觉得好玩，便参与进来。
+
+       她拜托大学同学帮忙，将自己的登记照与宋仲基的ps在一起，然后将两人照片ps在结婚证上面。经过同学帮忙修正过的“结婚证照”，晃眼看上去，就像真的一样。
+
+       看见朋友们也在晒发此类ps照片，李小姐没觉得不妥，便在微信圈发了这条动态。“我当时还在想，大家都知道宋仲基，估计大家都会觉得好耍。”
+
+       李小姐的一位姐姐转发了李小姐的这条信息，还开玩笑地问她什么时候办酒席，她爽快地回复这个玩笑话：今年就要办席，你要来韩国参加婚礼哟。
+
+       出乎李小姐的意料，这位姐姐添加了李小姐爸爸的微信号，她们的对话全被李爸爸看见了。
+
+       爸爸发怒打电话痛骂
+
+       解释半小时才搞明白
+
+       李小姐的爸爸在垫江老家。看见对话后，马上给女儿打来电话：哪个同意你结婚的？你居然瞒到我扯了证？这个男的是哪里的？……
+
+       被爸爸劈头盖脸的一骂，李小姐蒙了一阵才反应过来，解释了大半天，还教爸爸上网搜索“宋仲基”和《太阳的后裔》等字样，爸爸搜索之后看见了新闻，这才没有怪她。
+
+       不过，这个事情让这位父亲真正紧张了一把，他事后还找女儿谈心，再三说：“你是我的宝贝女儿，不要瞒着我们偷户口本结婚哈，做什么事情都要三思而后行。”
+
+       这次“结婚”乌龙事件，不仅吓到了爸爸，就连认识的朋友们，也有被吓到的。昨日，在重庆人文科技学院中文专业读大四的朋友杰杰接受记者采访。“我们年轻人都知道宋仲基是谁，不过她这个图片ps太像真的了，那些上了年纪的朋友不知道这个梗的，就会紧张，怎么这么突然就结婚了。”
+
+       清明节这几天，李小姐都陷在这个事情里，面对有人私聊微信恭喜她新婚快乐、或是有人夸她这个男的好帅之类的关系话，李小姐都一一做出了解释，好不容易才消停了。',`date`='16-04-05' WHERE `hid` = 17 [ RunTime:0.0483s ]
+
+[ 2016-04-05T22:47:19+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0037s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-04-05T22:47:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0034s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0038s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `hid` = 17 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-04-05T22:47:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T22:47:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+ERR: 非法操作:css
+
+[ 2016-04-05T22:49:00+08:00 ] ::1 /hzaumba/index.php/Admin/Index/update_home?class=%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83&name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0052s ]
+SQL: UPDATE `mba_home` SET `title`='女子与宋仲基&quot;结婚领证&quot; 父亲大骂:哪个同意的',`content`='李小姐和宋仲基的“结婚证”
+
+    韩剧《太阳的后裔》火遍全国，男主角宋仲基一度成为热门话题，甚至成为众多女性心目中的“新任老公”，他的白衬衫登记照也被网友恶搞，大家ps上自己的头像与宋仲基领“结婚证照”。26岁的李小姐也效仿ps上自己头像，并在网络上晒出“结婚证”，可结果并未娱乐他人，反而激怒了父亲……
+
+    晒与宋仲基的“结婚证照”，还开玩笑称“年底就办席”
+
+    最近韩剧《太阳的后裔》大火，男主角宋仲基的照片几乎刷屏朋友圈。清明节，从事策划工作的26岁李小姐趁着放假，一个人在巴蜀城6栋的家中耍手机。她并不“哈韩”，也没有追剧，只不过看见网上疯传“宋仲基的白衬衫登记照”，觉得好玩，便参与进来。
+
+    她拜托大学同学帮忙，将自己的登记照与宋仲基的ps在一起，然后将两人照片ps在结婚证上面。经过同学帮忙修正过的“结婚证照”，晃眼看上去，就像真的一样。
+
+    看见朋友们也在晒发此类ps照片，李小姐没觉得不妥，便在微信圈发了这条动态。“我当时还在想，大家都知道宋仲基，估计大家都会觉得好耍。”
+
+    李小姐的一位姐姐转发了李小姐的这条信息，还开玩笑地问她什么时候办酒席，她爽快地回复这个玩笑话：今年就要办席，你要来韩国参加婚礼哟。
+
+    出乎李小姐的意料，这位姐姐添加了李小姐爸爸的微信号，她们的对话全被李爸爸看见了。
+
+    爸爸发怒打电话痛骂
+
+    解释半小时才搞明白
+
+    李小姐的爸爸在垫江老家。看见对话后，马上给女儿打来电话：哪个同意你结婚的？你居然瞒到我扯了证？这个男的是哪里的？……
+
+    被爸爸劈头盖脸的一骂，李小姐蒙了一阵才反应过来，解释了大半天，还教爸爸上网搜索“宋仲基”和《太阳的后裔》等字样，爸爸搜索之后看见了新闻，这才没有怪她。
+
+    不过，这个事情让这位父亲真正紧张了一把，他事后还找女儿谈心，再三说：“你是我的宝贝女儿，不要瞒着我们偷户口本结婚哈，做什么事情都要三思而后行。”
+
+    这次“结婚”乌龙事件，不仅吓到了爸爸，就连认识的朋友们，也有被吓到的。昨日，在重庆人文科技学院中文专业读大四的朋友杰杰接受记者采访。“我们年轻人都知道宋仲基是谁，不过她这个图片ps太像真的了，那些上了年纪的朋友不知道这个梗的，就会紧张，怎么这么突然就结婚了。”
+
+    清明节这几天，李小姐都陷在这个事情里，面对有人私聊微信恭喜她新婚快乐、或是有人夸她这个男的好帅之类的关系话，李小姐都一一做出了解释，好不容易才消停了。',`date`='16-04-05' WHERE `hid` = 17 [ RunTime:0.0977s ]
+
+[ 2016-04-05T22:49:00+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0073s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000699s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-04-05T22:57:44+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=yqlj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0036s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '友情链接' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '友情链接' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-04-05T22:58:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_home?class=%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5&name=yqlj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0069s ]
+SQL: INSERT INTO `mba_home` (`class`,`title`,`content`,`date`) VALUES ('友情链接','bootstrap中文网','http://www.bootcss.com/','16-04-05') [ RunTime:0.1650s ]
+
+[ 2016-04-05T22:58:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/yqlj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0046s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '友情链接' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '友情链接' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT `yqlj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-04-05T22:59:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0049s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '下载中心' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2016-04-05T22:59:40+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_file?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\hzaumba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0092s ]
+SQL: INSERT INTO `mba_home` (`title`,`content`,`class`,`date`) VALUES ('','5703d2dbe9b5b.txt','下载中心','16-04-05') [ RunTime:0.0674s ]
+
+[ 2016-04-05T22:59:40+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xzzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0098s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '下载中心' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2016-04-05T22:59:54+08:00 ] ::1 /hzaumba/index.php/Admin/Index/delete_link?hid=19&name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0048s ]
+SQL: DELETE FROM `mba_home` WHERE `hid` = 19 [ RunTime:0.1065s ]
+
+[ 2016-04-05T22:59:54+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xzzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0129s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '下载中心' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000923s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003572s ]
+
+[ 2016-04-05T23:00:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_file?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\hzaumba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0310s ]
+SQL: INSERT INTO `mba_home` (`title`,`content`,`class`,`date`) VALUES ('西安','5703d2ffe3b2a.txt','下载中心','16-04-05') [ RunTime:0.0750s ]
+
+[ 2016-04-05T23:00:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xzzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0102s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '下载中心' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004181s ]
+
+[ 2016-04-05T23:00:29+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_file?name=xzzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\hzaumba\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0048s ]
+SQL: INSERT INTO `mba_home` (`title`,`content`,`class`,`date`) VALUES ('微信','5703d30dbb848.txt','下载中心','16-04-05') [ RunTime:0.1101s ]
+
+[ 2016-04-05T23:00:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/xzzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0117s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '下载中心' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '下载中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `xzzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000924s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2016-04-05T23:46:46+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-04-05T23:56:32+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2016-04-05T23:57:34+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0038s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2016-04-05T23:57:39+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0046s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0039s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `hid` = 17 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-04-05T23:57:39+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-05T23:57:39+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+ERR: 非法操作:css
+

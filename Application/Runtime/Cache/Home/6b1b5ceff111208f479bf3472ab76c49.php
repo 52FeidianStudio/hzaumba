@@ -8,8 +8,13 @@
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/header.css">
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/main.css">
     <script src="/hzaumba/Public/front/js/jquery-1.8.3.min.js"></script>
+	<style>
+  .current{background-color:rgba(0,255,150,0.5);}
+  .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
+</style>
 </head>
 <body>
+
 <!-- 头部 -->
 <!-- 
 
@@ -102,17 +107,10 @@ $(function(){
 			<ul class="download-ul">
 			<?php if(is_array($info_file)): $i = 0; $__LIST__ = $info_file;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/hzaumba/Public/download/<?php echo ($vo["content"]); ?>"><?php echo ($vo["title"]); ?></a><h6><?php echo ($vo["date"]); ?></h6></li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
+			<!-- <div class="ul-nav"><?php echo ($page); ?></div> -->
 			<div class="ul-nav">
-				<i>共3 页 页次:1/3 页</i>
-				<span>
-					<a href="">首页</a>
-					<a href="">上一页</a>
-					<a href="">1</a>
-					<a href="">2</a>
-					<a href="">3</a>
-					<a href="">下一页</a>
-					<a href="">尾页</a>
-				</span>
+				<!-- <i>共3 页 页次:1/3 页</i> -->
+				<?php echo ($page); ?>
 			</div>
 		</div>
 	</div>

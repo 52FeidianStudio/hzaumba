@@ -111,7 +111,7 @@
 }
 .content-div ul li a{
 	color:#555;
-	width:75%;
+	width:72%;
 	float:left;
 	display:inline-block;
 	/*background:yellow;*/
@@ -123,11 +123,11 @@
 	color:orange;
 }
 .content-div ul li i{
-	min-width:25%;
+	min-width:20%;
 	/*background:red;*/
 	font-size:0.8em;
 	font-style:normal;
-	/*text-align:left;*/
+	text-align:right;
 	float:right;
 	text-indent:0px;
 }
