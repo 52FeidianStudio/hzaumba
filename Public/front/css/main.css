@@ -152,3 +152,38 @@
 	text-align:left;
 	margin-left: 0px;
 }
+
+
+/*Teacher inschool*/
+.teacher-ul{
+	width:90%;
+	margin-left:5%;
+	min-height:100px;
+	float:left;
+	border:1px solid #FFE5D6;
+	margin-bottom:50px;
+}
+.teacher-ul h1{
+	height:40px;
+	line-height:40px;
+	float:left;
+	font-weight:400;
+	font-size:1.1em;
+	width:100%;
+	background:#FFFBEC;
+	margin-bottom:10px;
+}
+.teacher-ul li{
+	width:10%;
+	height:35px;
+	float:left;
+	text-align:center;
+	line-height:35px;
+	background:url(../images/teacher.jpg) 25% center no-repeat;
+}
+.teacher-ul li a{
+	color:#000;
+}
+.teacher-ul li a:hover{
+	color:#4782B2;
+}

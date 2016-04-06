@@ -100,6 +100,21 @@ $(function(){
 		<div class="content">
 			<h1>校内导师</h1>
 <pre><?php echo ($con); ?></pre>
+			<ul class="teacher-ul">
+				<h1>教师名录</h1>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+				<li><a href="">张三</a></li>
+			</ul>
 		</div>
 	</div>
 </div>
