@@ -50,19 +50,24 @@ class IndexController extends Controller {
 			$sea['cid']=3;
 			$tre=$m->field($name)->where($sea)->find();
 			$this->assign('cb',$tre[$name]);
-			//右边页面的输入选择
-			if($tre[$name]=="collapseZero"){
-				if($str[$name]=="友情链接"){
-						$ym="xinxi";
-			        	
-				}else if($str[$name]=="下载中心"){
-			        	
-					    $ym="download";
-				}else{
-					
-					$ym="shouye";
-				}	
-				   $home=M('home');
+		    $ym="other";
+			$this->assign('ym',$ym);
+		}
+		$where['cid']=1;
+		$arr=$m->field($name)->where($where)->find();
+		$con=$arr[$name];
+		$this->assign('con',$con);
+    	$this->display();
+    }
+	 //新闻中心等页面
+    public function shouye(){
+		 $name=I('get.name');
+		 $this->assign('name',$name);
+		 $m=M('contents');
+		 $map['cid']=2;
+		 $str=$m->field($name)->where($map)->find();
+		 $this->assign('zd',$str[$name]);
+		           $home=M('home');
 				   $hq['class']=$str[$name];
 			       //分页
 				    $count = $home->where($hq)->count();// 查询满足要求的总记录数
@@ -73,21 +78,57 @@ class IndexController extends Controller {
 				    $this->assign('page',$show);// 赋值分页输出
 				   //dump($info);
 				   $this->assign('info',$info);		
-			}else{
-				$ym="other";
-			}
-			
-			$this->assign('ym',$ym);
-		}
-		$where['cid']=1;
-		$arr=$m->field($name)->where($where)->find();
-		$con=$arr[$name];
-		$this->assign('con',$con);
-    	$this->display();
-    }
-
+				   $this->display();
+	}
+    // 下载中心
+    public function download(){
+		           $home=M('home');
+				   $hq['class']="下载中心";
+			       //分页
+				    $count = $home->where($hq)->count();// 查询满足要求的总记录数
+		            $Page       = new \Think\Page($count,10);
+		            $show       = $Page->show();// 分页显示输出
+		            $Page->setConfig('header','页');
+			        $info=$home->field('hid,title,content')->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
+				    $this->assign('page',$show);// 赋值分页输出
+				   //dump($info);
+				   $this->assign('info',$info);		
+				   $this->display();
+	}
+	  // 友情链接
+    public function links(){
+		           $home=M('home');
+				   $hq['class']="友情链接";
+			       //分页
+				    $count = $home->where($hq)->count();// 查询满足要求的总记录数
+		            $Page       = new \Think\Page($count,10);
+		            $show       = $Page->show();// 分页显示输出
+		            $Page->setConfig('header','页');
+			        $info=$home->field('hid,title,content')->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
+				    $this->assign('page',$show);// 赋值分页输出
+				   //dump($info);
+				   $this->assign('info',$info);		
+				   $this->display();
+	}
+	  // 教师名录
+    public function teacher(){
+		           $home=M('home');
+				   $hq['class']="教师名录";
+			       //分页
+				    $count = $home->where($hq)->count();// 查询满足要求的总记录数
+		            $Page       = new \Think\Page($count,10);
+		            $show       = $Page->show();// 分页显示输出
+		            $Page->setConfig('header','页');
+			        $info=$home->field('hid,title,content')->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
+				    $this->assign('page',$show);// 赋值分页输出
+				//   dump($info);
+				   $this->assign('info',$info);		
+				   $this->display();
+	}
+	
 	//记录数据other页面
 	public function record(){
+		
 		$col_name=I('get.name');
 		if($col_name){
 			$map[$col_name]=I('post.con');
@@ -97,23 +138,75 @@ class IndexController extends Controller {
 		}
 		$this->redirect('Index/buttonsandicons',array('name'=>$col_name));
 	}
-	//记录数据home页面
-	public function record_home(){
-		$col_name=I('get.name');
+	//记录数据下载中心、教师名录页面
+	public function record_down(){
 		$map['class']=I('get.class');
-		$m=M('home');
 		if($map['class']=="下载中心"){
-			
+			$url="download";
+		}else if($map['class']=="友情链接"){
+			$url="links";
 		}else{
-			$map['title']=I('post.title');
+			$url="teacher";
+		}
+		    $m=M('home');
+		    $map['title']=I('post.title');
 			$map['content']=I('post.con');
 			$map['date']=date('y-m-d');
 			$m->add($map);
+			$this->redirect('Index/'.$url);
+	}
+	//修改数据下载中心、教师名录页面
+	public function update_down(){
+		//dump($_POST);dump($_GET);exit;
+		$map['class']=I('get.class');
+		if($map['class']=="下载中心"){
+			$url="download";
+		}else if($map['class']=="友情链接"){
+			$url="links";
+		}else{
+			$url="teacher";
 		}
-        $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+		$map['hid']=I('post.hid');
+		$data['title']=I('post.title');
+		$data['content']=I('post.con');
+		$data['date']=date("y-m-d");
+		$m=M('home');
+		$m->where($map)->save($data);
+       $this->redirect('Index/'.$url);
+	}
+	//删除数据下载中心、教师名录页面
+	public function delete_down(){
+		//dump($_POST);dump($_GET);exit;
+		$map['name']=I('get.name');
+		if($map['name']=="teacher"){
+			$url="teacher";
+		}else if($map['name']=="download"){
+			$url="download";
+		}else{
+			$url="links";
+		}
+		$where['hid']=I('get.hid');
+		if($where['hid']){
+			$m=M('home');
+			$m->where($where)->delete();
+		}
+		$m->where($map)->save($data);
+       $this->redirect('Index/'.$url);
+	}
+
+	//记录数据home页面
+	public function record_shouye(){
+		$col_name=I('get.name');
+		$map['class']=I('get.class');
+		$m=M('home');
+		    $map['title']=I('post.title');
+			$map['content']=I('post.con');
+			$map['date']=date('y-m-d');
+			$m->add($map);
+			$this->redirect('Index/shouye',array('name'=>$col_name));
 	}
 	//修改数据home页面
-	public function update_home(){
+	public function update_shouye(){
 		//dump($_POST);dump($_GET);exit;
 		$col_name=I('get.name');
 		$map['hid']=I('post.hid');
@@ -122,7 +215,18 @@ class IndexController extends Controller {
 		$data['date']=date("y-m-d");
 		$m=M('home');
 		$m->where($map)->save($data);
-        $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+        $this->redirect('Index/shouye',array('name'=>$col_name));
+	}
+	//修改数据home页面
+	public function delete_shouye(){
+		//dump($_POST);dump($_GET);exit;
+		$col_name=I('get.name');
+		$where['hid']=I('get.hid');
+		if($where['hid']){
+			$m=M('home');
+			$m->where($where)->delete();
+		}
+        $this->redirect('Index/shouye',array('name'=>$col_name));
 	}
 	//删除链接
 	public function delete_link(){
@@ -159,6 +263,6 @@ class IndexController extends Controller {
 			$m->add($map);
        }
 	   $col_name=I('get.name');
-	   $this->redirect('Index/buttonsandicons',array('name'=>$col_name));
+	   $this->redirect('Index/download');
 	}
 }

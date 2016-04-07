@@ -114,12 +114,12 @@
                         <li class="submenu">
                             <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
                             <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
-                                <li id="xwzx" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
-                                <li id="tzgg" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
-                                <li id="xxjw" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
-                                 <li id="xxzs" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
-                                <li id="xzzx" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xzzx"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
-                                <li id="yqlj" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=yqlj"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
+                                <li id="xwzx" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
+                                <li id="tzgg" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
+                                <li id="xxjw" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
+                                 <li id="xxzs" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+                                <li id="xzzx" style="background-color:#dcdcdc;"><a href="__URL__/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
+                                <li id="yqlj" style="background-color:#dcdcdc;"><a href="__URL__/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
@@ -142,6 +142,7 @@
                             <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
                                 <li id="xwdsstyle="background-color:#dcdcdc;"" ><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
+								<li id="teacher" style="background-color:#dcdcdc;"><a href="__URL__/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
                                 <li id="hzqy" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
@@ -190,14 +191,14 @@
                                 <div class="bootstrap-admin-panel-content">
                                 <!--新闻中心、通知公告、招生信息、教务信息页面修改页面-->
                          
-                                <form action="__URL__/update_home?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai" style="display:none">
+                                <form action="__URL__/update_shouye?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai" style="display:none">
                                 <input name="hid" type="hidden" value="{$info.hid}"/>
                                 标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value="{$info.title}"/><br/><br/>
                                 内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
                                  <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="修改"/></br></br>
                                 </form>      
                            <!--新闻中心、通知公告、招生信息、教务信息页面添加页面-->
-                              <form action="__URL__/record_home?class={$zd}&name={$name}" method="POST" name="jaj"  id="tianjia" style="display:none">
+                              <form action="__URL__/record_shouye?class={$zd}&name={$name}" method="POST" name="jaj"  id="tianjia" style="display:none">
                                 标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value=""/><br/><br/>
                                 内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con"></textarea>
                                  <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>

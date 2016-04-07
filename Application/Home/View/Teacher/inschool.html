@@ -24,18 +24,9 @@
 <pre>{$con}</pre>
 			<ul class="teacher-ul">
 				<h1>教师名录</h1>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
-				<li><a href="">张三</a></li>
+				<volist name="info" id="vo">
+				<li><a href="{$vo.content}" target="_blank">{$vo.title}</a></li>
+			    </volist>
 			</ul>
 		</div>
 	</div>

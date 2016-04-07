@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" media="screen" href="/hzaumba/Public/Back/css/bootstrap.min.css">
-        <link rel="stylesheet" media="screen" href="/hzaumba/Public/Back/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" media="screen" href="/hzaumba2.0/Public/Back/css/bootstrap.min.css">
+        <link rel="stylesheet" media="screen" href="/hzaumba2.0/Public/Back/css/bootstrap-theme.min.css">
 
         <!-- Bootstrap Admin Theme -->
-        <link rel="stylesheet" media="screen" href="/hzaumba/Public/Back/css/bootstrap-admin-theme.css">
+        <link rel="stylesheet" media="screen" href="/hzaumba2.0/Public/Back/css/bootstrap-admin-theme.css">
 
         <!-- Custom styles -->
         <style type="text/css">
             body{
-                background:url(/hzaumba/Public/Back/images/5.jpg);
+                background:url(/hzaumba2.0/Public/Back/images/5.jpg);
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -49,7 +49,7 @@
         </div>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-        <script type="text/javascript" src="/hzaumba/Public/Back/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/hzaumba2.0/Public/Back/js/bootstrap.min.js"></script>
         <script type="text/javascript">
             $(function() {
                 // Setting focus
