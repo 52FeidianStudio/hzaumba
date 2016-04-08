@@ -7,7 +7,6 @@
 
         <!-- Bootstrap -->
         <link rel="stylesheet" media="screen" href="/hzaumba2.0/Public/Back/css/bootstrap.min.css">
-
         <link rel="stylesheet" media="screen" href="/hzaumba2.0/Public/Back/css/bootstrap-theme.min.css">
 
         <!-- Bootstrap Admin Theme -->
@@ -16,8 +15,8 @@
 
         <!-- Bootstrap Switch (the On-Off buttons) -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <link rel="stylesheet" href="/hzaumba2.0/Public/Back/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
-        <link rel="stylesheet" href="/hzaumba2.0/Public/Back/css/bootstrap-switch-small.css">
+        <link rel="stylesheet" href="vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
+        <link rel="stylesheet" href="css/bootstrap-switch-small.css">
         <link rel="stylesheet" href="http://bdmdesign.github.io/bootstrap-switch/static/stylesheets/flat-ui-fonts.css">
 
         <!-- Bootstrap Switch (the On-Off buttons). Theme's styles. -->
@@ -63,10 +62,6 @@
             .panel-bootstrap-switch .bootstrap-switch-footer{
                 margin-top: 20px;
             }
-           
-     .current{background-color:rgba(0,255,150,0.5);}
-     .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
-    
         </style>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -87,7 +82,7 @@
                                 <li><a href="http://www.hzau.edu.cn">Link</a></li>
                                 <li><a href="http://yjs.hzau.edu.cn/">Link</a></li>
                                 <li>
-                                    <a href="/hzaumba2.0/index.php/admin/Login/out_login">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
+                                    <a href="#">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -116,13 +111,13 @@
                 <!-- left, vertical navbar -->
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
-                        <li class="submenu" >
+                        <li class="submenu">
                             <a  href="#collapseZero"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>首页</a>
                             <ul id="collapseZero" class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
                                 <li id="xwzx" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/shouye.html?name=xwzx"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;新闻中心</a></li>
                                 <li id="tzgg" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/shouye.html?name=tzgg"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp; 通知公告</a></li>
                                 <li id="xxjw" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/shouye.html?name=xxjw"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教务信息</a></li>
-								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
+                                 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
                             </ul>
@@ -146,7 +141,7 @@
                             <a href="#collapseThree"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>师资力量</a>
                             <ul id="collapseThree"class="panel-collapse collapse  nav bootstrap-admin-navbar-side">
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
-                                <li id="xwds" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
+                                <li id="xwdsstyle="background-color:#dcdcdc;"" ><a href="/hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
                                 <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
@@ -176,7 +171,8 @@
                         </li>
 
                         <li><a href="/hzaumba2.0/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
-                               <li><a href="/hzaumba2.0/index.php/Admin/Index/update_pw.html"><i class="glyphicon glyphicon-chevron-right"></i>密码修改</a></li>
+						<li><a href="/hzaumba2.0/index.php/Admin/Index/update_pw.html"><i class="glyphicon glyphicon-chevron-right"></i>密码修改</a></li>
+
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
                         </li>-->
@@ -194,32 +190,16 @@
                                     <div class="text-muted bootstrap-admin-box-title"><?php echo ($zd); ?></div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
-								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-						  <div style="height:460px;width:900px;" id="shouye">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                             <table class="table table-bordered table-striped border table-condensed text-center " >    
-                                <div class="row">   
-								
-                                   <tr>
-                                      <th style="text-align:center;">标题</th>
-                                      <th style="text-align:center;">编辑</th>
-								   </tr>
-								   <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
-                                      <td><?php echo ($vo["title"]); ?></td>
-                                     
-                                      <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba2.0/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>&hid=<?php echo ($vo["hid"]); ?>"/>修改</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
-                                   </tr><?php endforeach; endif; else: echo "" ;endif; ?> 
-								</div>
-								
-							</table>
-							<div style="text-align:center;margin-top:300px;"><?php echo ($page); ?></div>
-							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:20px;" href="/hzaumba2.0/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>" />添加</a></br></br>
-							</div>
-					        
-						
-							
+                              
+                           
+                              <form action="/hzaumba2.0/index.php/admin/Login/update_pw" method="POST" name="jaj"  id="tianjia" onSubmit="return f1();">
+                                用 户 名：<input name='user' class="form-control" style="width:90%;display:inline-block;" type="text" value="" /><br/><br/>
+                                新 密 码：<input name="password" class="form-control" style="width:90%;display:inline-block;" type="password" value=""/><br/><br/>
+								确定密码：<input name="repassword" class="form-control" style="width:90%;display:inline-block;" type="password" value=""/><br/><br/>
+                                 <input type="submit" class="btn btn-info right " style="margin-right:25px;margin-top:60px;" value="确定" /></br></br>
+                                </form>   
+                            </div>
                         </div>
-                       </div>
                     </div>
                 </div>  
             </div>
@@ -249,7 +229,7 @@
 
         <script type="text/javascript">
             $(function() {
-			
+            
                 /*
                  * Initialize all the inputs
                  */
@@ -277,21 +257,30 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
-		    	$('#<?php echo ($name); ?>').addClass('active');
-				$('#collapseZero').collapse('hide');
-				
-				
-			//	alert('<?php echo ($ym); ?>');
-				
+             
+               
+               
+                
             });
-		  //删除链接
-          function delete_link(hid){
-		      var r=confirm("是否删除");
-              if (r==true){
-                 window.location.href="/hzaumba2.0/index.php/Admin/Index/delete_shouye?hid="+hid+"&name=<?php echo ($name); ?>";
-              }
-		  }
- 
+        
+             function f1(){
+			    //return false;
+				var user=document.getElementsByName('user')[0].value;
+				var pw=document.getElementsByName('password')[0].value;
+				var repw=document.getElementsByName('repassword')[0].value;
+				if(user&&pw&&repw){
+				    
+				}else{
+				   alert("输入不能为空");
+				   return false;
+				}
+				if(pw==repw){
+				     return true;
+				}else{
+				      alert("密码不一致");
+				      return false;
+				}
+			  }
         </script>
     </body>
 </html>

@@ -110,6 +110,10 @@ class IndexController extends Controller {
 				   $this->assign('info',$info);		
 				   $this->display();
 	}
+	  // 修改密码
+    public function update_pw(){
+				   $this->display();
+	}
 	  // 教师名录
     public function teacher(){
 		           $home=M('home');

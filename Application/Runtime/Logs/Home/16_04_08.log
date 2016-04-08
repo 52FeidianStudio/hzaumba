@@ -1,0 +1,10 @@
+[ 2016-04-08T12:40:51+08:00 ] ::1 /hzaumba2.0/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009600s ]
+
+[ 2016-04-08T12:42:06+08:00 ] ::1 /hzaumba2.0/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+

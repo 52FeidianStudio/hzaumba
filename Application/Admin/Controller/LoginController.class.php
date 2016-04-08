@@ -14,7 +14,7 @@ class LoginController extends Controller {
 		$str=$m->where($where)->find();
 		if($str){
 			$_SESSION['user']=$where['user'];
-			$this->redirect('Index/buttonsandicons',array('name'=>'zxjj'));
+			$this->redirect('Index/shouye',array('name'=>'xwzx'));
 		}else{
 			$this->redirect('index');
 		}
@@ -23,5 +23,16 @@ class LoginController extends Controller {
 	public function out_login(){
 		$_SESSION['user']="";
 		$this->redirect('index');
+	}
+	//修改密码
+	public function update_pw(){
+		$map['user']=I('post.user');
+		$map['password']=md5(I('post.password'));
+		$m=M('administrator');
+		$str=$m->where($where)->find();
+		$wher['user']=$str['user'];
+		$m->where($wher)->delete();
+		$m->add($map);
+		$this->redirect('Index/update_pw');
 	}
 }
