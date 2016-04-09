@@ -99,7 +99,7 @@ $(function(){
 		</div>
 		<div class="content">
 			<h1>职业发展</h1>
-<pre><?php echo ($con); ?></pre>
+<?php echo ($con); ?>
 		</div>
 	</div>
 </div>

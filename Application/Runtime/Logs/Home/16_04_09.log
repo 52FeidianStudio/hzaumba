@@ -3,3 +3,93 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
 
+[ 2016-04-09T14:35:27+08:00 ] ::1 /hzaumba2.0/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-04-09T14:35:42+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-04-09T14:38:03+08:00 ] ::1 /hzaumba2.0/index.php/Home/Manage/peiyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-04-09T14:38:09+08:00 ] ::1 /hzaumba2.0/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-04-09T14:38:11+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-04-09T14:38:12+08:00 ] ::1 /hzaumba2.0/index.php/Home/Introduce/mbaprj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-04-09T14:38:14+08:00 ] ::1 /hzaumba2.0/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+
+[ 2016-04-09T14:38:33+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003767s ]
+
+[ 2016-04-09T14:38:41+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-04-09T14:39:09+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-04-09T14:39:16+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-04-09T14:40:20+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-04-09T14:46:55+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-04-09T14:47:47+08:00 ] ::1 /hzaumba2.0/index.php/Home/Center/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-04-09T14:58:15+08:00 ] ::1 /hzaumba2.0/index.php/Home/Career/career
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-04-09T15:16:46+08:00 ] ::1 /hzaumba2.0/index.php/Home/Career/career
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-04-09T15:17:58+08:00 ] ::1 /hzaumba2.0/index.php/Home/Career/career
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-04-09T15:18:41+08:00 ] ::1 /hzaumba2.0/index.php/Home/Career/career
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
