@@ -2640,3 +2640,72 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.024651s ]
 
+[ 2016-04-08T22:35:07+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0057s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 216 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 234 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 242 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 267 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\73c7609966b7031fe25d56d214e58aac.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-04-08T22:35:15+08:00 ] ::1 /hzaumba/index.php/Admin/Index/update_pw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: zd D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\e156b1338e09003e858a2341dd6e68f1.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2016-04-08T22:35:15+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-08T22:35:15+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+ERR: 非法操作:css
+
