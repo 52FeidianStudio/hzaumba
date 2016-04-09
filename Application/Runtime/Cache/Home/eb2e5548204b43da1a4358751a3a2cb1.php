@@ -8,6 +8,11 @@
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/header.css">
 	<link rel="stylesheet" href="/hzaumba/Public/front/css/main.css">
     <script src="/hzaumba/Public/front/js/jquery-1.8.3.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="/hzaumba/Public/Back/editor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/hzaumba/Public/Back/editor/ueditor.all.min.js"> </script>
+
+    <script type="text/javascript" charset="utf-8" src="/hzaumba/Public/Back/editor/lang/zh-cn/zh-cn.js"></script>
 </head>
 <body>
 <!-- 头部 -->
@@ -99,12 +104,11 @@ $(function(){
 		</div>
 		<div class="content">
 			<h1>联系我们</h1>
-<pre><?php echo ($con); ?></pre>
+			<pre><?php echo ($con); ?></pre>
 		</div>
 	</div>
 </div>
 <!-- end -->
-
 
 
 <!-- 尾部 -->

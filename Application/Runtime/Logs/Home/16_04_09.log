@@ -93,3 +93,353 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
 
+[ 2016-04-09T20:30:55+08:00 ] ::1 /hzaumba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-04-09T20:31:00+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/inschool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-04-09T20:31:02+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-04-09T20:31:34+08:00 ] ::1 /hzaumba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-04-09T20:33:48+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-04-09T20:34:03+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-04-09T20:34:40+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-04-09T20:35:09+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-04-09T20:35:21+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-04-09T20:35:22+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-04-09T20:35:23+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-04-09T20:36:19+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-04-09T20:38:14+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-04-09T20:38:30+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-04-09T20:40:55+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-04-09T20:41:11+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-04-09T20:43:09+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-04-09T20:43:16+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-04-09T20:43:21+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-04-09T20:43:28+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-04-09T20:43:34+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-04-09T20:44:04+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-04-09T20:44:19+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-04-09T20:44:20+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-04-09T20:44:20+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-04-09T20:44:33+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-04-09T20:44:36+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-04-09T20:44:36+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-04-09T20:44:36+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-04-09T20:44:36+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-04-09T20:44:36+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+
+[ 2016-04-09T20:44:42+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-04-09T20:44:47+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-04-09T20:44:51+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-04-09T20:44:57+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-04-09T20:45:10+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-04-09T20:45:10+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-04-09T20:45:10+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-04-09T20:45:10+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-04-09T20:45:11+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-04-09T20:45:29+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-04-09T20:45:47+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-04-09T20:45:58+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-04-09T20:46:23+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-04-09T20:46:38+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-04-09T20:46:42+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-04-09T20:47:53+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-04-09T20:48:18+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-04-09T20:53:48+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-04-09T20:59:58+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-04-09T21:02:44+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-04-09T21:04:45+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-04-09T21:05:40+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-04-09T21:06:05+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-04-09T21:07:22+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-04-09T21:07:28+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-04-09T21:07:45+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-04-09T21:08:03+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-04-09T21:08:14+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-04-09T21:08:47+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-04-09T21:09:28+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-04-09T21:10:17+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-04-09T21:10:30+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-04-09T21:11:34+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-04-09T21:11:57+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-04-09T21:13:12+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-04-09T21:13:19+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-04-09T21:47:13+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-04-09T21:49:45+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-04-09T21:50:08+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
