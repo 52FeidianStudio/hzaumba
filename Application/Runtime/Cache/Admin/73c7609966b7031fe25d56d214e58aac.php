@@ -213,24 +213,7 @@
                                  <!--除首页外其他页面-->
                                 <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="other">
                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                                    <!-- <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea> -->
-                                    <!-- <div> -->
-                                        <!-- // <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script> -->
-                                        <!-- <textarea id="editor" type="text/plain"  rows="20" cols="130%" style="width:100%;display:inline-block;" name="con"><?php echo ($con); ?></textarea> -->
-                                        
-                                    <!-- </div> -->
-                                    <div id="myEditor">
-                                        <!-- <textarea id="editor" type="text/plain"  rows="20" cols="130%" style="width:100%;display:inline-block;" name="con"><?php echo ($con); ?></textarea> -->
-                                        <script type="text/javascript">
-                                            var editor = new baidu.editor.ui.Editor({ 
-                                                initialContent: '<span style="color:#ccc">欢迎使用ueditor</span>'
-                                            }); 
-                                           
-                                            editor.render("myEditor");
-
-                                        </script>
-                                    </div>
-
+                                    <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>
                                     <input type="submit" class="btn btn-info right " style="display:inline-block;" value="确定" /></br></br>
                                 </form>       
                             </div>

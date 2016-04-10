@@ -1,0 +1,40 @@
+[ 2016-04-10T09:17:57+08:00 ] ::1 /hzaumba/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-04-10T09:18:28+08:00 ] ::1 /hzaumba/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-04-10T09:18:31+08:00 ] ::1 /hzaumba/index.php/home/index/download/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-04-10T09:18:33+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-04-10T09:18:37+08:00 ] ::1 /hzaumba/index.php/Home/Manage/peiyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-04-10T09:18:40+08:00 ] ::1 /hzaumba/index.php/Home/Manage/course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-04-10T09:18:54+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-04-10T09:19:11+08:00 ] ::1 /hzaumba/index.php/Home/Contact/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002349s ]
+
