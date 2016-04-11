@@ -93,3 +93,8 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
 INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
 
+[ 2016-04-11T16:01:49+08:00 ] ::1 /hzaumba/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+

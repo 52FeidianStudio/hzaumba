@@ -22,6 +22,10 @@
 
         <!-- Bootstrap Switch (the On-Off buttons). Theme's styles. -->
         <link rel="stylesheet" media="screen" href="/hzaumba/Public/Back/css/bootstrap-theme-switch.min.css">
+
+
+
+       
         <!-- Custom styles -->
         <style type="text/css">
             .buttons-title{
@@ -70,7 +74,6 @@
            <script type="text/javascript" src="js/html5shiv.js"></script>
            <script type="text/javascript" src="js/respond.min.js"></script>
         <![endif]-->
-        
     </head>
     <body class="bootstrap-admin-with-small-navbar">
         <!-- small navbar -->
@@ -81,7 +84,7 @@
                         <div class="collapse navbar-collapse">
                             
                             <ul class="nav navbar-nav navbar-right">
-                                 <li><a href="http://www.hzau.edu.cn">Link1&nbsp;</a></li>
+                                <li><a href="http://www.hzau.edu.cn">Link1&nbsp;</a></li>
                                 <li><a href="http://yjs.hzau.edu.cn/">Link2&nbsp;<i class="glyphicon glyphicon-send"></i></a></li>
                                 <li><a href="/hzaumba/index.php/Admin/Index/update_pw.html" data-toggle="tooltip" data-placement="bottom" title="修改密码">Settings&nbsp;<i class="glyphicon glyphicon-cog"></i></a></li>
                                 <li>
@@ -123,6 +126,7 @@
 								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
+                                 <li id="" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
@@ -147,7 +151,6 @@
                                 <li id="xwds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
                                 <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
-								
                             </ul>
                         </li>
 
@@ -174,12 +177,8 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm">
-                                <i class="glyphicon glyphicon-chevron-right"></i>联系我们
-                            </a>
-                        </li>
-                        
+                        <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
+                              
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
                         </li>-->
@@ -192,37 +191,54 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
+                            <div class="panel panel-default panel-bootstrap-switch" style="width:990px;min-height:500px;">
                                 <div class="panel-heading">
                                     <div class="text-muted bootstrap-admin-box-title"><?php echo ($zd); ?></div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
+
+                                <!--首页图片页面-->
+                            <form action="" method="POST" name=""  id="">
+                                <div class="row">
+
+                                   <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
+                                            alt="" >
+                                    </a>
+                                     <div class="caption">
+                                       <a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div>
+                                    
+
+                                     <div class="col-sm-6 col-md-3">
+                                      <div class="thumbnail">
+                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
+                                            alt="" >
+                                    </a>
+                                     <div class="caption">
+                                        <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div>
+
+                                     <div class="col-sm-6 col-md-3">
+                                          <div class="thumbnail">
+                                             <img src="/hzaumba/Public/front/images/index3.jpg" 
+                                              alt="" >
+                                          </a>
+                                        <div class="caption">
+                                               <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
+                                       </div>
+                                       </div>
+                                </div>
+                                </div></br></br>               
+                                </form>
 							
-								
-							
-                                 <!--除首页外其他页面-->
-                                <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj"  id="other">
-                                &nbsp;&nbsp; &nbsp;&nbsp; 
-                                   <!-- <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>-->
-								   <!--ueditor编辑框-->
-								   <!-- 加载编辑器的容器 -->
-    <script id="container" name="con" type="text/plain">
-        <?php echo ($con); ?>
-    </script>
-    <!-- 配置文件 -->
-    <script type="text/javascript" src="/hzaumba/Public/Ueditor/ueditor.config.js"></script>
-    <!-- 编辑器源码文件 -->
-    <script type="text/javascript" src="/hzaumba/Public/Ueditor/ueditor.all.js"></script>
-    <!-- 实例化编辑器 -->
-    <script type="text/javascript">
-        var ue = UE.getEditor('container');
-    </script>
-								   
-								   
-                                    </br><input type="submit" class="btn btn-info right " style="display:inline-block;" value="确定" /></br></br>
-                                </form>       
-                            </div>
                         </div>
+                       </div>
                     </div>
                 </div>  
             </div>
@@ -230,11 +246,11 @@
         
 
         <!-- footer -->
-        <div class="navbar navbar-footer"style="background:#dcdcdc;">
-            <div class="container">
+        <div class="navbar navbar-footer"style="background:#dcdcdc;width:1180px;">
+            <div class="container" >
                 <div class="row">
-                    <div class="col-lg-12">
-                        <footer role="contentinfo" >
+                    <div class="col-lg-12" >
+                        <footer role="contentinfo">
                             <p class="left" style="margin-left:180px;"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;© 2016 华中农业大学MBA教育中心</p>
                             <p class="right" style="margin-right:60px;">技术支持：<i class="glyphicon glyphicon-leaf"></i>&nbsp沸点工作室</p>
                         </footer>
@@ -250,58 +266,6 @@
         <script type="text/javascript" src="/hzaumba/Public/Back/js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="/hzaumba/Public/Back/vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
 
-
-
-        <script type="text/javascript">
-            $(function() {
-			
-                /*
-                 * Initialize all the inputs
-                 */
-                $('input[type="checkbox"],[type="radio"]').not('#create-switch').bootstrapSwitch();
-
-                /*
-                 * Destroy
-                 */
-                $('#btn-destroy-switch').on('click', function() {
-                    $('#destroy-switch').bootstrapSwitch('destroy');
-                    $(this).remove();
-                });
-
-                /*
-                 * Create
-                 */
-                $('#btn-create').on('click', function() {
-                    $('#create-switch').bootstrapSwitch();
-                    $(this).remove();
-                });
-
-                /*
-                 * Radio
-                 */
-                $('.radio1').on('switch-change', function() {
-                    $('.radio1').bootstrapSwitch('toggleRadioState');
-                });
-		    	$('#<?php echo ($name); ?>').addClass('active');
-				var cbl="<?php echo ($cb); ?>";
-				if(cbl){
-				     //alert(cbl);
-				    $('#<?php echo ($cb); ?>').collapse('hide');
-					
-				}
-				
-				
-			//	alert('<?php echo ($ym); ?>');
-				
-            });
-		  //删除链接
-          function delete_link(hid){
-		      var r=confirm("是否删除");
-              if (r==true){
-                 window.location.href="/hzaumba/index.php/Admin/Index/delete_link?hid="+hid+"&name=<?php echo ($name); ?>";
-              }
-		  }
- 
-        </script>
+        
     </body>
 </html>
