@@ -189,20 +189,31 @@
                                     <div class="text-muted bootstrap-admin-box-title">{$zd}</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
-                                <!--新闻中心、通知公告、招生信息、教务信息页面修改页面-->
+                                <!--新闻中心、通知公告、招生信息、教务信息页面增加修改页面-->
                          
-                                <form action="__URL__/update_shouye?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai" style="display:none">
+                                <form action="__URL__/{$ym}?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai">
                                 <input name="hid" type="hidden" value="{$info.hid}"/>
                                 标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value="{$info.title}"/><br/><br/>
-                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
-                                 <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="修改"/></br></br>
-                                </form>      
-                           <!--新闻中心、通知公告、招生信息、教务信息页面添加页面-->
-                              <form action="__URL__/record_shouye?class={$zd}&name={$name}" method="POST" name="jaj"  id="tianjia" style="display:none">
-                                标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value=""/><br/><br/>
-                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con"></textarea>
-                                 <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="确定"/></br></br>
-                                </form>   
+                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<!--<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
+                                 <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="修改"/>-->
+								 						   <!--ueditor编辑框-->
+								   <!-- 加载编辑器的容器 -->
+    <script id="container" name="con" type="text/plain">
+        {$info.content}
+    </script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+								
+                          </br></br> <input type="submit" class="btn btn-info right " style="display:inline-block;" value="确定" /></br></br>
+						
+								</br></br>
+                              </form>   
                             </div>
                         </div>
                     </div>
@@ -263,14 +274,10 @@
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
                 $('#{$name}').addClass('active');
-                var cbl="{$cb}";
-                if(cbl){
-                     //alert(cbl);
-                    $('#{$cb}').collapse('hide');
-                    
-                }
-                
-                $('#{$ym}').css('display','block');
+             
+                    $('#collapseZero').collapse('hide');
+          
+            
             //  alert('{$ym}');
                 
             });

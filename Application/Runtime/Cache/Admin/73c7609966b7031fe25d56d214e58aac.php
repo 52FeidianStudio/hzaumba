@@ -204,7 +204,7 @@
 								
 							
                                  <!--除首页外其他页面-->
-                                <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="other">
+                                <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj"  id="other">
                                 &nbsp;&nbsp; &nbsp;&nbsp; 
                                    <!-- <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>-->
 								   <!--ueditor编辑框-->
@@ -293,7 +293,7 @@
 					
 				}
 				
-				$('#<?php echo ($ym); ?>').css('display','block');
+				
 			//	alert('<?php echo ($ym); ?>');
 				
             });

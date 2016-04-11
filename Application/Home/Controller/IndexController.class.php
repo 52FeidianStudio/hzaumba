@@ -75,6 +75,7 @@ class IndexController extends Controller {
 		if($where['hid']){
 			$m=M('home');
 			$str=$m->where($where)->find();
+			$str['content']=htmlspecialchars_decode($str['content']);
 			$this->assign('str',$str);
 			//dump($str);
 		}

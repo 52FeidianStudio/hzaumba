@@ -9,4 +9,5 @@ return array(
 	'DB_PORT'=>'3306',
 	'DB_PREFIX'=>'mba_',//设置表前缀
 	'DB_CHARSET' => 'utf8', // 数据库的编码 默认为utf8
+	'SHOW_PAGE_TRACE'=>'true',
 );

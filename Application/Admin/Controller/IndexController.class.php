@@ -18,47 +18,40 @@ class IndexController extends Controller {
 			$map['cid']=2;
 			$str=$m->field($name)->where($map)->find();
 			$this->assign('zd',$str[$name]);
-			//侧边栏的状态
-			$sea['cid']=3;
-			$tre=$m->field($name)->where($sea)->find();
-			$this->assign('cb',$tre[$name]);
+			
 			       $home=M('home');
 				   $hq['hid']=I('get.hid');
 				   if($hq['hid']){
-					    $ym="xiugai";
+					    $ym="shouye_shouye";
 					    $info=$home->field('hid,title,content')->where($hq)->find();
+						$info['content']=htmlspecialchars_decode($info['content']);
 					    $this->assign('info',$info);	
 				   }else{
-					    $ym="tianjia";
+					    $ym="record_shouye";
 				   }
 				   $this->assign('ym',$ym);
 		}
+		//dump($info);
     	$this->display();
     }
     public function about(){
-    	$this->display();
+		$this->display();
+    	
     }
      public function buttonsandicons(){
         $name=I('get.name');
 		$this->assign('name',$name);
 		$m=M('contents');
-		if($name){
-			$map['cid']=2;
-			$str=$m->field($name)->where($map)->find();
-			$this->assign('zd',$str[$name]);
-			//侧边栏的状态
-			$sea['cid']=3;
-			$tre=$m->field($name)->where($sea)->find();
-			$this->assign('cb',$tre[$name]);
-		    $ym="other";
-			$this->assign('ym',$ym);
-		}
-		$where['cid']=1;
-		$arr=$m->field($name)->where($where)->find();
-		$con_r=$arr[$name];
+		$str=$m->getField($name,true);
+		//dump($str);exit;
+		$con_r=$str[0];
 		$con=htmlspecialchars_decode($con_r);
+		$this->assign('zd',$str[1]);
+		$this->assign('cb',$str[2]);
 		$this->assign('con',$con);
+		
     	$this->display();
+		
     }
 	 //新闻中心等页面
     public function shouye(){

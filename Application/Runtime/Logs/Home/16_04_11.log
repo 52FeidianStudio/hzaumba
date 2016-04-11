@@ -58,3 +58,38 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
 
+[ 2016-04-11T15:49:25+08:00 ] ::1 /hzaumba/index.php/Home/Index/information.html?hid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+
+[ 2016-04-11T15:50:13+08:00 ] ::1 /hzaumba/index.php/Home/Index/information.html?hid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004113s ]
+
+[ 2016-04-11T15:50:55+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-04-11T15:50:59+08:00 ] ::1 /hzaumba/index.php/Home/Index/commen?class=%E9%80%9A%E7%9F%A5%E5%85%AC%E5%91%8A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+
+[ 2016-04-11T15:51:04+08:00 ] ::1 /hzaumba/index.php/Home/Index/information.html?hid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-04-11T15:51:18+08:00 ] ::1 /hzaumba/index.php/Home/Center/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003233s ]
+
+[ 2016-04-11T15:51:21+08:00 ] ::1 /hzaumba/index.php/Home/Center/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
+
