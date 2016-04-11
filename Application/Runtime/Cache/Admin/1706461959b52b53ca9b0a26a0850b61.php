@@ -126,7 +126,8 @@
 								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
-                            </ul>
+                            <li id="tupian" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
+							</ul>
                         </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>

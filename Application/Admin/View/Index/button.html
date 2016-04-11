@@ -121,7 +121,7 @@
                                  <li id="xxzs" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="__URL__/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="__URL__/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
-                                 <li id="" style="background-color:#dcdcdc;"><a href="__URL__/shouye.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
+                                 <li id="tupian" style="background-color:#dcdcdc;"><a href="__URL__/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
@@ -195,12 +195,12 @@
                          
                                 <form action="__URL__/{$ym}?class={$zd}&name={$name}" method="POST" name="jaj"  id="xiugai">
                                 <input name="hid" type="hidden" value="{$info.hid}"/>
-                                标题：<input name="title" class="form-control" style="width:80%;display:inline-block;" type="text" value="{$info.title}"/><br/><br/>
-                                内容：<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<!--<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
+                                标题：<input name="title" class="form-control" style="width:90%;display:inline-block;" type="text" value="{$info.title}"/><br/>
+                                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<!--<textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;margin-top:-20px;" name="con">{$info.content}</textarea>
                                  <input type="submit" class="btn btn-info right " style="margin-right:20px;margin-top:320px;"value="修改"/>-->
 								 						   <!--ueditor编辑框-->
 								   <!-- 加载编辑器的容器 -->
-    <script id="container" name="con" type="text/plain">
+    <script id="container" name="con" type="text/plain" style="height:250px;">
         {$info.content}
     </script>
     <!-- 配置文件 -->

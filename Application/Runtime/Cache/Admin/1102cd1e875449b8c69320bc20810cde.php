@@ -84,7 +84,6 @@
                         <div class="collapse navbar-collapse">
                             
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="http://www.hzau.edu.cn">Link</a></li>
                                 <li><a href="http://www.hzau.edu.cn">Link1&nbsp;</a></li>
                                 <li><a href="http://yjs.hzau.edu.cn/">Link2&nbsp;<i class="glyphicon glyphicon-send"></i></a></li>
                                 <li><a href="/hzaumba/index.php/Admin/Index/update_pw.html" data-toggle="tooltip" data-placement="bottom" title="修改密码">Settings&nbsp;<i class="glyphicon glyphicon-cog"></i></a></li>
@@ -127,8 +126,8 @@
 								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
-                            <li id="tupian" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
-							</ul>
+                                 <li id="tupian" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
+                            </ul>
                         </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
@@ -179,7 +178,7 @@
                         </li>
 
                         <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
-                                
+                              
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
                         </li>-->
@@ -194,97 +193,46 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">友情链接</div>
+                                    <div class="text-muted bootstrap-admin-box-title">图片更新</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
+
+                             
+
 						
-						
-							    <!--友情链接页面-->	
-						 <div style="height:460px;width:900px;" id="xinxi">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                             <table class="table table-bordered table-striped border table-condensed text-center " >    
-                                <div class="row">                      
-                                   <tr>
-                                      <th style="text-align:center;">友情链接</th>
-                                      <th style="text-align:center;">链接地址</th>
-                                      <th style="text-align:center;">编辑</th>
-                                 </tr>
-								
-                                  
-								  <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                      <td><?php echo ($vo["title"]); ?></td>
-                                      <td><a><?php echo ($vo["content"]); ?></a></td>
-                                      <td><input type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal_update<?php echo ($i); ?>" value="修改" onclick="f1({vo.title});"/>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs"value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
-                                   </tr>
-								     <!--模态框修改-->
-								  <div class="modal fade" id="myModal_update<?php echo ($i); ?>" tabindex="-1" role="dialog" 
-                                     aria-labelledby="myModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-									 <form action="update_down?class=友情链接" method="POST" name="jaj">
-                                        <div class="modal-content">
-                                           <div class="modal-header">
-                                  
-                                              <h4 class="modal-title" id="myModalLabel">
-                                                 在这里添加链接
-                                              </h4>
-                                           </div>
-                                           <div class="modal-body">
-										      <input name="hid" type="hidden" value="<?php echo ($vo["hid"]); ?>"/>
-                                              <input name="title" id="update_title" class="form-control" placeholder="请输入链接名称"  type="text" value="<?php echo ($vo["title"]); ?>"/><br/>
-                                              <input name="con" id="update_con" class="form-control" placeholder="请输入链接"  type="text" value="<?php echo ($vo["content"]); ?>"/><br/>
-                                           </div>
-                                           <div class="modal-footer">
-                                              <button type="button" class="btn btn-default" 
-                                                 data-dismiss="modal">关闭
-                                              </button>
-                                              <button type="submit" class="btn btn-primary">
-                                                 提交更改
-                                              </button>
-                                           </div>
-                                        </div><!-- /.modal-content -->
-									</form>
-                                  </div><!-- /.modal -->
-                                  </div><?php endforeach; endif; else: echo "" ;endif; ?>
-                                 </div>
-                                 </table>    
-                                 <div ><?php echo ($page); ?></div>								 
-                                 <input type="button" class="btn btn-info right" data-toggle="modal" 
-                                    data-target="#myModal"style="margin-right:20px;margin-top:20px;" value="添加"/>
-                                   <!--模态框提交--->
-                                   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
-                                     aria-labelledby="myModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-									 <form action="/hzaumba/index.php/Admin/Index/record_down?class=友情链接" method="POST" name="jaj">
-                                        <div class="modal-content">
-                                           <div class="modal-header">
-                                  
-                                              <h4 class="modal-title" id="myModalLabel">
-                                                 在这里添加链接
-                                              </h4>
-                                           </div>
-                                           <div class="modal-body">
-                                              <input name="title" id="" class="form-control" placeholder="请输入链接名称"  type="text"/><br/>
-                                              <input name="con" id="" class="form-control" placeholder="请输入链接"  type="text"/><br/>
-                                           </div>
-                                           <div class="modal-footer">
-                                              <button type="button" class="btn btn-default" 
-                                                 data-dismiss="modal">关闭
-                                              </button>
-                                              <button type="submit" class="btn btn-primary">
-                                                 提交更改
-                                              </button>
-                                           </div>
-                                        </div><!-- /.modal-content -->
-									</form>
-                                  </div><!-- /.modal -->
-                                  </div>
-								
-                                </div>       
-								
-							
-                               
+                                <!--首页图片页面-->
+                            
+                                <div class="row">
+
+                                   <div class="col-sm-6 col-md-2">
+                                      <div class="thumbnail">
+                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
+                                            alt="" >
+                                    </a>
+                                     <div class="caption">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div>
+                                     
+
+                                   
+                                </div></br></br>
+                            <form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/Admin/Index/record_file?name=<?php echo ($name); ?>" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
+                            
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择图片</label>
+                                 <input type="file" id="inputfile" name="con">
                             </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                           </form>
+                               <!-- <input type="submit" class="btn btn-info right " style="margin-top:200px;margin-right:100px;" value="确定" /></br></br>-->
+                                                 
+                                </form>
+						
+							
                         </div>
+                       </div>
                     </div>
                 </div>  
             </div>
@@ -297,7 +245,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <footer role="contentinfo" >
-                             <p class="left" style="margin-left:180px;"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;© 2016 华中农业大学MBA教育中心</p>
+                            <p class="left" style="margin-left:180px;"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;© 2016 华中农业大学MBA教育中心</p>
                             <p class="right" style="margin-right:60px;">技术支持：<i class="glyphicon glyphicon-leaf"></i>&nbsp沸点工作室</p>
                         </footer>
                     </div>
@@ -342,18 +290,18 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
-		    	$('#yqlj').addClass('active');
+		    	$('#tupian').addClass('active');
+				$('#collapseZero').collapse('hide');
 				
-				 $('#collapseZero').collapse('hide');
 				
-			
+			//	alert('<?php echo ($ym); ?>');
 				
             });
 		  //删除链接
           function delete_link(hid){
 		      var r=confirm("是否删除");
               if (r==true){
-                  window.location.href="/hzaumba/index.php/Admin/Index/delete_down?hid="+hid+"&name=links";
+                 window.location.href="/hzaumba/index.php/Admin/Index/delete_shouye?hid="+hid+"&name=<?php echo ($name); ?>";
               }
 		  }
  

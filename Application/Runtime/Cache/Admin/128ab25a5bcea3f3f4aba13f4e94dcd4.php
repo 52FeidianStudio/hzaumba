@@ -126,7 +126,7 @@
 								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
-                                 <li id="" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
+                                 <li id="tupian" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
@@ -197,51 +197,9 @@
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
 
-                                <!--首页图片页面-->
-                            <form action="" method="POST" name=""  id="">
-                                <div class="row">
-
-                                   <div class="col-sm-6 col-md-2">
-                                      <div class="thumbnail">
-                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
-                                            alt="" >
-                                    </a>
-                                     <div class="caption">
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
-                                      </div>
-                                     </div>
-                                    </div>
-                                     
-
-                                     <div class="col-sm-6 col-md-2">
-                                      <div class="thumbnail">
-                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
-                                            alt="" >
-                                    </a>
-                                     <div class="caption">
-                                        <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
-                                      </div>
-                                     </div>
-                                    </div>
-
-                                     <div class="col-sm-6 col-md-2">
-                                          <div class="thumbnail">
-                                             <img src="/hzaumba/Public/front/images/index3.jpg" 
-                                              alt="" >
-                                          </a>
-                                        <div class="caption">
-                                               <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
-                                       </div>
-                                       </div>
-                                </div>
-                                </div></br></br>
-                                
-                                
-                                                 
-                                </form>
 
 								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-						  <div style="height:460px;width:900px;display:none;" id="shouye" >
+						  <div style="height:460px;width:900px;" id="shouye" >
                                  &nbsp;&nbsp; &nbsp;&nbsp; 
                              <table class="table table-bordered table-striped border table-condensed text-center " >    
                                 <div class="row">   

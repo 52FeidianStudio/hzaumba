@@ -193,35 +193,42 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">{$zd}</div>
+                                    <div class="text-muted bootstrap-admin-box-title">图片更新</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
 
+                             
 
-								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-						  <div style="height:460px;width:900px;" id="shouye" >
-                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                             <table class="table table-bordered table-striped border table-condensed text-center " >    
-                                <div class="row">   
-								
-                                   <tr>
-                                      <th style="text-align:center;">标题</th>
-                                      <th style="text-align:center;">编辑</th>
-								   </tr>
-								   <volist name="info" id="vo">
-                                   <tr>								
-                                      <td>{$vo.title}</td>
+						
+                                <!--首页图片页面-->
+                            
+                                <div class="row">
+
+                                   <div class="col-sm-6 col-md-2">
+                                      <div class="thumbnail">
+                                      <img src="__PUBLIC__/front/images/index2.jpg" 
+                                            alt="" >
+                                    </a>
+                                     <div class="caption">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div>
                                      
-                                      <td><a role="button" class="btn btn-info btn-xs" href="__URL__/button.html?name={$name}&hid={$vo.hid}"/>修改</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
-                                   </tr>
-								    </volist> 
-								</div>
-								
-							</table>
-							<div>{$page}</div>
-							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:20px;" href="__URL__/button.html?name={$name}" />添加</a></br></br>
-							</div>
-					        
+
+                                   
+                                </div></br></br>
+                            <form method="post" enctype="multipart/form-data" action="__URL__/record_file?name={$name}" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
+                            
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择图片</label>
+                                 <input type="file" id="inputfile" name="con">
+                            </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                           </form>
+                               <!-- <input type="submit" class="btn btn-info right " style="margin-top:200px;margin-right:100px;" value="确定" /></br></br>-->
+                                                 
+                                </form>
 						
 							
                         </div>
@@ -283,7 +290,7 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
-		    	$('#{$name}').addClass('active');
+		    	$('#tupian').addClass('active');
 				$('#collapseZero').collapse('hide');
 				
 				
