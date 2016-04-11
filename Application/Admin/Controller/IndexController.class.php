@@ -55,7 +55,8 @@ class IndexController extends Controller {
 		}
 		$where['cid']=1;
 		$arr=$m->field($name)->where($where)->find();
-		$con=$arr[$name];
+		$con_r=$arr[$name];
+		$con=htmlspecialchars_decode($con_r);
 		$this->assign('con',$con);
     	$this->display();
     }

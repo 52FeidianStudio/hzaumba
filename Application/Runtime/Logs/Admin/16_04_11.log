@@ -1,0 +1,451 @@
+[ 2016-04-11T11:17:07+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012290s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1264s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.3627s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018206s ]
+
+[ 2016-04-11T11:17:42+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005785s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.2276s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007705s ]
+
+[ 2016-04-11T11:18:20+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002879s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.045033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045938s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.4126s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&lt;strong&gt;wwwwwwwwwwwwwwww&lt;/strong&gt;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.7351s ]
+
+[ 2016-04-11T11:18:20+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0228s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000655s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054777s ]
+
+[ 2016-04-11T11:18:35+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1781s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003692s ]
+
+[ 2016-04-11T11:56:28+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1035s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这里写你的初始化内容
+ &amp;nbsp; &amp;nbsp;&lt;a title=&quot;百度&quot; target=&quot;_blank&quot; href=&quot;http://www.baidu.com&quot;&gt;百度链接&lt;/a&gt;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.0659s ]
+
+[ 2016-04-11T11:56:28+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0596s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003487s ]
+
+[ 2016-04-11T11:56:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005482s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.2312s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&lt;img src=&quot;http://img.baidu.com/hi/jx2/j_0001.gif&quot;/&gt;
+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这里写你的初始化内容
+ &amp;nbsp; &amp;nbsp;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.0424s ]
+
+[ 2016-04-11T11:56:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0487s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000768s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004763s ]
+
+[ 2016-04-11T11:57:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001661s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007349s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1724s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&lt;img alt=&quot;1849096835d76ef4b7d874f95fc174cf.jpg&quot; src=&quot;/ueditor/php/upload/image/20160411/1460347033415902.jpg&quot; title=&quot;1460347033415902.jpg&quot;/&gt;
+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这里写你的初始化内容
+ &amp;nbsp; &amp;nbsp;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.0711s ]
+
+[ 2016-04-11T11:57:18+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008029s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0156s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005234s ]
+
+[ 2016-04-11T11:57:52+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008373s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0790s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2016-04-11T11:58:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000642s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007131s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1965s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这里写你的初始化内容
+ &amp;nbsp; &amp;nbsp;&lt;a title=&quot;百度&quot; target=&quot;_blank&quot; href=&quot;http://www.baidu.com&quot;&gt;百度&lt;/a&gt;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.0594s ]
+
+[ 2016-04-11T11:58:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0250s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003278s ]
+
+[ 2016-04-11T11:59:42+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=zxjj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1473s ]
+SQL: UPDATE `mba_contents` SET `zxjj`='&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;这里写你的初始化内容
+ &amp;nbsp; &amp;nbsp;&lt;img style=&quot;width: 288px; height: 116px;&quot; alt=&quot;b84b045a498cc562054b6dd0323242aa.jpg&quot; src=&quot;/ueditor/php/upload/image/20160411/1460347164387802.jpg&quot; title=&quot;1460347164387802.jpg&quot; height=&quot;116&quot; width=&quot;288&quot;/&gt;&lt;/p&gt;' WHERE `cid` = 1 [ RunTime:0.0610s ]
+
+[ 2016-04-11T11:59:43+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0659s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003128s ]
+
+[ 2016-04-11T12:00:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1092s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000944s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009824s ]
+
+[ 2016-04-11T12:01:36+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0500s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007204s ]
+
+[ 2016-04-11T12:03:24+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/zxjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000561s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0554s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `zxjj` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003082s ]
+
+[ 2016-04-11T12:05:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=edp_xm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004898s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1521s ]
+SQL: SELECT `edp_xm` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `edp_xm` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `edp_xm` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000631s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004690s ]
+
+[ 2016-04-11T12:05:21+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zsxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000560s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004173s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.1883s ]
+SQL: SELECT `zsxx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `zsxx` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `zsxx` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000834s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002991s ]
+
+[ 2016-04-11T12:05:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=org
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007343s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0335s ]
+SQL: SELECT `org` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `org` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `org` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004787s ]
+

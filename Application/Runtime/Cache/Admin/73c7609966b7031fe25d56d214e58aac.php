@@ -70,13 +70,6 @@
            <script type="text/javascript" src="js/html5shiv.js"></script>
            <script type="text/javascript" src="js/respond.min.js"></script>
         <![endif]-->
-
-        <!-- editor -->
-        <link rel="stylesheet" href="/hzaumba/Public/ueditor/themes/default/ueditor.css"/>
-        <!-- editor -->
-        <script type="text/javascript" src="/hzaumba/Public/ueditor/editor_config.js"></script>
-        <script type="text/javascript" src="/hzaumba/Public/ueditor/editor_all.js"></script>
-
         
     </head>
     <body class="bootstrap-admin-with-small-navbar">
@@ -213,7 +206,22 @@
                                  <!--除首页外其他页面-->
                                 <form action="/hzaumba/index.php/Admin/Index/record?name=<?php echo ($name); ?>" method="POST" name="jaj" style="display:none;" id="other">
                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                                    <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>
+                                   <!-- <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con"><?php echo ($con); ?></textarea>-->
+								   <!--ueditor编辑框-->
+								   <!-- 加载编辑器的容器 -->
+    <script id="container" name="con" type="text/plain">
+        <?php echo ($con); ?>
+    </script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="/hzaumba/Public/Ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="/hzaumba/Public/Ueditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+								   
+								   
                                     <input type="submit" class="btn btn-info right " style="display:inline-block;" value="确定" /></br></br>
                                 </form>       
                             </div>

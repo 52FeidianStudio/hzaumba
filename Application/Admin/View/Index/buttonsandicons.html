@@ -206,7 +206,22 @@
                                  <!--除首页外其他页面-->
                                 <form action="__URL__/record?name={$name}" method="POST" name="jaj" style="display:none;" id="other">
                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                                    <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con">{$con}</textarea>
+                                   <!-- <textarea rows="20" cols="130%" class="form-control" style="width:80%;display:inline-block;" name="con">{$con}</textarea>-->
+								   <!--ueditor编辑框-->
+								   <!-- 加载编辑器的容器 -->
+    <script id="container" name="con" type="text/plain">
+        {$con}
+    </script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
+								   
+								   
                                     <input type="submit" class="btn btn-info right " style="display:inline-block;" value="确定" /></br></br>
                                 </form>       
                             </div>
