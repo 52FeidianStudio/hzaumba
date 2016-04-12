@@ -1433,3 +1433,48 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
 
+[ 2016-04-12T22:38:37+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-04-12T22:38:39+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002781s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-04-12T22:38:40+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002489s ]
+
