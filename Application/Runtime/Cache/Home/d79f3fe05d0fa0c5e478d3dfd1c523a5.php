@@ -22,8 +22,7 @@
         <img src="/hzaumba/Public/front/images/mba_logo.png" alt="">
     </div>
     <div class="head-word">
-        <p>理论与实务并重</p>
-        <p>本土与国际复合</p>
+        <p>理论与实务并重　本土与国际复合</p>
     </div>
 </div>
 <div id="nav">

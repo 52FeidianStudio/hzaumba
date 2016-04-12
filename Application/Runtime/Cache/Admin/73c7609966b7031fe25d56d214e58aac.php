@@ -70,13 +70,6 @@
            <script type="text/javascript" src="js/html5shiv.js"></script>
            <script type="text/javascript" src="js/respond.min.js"></script>
         <![endif]-->
-
-        <!-- editor -->
-        <link rel="stylesheet" href="/hzaumba/Public/ueditor/themes/default/ueditor.css"/>
-        <!-- editor -->
-        <script type="text/javascript" src="/hzaumba/Public/ueditor/editor_config.js"></script>
-        <script type="text/javascript" src="/hzaumba/Public/ueditor/editor_all.js"></script>
-
         
     </head>
     <body class="bootstrap-admin-with-small-navbar">

@@ -1,0 +1,134 @@
+[ 2016-04-12T16:20:50+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2016-04-12T16:20:55+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003315s ]
+SQL: SHOW COLUMNS FROM `mba_administrator` [ RunTime:0.1107s ]
+SQL: SELECT * FROM `mba_administrator` WHERE `user` = 'admi' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0168s ]
+
+[ 2016-04-12T16:20:55+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2016-04-12T16:21:04+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `mba_administrator` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `mba_administrator` WHERE `user` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-12T16:21:04+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0271s ]
+SQL: SELECT `xwzx` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `mba_home` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mba_home` WHERE `class` = '新闻中心' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `hid`,`title`,`content` FROM `mba_home` WHERE `class` = '新闻中心' ORDER BY hid desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined variable: ym D:\wamp\www\hzaumba\Application\Runtime\Cache\Admin\128ab25a5bcea3f3f4aba13f4e94dcd4.php 第 284 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2016-04-12T16:21:09+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0145s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `lxwm` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003571s ]
+
+[ 2016-04-12T16:21:50+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `mba_contents` [ RunTime:0.0255s ]
+SQL: SELECT `xnds` FROM `mba_contents` WHERE `cid` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xnds` FROM `mba_contents` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT `xnds` FROM `mba_contents` WHERE `cid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004190s ]
+
