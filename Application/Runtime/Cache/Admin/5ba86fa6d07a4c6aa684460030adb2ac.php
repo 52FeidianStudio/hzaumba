@@ -85,7 +85,9 @@
                             
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="http://www.hzau.edu.cn">Link</a></li>
-                                <li><a href="http://yjs.hzau.edu.cn/">Link</a></li>
+                                <li><a href="http://www.hzau.edu.cn">Link1&nbsp;</a></li>
+                                <li><a href="http://yjs.hzau.edu.cn/">Link2&nbsp;<i class="glyphicon glyphicon-send"></i></a></li>
+                                <li><a href="/hzaumba/index.php/Admin/Index/update_pw.html" data-toggle="tooltip" data-placement="bottom" title="修改密码">Settings&nbsp;<i class="glyphicon glyphicon-cog"></i></a></li>
                                 <li>
                                     <a href="/hzaumba/index.php/admin/Login/out_login">doup out <i class="glyphicon glyphicon-share-alt"></i></a>
                                 </li>
@@ -125,7 +127,8 @@
 								 <li id="xxzs" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/shouye.html?name=xxzs"  ><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;招生信息</a></li>
                                 <li id="xzzx" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/download.html"><i class="glyphicon glyphicon-chevron-right"></i> &nbsp;&nbsp;&nbsp;&nbsp;下载中心</a></li>
                                 <li id="yqlj" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/links.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;友情链接</a></li>
-                            </ul>
+                            <li id="tupian" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/image.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;图片更新</a></li>
+							</ul>
                         </li>
                         <li class="submenu">
                             <a  class="dropmenu" href="#collapseOne"data-toggle="collapse" data-parent="#accordion"><i class="glyphicon glyphicon-chevron-down"></i>中心概况</a>
@@ -176,7 +179,7 @@
                         </li>
 
                         <li><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm"><i class="glyphicon glyphicon-chevron-right"></i>联系我们</a></li>
-                                <li><a href="/hzaumba/index.php/Admin/Index/update_pw.html"><i class="glyphicon glyphicon-chevron-right"></i>密码修改</a></li>
+                                
                        <!-- <li>
                             <a href="#"><span class="badge pull-right">731</span> Orders</a>
                         </li>-->
@@ -189,7 +192,7 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="panel panel-default panel-bootstrap-switch">
+                            <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
                                 <div class="panel-heading">
                                     <div class="text-muted bootstrap-admin-box-title">友情链接</div>
                                 </div>
@@ -244,9 +247,9 @@
                                   </div><?php endforeach; endif; else: echo "" ;endif; ?>
                                  </div>
                                  </table>    
-                                 <div style="text-align:center;margin-top:300px;"><?php echo ($page); ?></div>								 
+                                 <div ><?php echo ($page); ?></div>								 
                                  <input type="button" class="btn btn-info right" data-toggle="modal" 
-                                    data-target="#myModal"style="margin-right:20px;margin-top:88px;" value="添加"/>
+                                    data-target="#myModal"style="margin-right:20px;margin-top:20px;" value="添加"/>
                                    <!--模态框提交--->
                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
                                      aria-labelledby="myModalLabel" aria-hidden="true">
@@ -294,8 +297,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <footer role="contentinfo" >
-                            <p class="left" style="margin-left:180px;">© 2016 华中农业大学</p>
-                            <p class="right" style="margin-right:60px;">技术支持：沸点工作室</p>
+                             <p class="left" style="margin-left:180px;"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;© 2016 华中农业大学MBA教育中心</p>
+                            <p class="right" style="margin-right:60px;">技术支持：<i class="glyphicon glyphicon-leaf"></i>&nbsp沸点工作室</p>
                         </footer>
                     </div>
                 </div>

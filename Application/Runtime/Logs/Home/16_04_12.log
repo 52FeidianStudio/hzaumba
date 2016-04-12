@@ -1428,3 +1428,8 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
 
+[ 2016-04-12T22:37:54+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+

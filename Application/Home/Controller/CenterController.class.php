@@ -5,6 +5,7 @@ class CenterController extends Controller {
     public function center(){
 		$con=A('Commen')->read_con('zxjj');
 		$this->assign('con',$con);
+		
        $this->display();
     }
     public function edu(){
