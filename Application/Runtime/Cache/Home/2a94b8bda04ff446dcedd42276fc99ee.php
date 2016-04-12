@@ -109,16 +109,16 @@ $(function(){
                     <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
                     <ul>
                         <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
-                            <img src="/hzaumba/Public/front/images/index1.jpg" style="width: 100%;" class="set-img">
+                            <a href=""><img src="/hzaumba/Public/front/images/index1.jpg" style="width: 100%;" class="set-img"></a>
                         </div>
                         <li class="num0 img">
-                            <img src="/hzaumba/Public/front/images/index1.jpg" alt="Clouds" title="Clouds"  class="set-img"/>
+                            <a href=""><img src="/hzaumba/Public/front/images/index1.jpg" alt="Clouds" title="Clouds"  class="set-img"/></a>
                         </li>
                         <li class="num1 img">
-                            <img src="/hzaumba/Public/front/images/index2.jpg" alt="Typewriter" title="Typewriter" class="set-img" />
+                            <a href=""><img src="/hzaumba/Public/front/images/index2.jpg" alt="Typewriter" title="Typewriter" class="set-img" /></a>
                         </li>
                         <li class="num2 img">
-                            <img src="/hzaumba/Public/front/images/index3.jpg" alt="Bicycle" title="Bicycle" class="set-img" />
+                            <a href=""><img src="/hzaumba/Public/front/images/index3.jpg" alt="Bicycle" title="Bicycle" class="set-img" /></a>
                         </li>
                     </ul>
                      
