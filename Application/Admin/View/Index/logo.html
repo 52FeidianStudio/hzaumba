@@ -150,7 +150,7 @@
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
                                 <li id="xwds" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="__URL__/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
-                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="__URL__/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
+                                <li id="logo" style="background-color:#dcdcdc;"><a href="__URL__/logo.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
@@ -193,49 +193,46 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default panel-bootstrap-switch" style="width:990px;min-height:500px;">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title">{$zd}</div>
+                                    <div class="text-muted bootstrap-admin-box-title">合作企业</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
 
-                                <!--首页图片页面-->
-                            <form action="" method="POST" name=""  id="">
-                                <div class="row">
+                             
 
-                                   <div class="col-sm-6 col-md-3">
-                                      <div class="thumbnail">
-                                      <img src="__PUBLIC__/front/images/index2.jpg" 
-                                            alt="" >
-                                    </a>
-                                     <div class="caption">
-                                       <a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
-                                      </div>
-                                     </div>
-                                    </div>
-                                    
-
-                                     <div class="col-sm-6 col-md-3">
-                                      <div class="thumbnail">
-                                      <img src="__PUBLIC__/front/images/index2.jpg" 
-                                            alt="" >
-                                    </a>
-                                     <div class="caption">
-                                        <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
-                                      </div>
-                                     </div>
-                                    </div>
-
-                                     <div class="col-sm-6 col-md-3">
-                                          <div class="thumbnail">
-                                             <img src="__PUBLIC__/front/images/index3.jpg" 
-                                              alt="" >
-                                          </a>
-                                        <div class="caption">
-                                               <a href="#"><i class="glyphicon glyphicon-remove-sign"></i></a>
-                                       </div>
-                                       </div>
-                                </div>
-                                </div></br></br>               
-                                </form>
+						
+                         	<div style="height:460px;width:900px;" id="download">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; 
+                             <table class="table table-bordered table-striped border table-condensed text-center " >    
+                                <div class="row">   
+								
+                                   <tr>
+                                      <th style="text-align:center;">链接</th>
+                                      <th style="text-align:center;">编辑</th>
+								   </tr>
+								   <volist name="list" id="vo">
+                                   <tr>								
+                                      <td>{$vo.title}</td>
+                                     
+                                      <td><a role="button" class="btn btn-info btn-xs" href="__PUBLIC__/image/{$vo.content}"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
+                                   </tr>
+								    </volist> 
+								</div>
+								
+							</table>
+							<div>{$page}</div>
+						<form method="post" enctype="multipart/form-data" action="__APP__/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                            <div class="form-group">
+                                 <label class="sr-only" for="name" >名称</label>
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                            </div>
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <input type="file" id="inputfile" name="con">
+                            </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                        </form>
+						</div><br/>
+						
 							
                         </div>
                        </div>
@@ -247,10 +244,10 @@
 
         <!-- footer -->
         <div class="navbar navbar-footer"style="background:#dcdcdc;width:1180px;">
-            <div class="container" >
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12" >
-                        <footer role="contentinfo">
+                    <div class="col-lg-12">
+                        <footer role="contentinfo" >
                             <p class="left" style="margin-left:180px;"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;© 2016 华中农业大学MBA教育中心</p>
                             <p class="right" style="margin-right:60px;">技术支持：<i class="glyphicon glyphicon-leaf"></i>&nbsp沸点工作室</p>
                         </footer>
@@ -266,6 +263,54 @@
         <script type="text/javascript" src="__PUBLIC__/Back/js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="__PUBLIC__/Back/vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
 
-        
+        <script type="text/javascript">
+            $(function() {
+			
+                /*
+                 * Initialize all the inputs
+                 */
+                $('input[type="checkbox"],[type="radio"]').not('#create-switch').bootstrapSwitch();
+
+                /*
+                 * Destroy
+                 */
+                $('#btn-destroy-switch').on('click', function() {
+                    $('#destroy-switch').bootstrapSwitch('destroy');
+                    $(this).remove();
+                });
+
+                /*
+                 * Create
+                 */
+                $('#btn-create').on('click', function() {
+                    $('#create-switch').bootstrapSwitch();
+                    $(this).remove();
+                });
+
+                /*
+                 * Radio
+                 */
+                $('.radio1').on('switch-change', function() {
+                    $('.radio1').bootstrapSwitch('toggleRadioState');
+                });
+		    	$('#logo').addClass('active');
+				$('#collapseThree').collapse('hide');
+				
+				
+			//	alert('{$ym}');
+				
+            });
+		  //删除链接
+          function delete_link(hid){
+		      var r=confirm("是否删除");
+              if (r==true){
+                 window.location.href="__APP__/admin/Upload/delete_logo?hid="+hid;
+              }
+		  }
+		  function mOver(obj){
+               obj.innerHTML="谢谢"
+          }
+ 
+        </script>
     </body>
 </html>

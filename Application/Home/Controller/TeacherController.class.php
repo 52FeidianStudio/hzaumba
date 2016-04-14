@@ -3,8 +3,10 @@ namespace Home\Controller;
 use Think\Controller;
 class TeacherController extends Controller {
     public function company(){
-		$con=A('Commen')->read_con('hzqy');
-		$this->assign('con',$con);
+		$m=M('home');
+		$where['class']="合作企业";
+		$str=$m->where($where)->select();
+		$this->assign('list',$str);
        $this->display();
     }
     public function inschool(){

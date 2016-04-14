@@ -150,7 +150,7 @@
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
                                 <li id="xwds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
-                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
+                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/logo.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 

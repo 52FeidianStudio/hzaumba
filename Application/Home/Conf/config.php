@@ -12,7 +12,7 @@ return array(
 	
 	//'配置项'=>'配置值'
 	'DB_TYPE'=>'mysql',
-	'DB_HOST'=>'localhost',
+	'DB_HOST'=>'127.0.0.1',
 	'DB_NAME'=>'hzaumba',//设置数据库名；
 	'DB_user'=>'root',
 	'DB_PWD'=>'',

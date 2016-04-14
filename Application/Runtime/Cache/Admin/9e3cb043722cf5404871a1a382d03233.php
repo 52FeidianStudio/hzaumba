@@ -150,7 +150,7 @@
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
                                 <li id="xwds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
-                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/logo.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
+                                <li id="logo" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/logo.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
@@ -191,35 +191,45 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
+                            <div class="panel panel-default panel-bootstrap-switch" style="width:990px;min-height:500px;">
                                 <div class="panel-heading">
-                                    <div class="text-muted bootstrap-admin-box-title"><?php echo ($zd); ?></div>
+                                    <div class="text-muted bootstrap-admin-box-title">合作企业</div>
                                 </div>
                                 <div class="bootstrap-admin-panel-content">
 
+                             
 
-								<!--新闻中心、通知公告、招生信息、教务信息页面-->
-						  <div style="height:460px;width:900px;" id="shouye" >
+						
+                         	<div style="height:460px;width:900px;" id="download">
                                  &nbsp;&nbsp; &nbsp;&nbsp; 
                              <table class="table table-bordered table-striped border table-condensed text-center " >    
                                 <div class="row">   
 								
                                    <tr>
-                                      <th style="text-align:center;">标题</th>
+                                      <th style="text-align:center;">链接</th>
                                       <th style="text-align:center;">编辑</th>
 								   </tr>
-								   <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
+								   <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
                                       <td><?php echo ($vo["title"]); ?></td>
                                      
-                                      <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>&hid=<?php echo ($vo["hid"]); ?>"/>修改</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
+                                      <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?> 
 								</div>
 								
 							</table>
 							<div><?php echo ($page); ?></div>
-							 <a role="button" class="btn btn-info right " style="margin-right:20px;margin-top:20px;" href="/hzaumba/index.php/Admin/Index/button.html?name=<?php echo ($name); ?>" />添加</a></br></br>
-							</div>
-					        
+						<form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                            <div class="form-group">
+                                 <label class="sr-only" for="name" >名称</label>
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                            </div>
+                            <div class="form-group">
+                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <input type="file" id="inputfile" name="con">
+                            </div>
+                           <button type="submit" class="btn btn-default">提交</button>
+                        </form>
+						</div><br/>
 						
 							
                         </div>
@@ -231,7 +241,7 @@
         
 
         <!-- footer -->
-        <div class="navbar navbar-footer"style="background:#dcdcdc;">
+        <div class="navbar navbar-footer"style="background:#dcdcdc;width:1180px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -281,8 +291,8 @@
                 $('.radio1').on('switch-change', function() {
                     $('.radio1').bootstrapSwitch('toggleRadioState');
                 });
-		    	$('#<?php echo ($name); ?>').addClass('active');
-				$('#collapseZero').collapse('hide');
+		    	$('#logo').addClass('active');
+				$('#collapseThree').collapse('hide');
 				
 				
 			//	alert('<?php echo ($ym); ?>');
@@ -292,9 +302,12 @@
           function delete_link(hid){
 		      var r=confirm("是否删除");
               if (r==true){
-                 window.location.href="/hzaumba/index.php/Admin/Index/delete_shouye?hid="+hid+"&name=<?php echo ($name); ?>";
+                 window.location.href="/hzaumba/index.php/admin/Upload/delete_logo?hid="+hid;
               }
 		  }
+		  function mOver(obj){
+               obj.innerHTML="谢谢"
+          }
  
         </script>
     </body>

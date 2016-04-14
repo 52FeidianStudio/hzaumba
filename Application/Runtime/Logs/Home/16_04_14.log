@@ -1,0 +1,76 @@
+[ 2016-04-14T15:36:31+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-04-14T15:36:44+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-04-14T15:37:20+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-04-14T15:37:53+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008369s ]
+
+[ 2016-04-14T15:37:55+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-04-14T15:41:28+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-04-14T15:42:39+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-04-14T15:43:14+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-04-14T15:43:17+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-04-14T16:32:00+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-04-14T16:32:02+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/2222222222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002494s ]
+ERR: 非法操作:2222222222
+
+[ 2016-04-14T16:32:50+08:00 ] ::1 /hzaumba/index.php/Home/Teacher/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-04-14T16:32:53+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-04-14T16:33:30+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+
+[ 2016-04-14T16:33:57+08:00 ] ::1 /hzaumba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+

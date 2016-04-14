@@ -150,7 +150,7 @@
                                 <li id="xnds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xnds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校内导师</a></li>
                                 <li id="xwds" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=xwds"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;校外导师</a></li>
 								<li id="teacher" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/teacher.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;教师名录</a></li>
-                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/buttonsandicons.html?name=hzqy"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
+                                <li id="hzqy" style="background-color:#dcdcdc;"><a href="/hzaumba/index.php/Admin/Index/logo.html"><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;合作企业</a></li>
                             </ul>
                         </li>
 
@@ -191,7 +191,7 @@
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="panel panel-default panel-bootstrap-switch" style="width:940px;min-height:500px;">
+                            <div class="panel panel-default panel-bootstrap-switch" style="width:990px;min-height:500px;">
                                 <div class="panel-heading">
                                     <div class="text-muted bootstrap-admin-box-title">图片更新</div>
                                 </div>
@@ -203,22 +203,20 @@
                                 <!--首页图片页面-->
                             
                                 <div class="row">
-
-                                   <div class="col-sm-6 col-md-2">
+                                 <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="col-sm-6 col-md-3" style="width:250px;height:270px;">
                                       <div class="thumbnail">
-                                      <img src="/hzaumba/Public/front/images/index2.jpg" 
+					
+                                      <img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" 
                                             alt="" >
-                                    </a>
+                                    
                                      <div class="caption">
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:delete_link(<?php echo ($vo["hid"]); ?>);" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
                                       </div>
                                      </div>
-                                    </div>
-                                     
-
-                                   
-                                </div></br></br>
-                            <form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/Admin/Index/record_file?name=<?php echo ($name); ?>" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
+                                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </div>
+								</br></br>
+                            <form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/Admin/Index/record_image" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
                             
                             <div class="form-group">
                                  <label class="sr-only" for="inputfile">选择图片</label>
@@ -240,7 +238,7 @@
         
 
         <!-- footer -->
-        <div class="navbar navbar-footer"style="background:#dcdcdc;">
+        <div class="navbar navbar-footer"style="background:#dcdcdc;width:1180px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -301,7 +299,7 @@
           function delete_link(hid){
 		      var r=confirm("是否删除");
               if (r==true){
-                 window.location.href="/hzaumba/index.php/Admin/Index/delete_shouye?hid="+hid+"&name=<?php echo ($name); ?>";
+                 window.location.href="/hzaumba/index.php/Admin/Index/delete_image?hid="+hid;
               }
 		  }
  

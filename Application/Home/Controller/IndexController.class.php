@@ -23,6 +23,9 @@ class IndexController extends Controller {
 	    $info_jwxx=$home->order('hid desc')->where($hq_d)->select();
 	    //dump($info);
         $this->assign('info_jwxx',$info_jwxx);
+		$hq_d['class']="首页图片";
+	    $info_image=$home->order('hid desc')->limit(3)->where($hq_d)->select();
+        $this->assign('info_image',$info_image);
        $this->display();
     }
     public function download(){
