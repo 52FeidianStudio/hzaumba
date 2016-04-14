@@ -394,3 +394,124 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
 
+[ 2016-04-14T19:23:58+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zsxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007745s ]
+
+[ 2016-04-14T19:23:59+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-04-14T19:28:14+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+
+[ 2016-04-14T19:39:12+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-04-14T19:39:33+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-04-14T19:40:46+08:00 ] ::1 /hzaumba/index.php/admin/Upload/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-04-14T19:40:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-04-14T19:41:44+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003116s ]
+
+[ 2016-04-14T19:46:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/delete_image?hid=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+ERR: 非法操作:delete_image
+
+[ 2016-04-14T19:47:25+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-04-14T19:47:31+08:00 ] ::1 /hzaumba/index.php/admin/Upload/delete_image?hid=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+
+[ 2016-04-14T19:47:31+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-04-14T19:48:05+08:00 ] ::1 /hzaumba/index.php/admin/Upload/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-04-14T19:48:06+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004157s ]
+
+[ 2016-04-14T19:48:13+08:00 ] ::1 /hzaumba/index.php/admin/Upload/delete_image?hid=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-04-14T19:48:13+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003407s ]
+
+[ 2016-04-14T19:48:17+08:00 ] ::1 /hzaumba/index.php/admin/Upload/delete_image?hid=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-04-14T19:48:18+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-04-14T19:49:23+08:00 ] ::1 /hzaumba/index.php/admin/Upload/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-14T19:49:23+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-04-14T19:50:20+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002462s ]
+
+[ 2016-04-14T19:52:10+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+
+[ 2016-04-14T19:53:32+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-04-14T19:53:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+

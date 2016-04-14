@@ -200,31 +200,29 @@
                              
 
 						
-                         	<div style="height:460px;width:900px;" id="download">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                             <table class="table table-bordered table-striped border table-condensed text-center " >    
-                                <div class="row">   
-								
-                                   <tr>
-                                      <th style="text-align:center;">链接</th>
-                                      <th style="text-align:center;">编辑</th>
-								   </tr>
-								   <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>								
-                                      <td><?php echo ($vo["title"]); ?></td>
-                                     
-                                      <td><a role="button" class="btn btn-info btn-xs" href="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link(<?php echo ($vo["hid"]); ?>)"/></td>
-                                   </tr><?php endforeach; endif; else: echo "" ;endif; ?> 
-								</div>
-								
-							</table>
-							<div><?php echo ($page); ?></div>
-						<form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                         	    <div class="row">
+                                 <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="col-sm-6 col-md-3" style="width:250px;height:270px;">
+                                      <div class="thumbnail">
+					
+                                      <img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" 
+                                            alt="" >
+                                      <div class="caption">
+                                        <a href="<?php echo ($vo["title"]); ?>" target="_blanket"><?php echo ($vo["title"]); ?></a>
+                                      </div>
+                                     <div class="caption">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:delete_link(<?php echo ($vo["hid"]); ?>);" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </div>
+								</br></br>
+						<form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:450px;right:50px;">
                             <div class="form-group">
                                  <label class="sr-only" for="name" >名称</label>
-                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入logo链接地址">
                             </div>
                             <div class="form-group">
-                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <label class="sr-only" for="inputfile">选择logo</label>
                                  <input type="file" id="inputfile" name="con">
                             </div>
                            <button type="submit" class="btn btn-default">提交</button>

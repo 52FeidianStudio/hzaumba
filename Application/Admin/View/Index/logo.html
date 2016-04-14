@@ -200,33 +200,32 @@
                              
 
 						
-                         	<div style="height:460px;width:900px;" id="download">
-                                 &nbsp;&nbsp; &nbsp;&nbsp; 
-                             <table class="table table-bordered table-striped border table-condensed text-center " >    
-                                <div class="row">   
-								
-                                   <tr>
-                                      <th style="text-align:center;">链接</th>
-                                      <th style="text-align:center;">编辑</th>
-								   </tr>
-								   <volist name="list" id="vo">
-                                   <tr>								
-                                      <td>{$vo.title}</td>
-                                     
-                                      <td><a role="button" class="btn btn-info btn-xs" href="__PUBLIC__/image/{$vo.content}"/>查看</a>&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-info btn-xs" value="删除" onclick="delete_link({$vo.hid})"/></td>
-                                   </tr>
-								    </volist> 
-								</div>
-								
-							</table>
-							<div>{$page}</div>
-						<form method="post" enctype="multipart/form-data" action="__APP__/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:480px;right:50px;">
+                         	    <div class="row">
+                                 <volist name="list" id="vo">
+                                   <div class="col-sm-6 col-md-3" style="width:250px;height:270px;">
+                                      <div class="thumbnail">
+					
+                                      <img src="__PUBLIC__/image/{$vo.content}" 
+                                            alt="" >
+                                      <div class="caption">
+                                        <a href="{$vo.title}" target="_blanket">{$vo.title}</a>
+                                      </div>
+                                     <div class="caption">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:delete_link({$vo.hid});" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
+                                      </div>
+                                     </div>
+                                    </div>
+                                 
+                                   </volist>
+                                </div>
+								</br></br>
+						<form method="post" enctype="multipart/form-data" action="__APP__/admin/Upload/upload_logo" class="form-inline text-right" role="form" style="margin-bottom:20px;position:absolute; top:450px;right:50px;">
                             <div class="form-group">
                                  <label class="sr-only" for="name" >名称</label>
-                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入文件名称">
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入logo链接地址">
                             </div>
                             <div class="form-group">
-                                 <label class="sr-only" for="inputfile">选择文件</label>
+                                 <label class="sr-only" for="inputfile">选择logo</label>
                                  <input type="file" id="inputfile" name="con">
                             </div>
                            <button type="submit" class="btn btn-default">提交</button>

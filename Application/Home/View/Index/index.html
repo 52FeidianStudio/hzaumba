@@ -33,7 +33,7 @@
                        		<php>$j=0;</php>
 						<volist name="info_image" id="vo">
                         <li class="num<php>echo $j;$j++;</php> img">
-                            <img src="__PUBLIC__/image/{$vo.content}" alt="Clouds" title="Clouds"  class="set-img"/>
+                            <a href="{$vo.title}" target="_blanket"><img src="__PUBLIC__/image/{$vo.content}" alt="Clouds" title="Clouds"  class="set-img"/></a>
                         </li>
                      
 						</volist>

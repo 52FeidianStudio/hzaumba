@@ -113,7 +113,7 @@ $(function(){
                         </div>
                        		<?php $j=0; ?>
 						<?php if(is_array($info_image)): $i = 0; $__LIST__ = $info_image;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="num<?php echo $j;$j++; ?> img">
-                            <img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" alt="Clouds" title="Clouds"  class="set-img"/>
+                            <a href="<?php echo ($vo["title"]); ?>" target="_blanket"><img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" alt="Clouds" title="Clouds"  class="set-img"/></a>
                         </li><?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
                      

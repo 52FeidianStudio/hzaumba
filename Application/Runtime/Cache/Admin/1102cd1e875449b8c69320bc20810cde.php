@@ -208,7 +208,9 @@
 					
                                       <img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" 
                                             alt="" >
-                                    
+                                      <div class="caption">
+                                        <a href="<?php echo ($vo["title"]); ?>" target="_blanket"><?php echo ($vo["title"]); ?></a>
+                                      </div>
                                      <div class="caption">
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:delete_link(<?php echo ($vo["hid"]); ?>);" ><i  class="glyphicon glyphicon-remove-sign"></i></a>
                                       </div>
@@ -216,10 +218,14 @@
                                     </div><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </div>
 								</br></br>
-                            <form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/Admin/Index/record_image" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
+                            <form method="post" enctype="multipart/form-data" action="/hzaumba/index.php/admin/Upload/record_image" class="form-inline text-right" role="form" style="margin-top:200px;margin-right:100px;">
                             
+                              <div class="form-group">
+                                 <label class="sr-only" for="name" >名称</label>
+                                 <input type="text" name="title" class="form-control" id="name"  placeholder="请输入链接地址">
+                            </div>
                             <div class="form-group">
-                                 <label class="sr-only" for="inputfile">选择图片</label>
+                                 <label class="sr-only" for="inputfile">选择logo</label>
                                  <input type="file" id="inputfile" name="con">
                             </div>
                            <button type="submit" class="btn btn-default">提交</button>
@@ -299,7 +305,7 @@
           function delete_link(hid){
 		      var r=confirm("是否删除");
               if (r==true){
-                 window.location.href="/hzaumba/index.php/Admin/Index/delete_image?hid="+hid;
+                 window.location.href="/hzaumba/index.php/admin/Upload/delete_image?hid="+hid;
               }
 		  }
  
