@@ -394,6 +394,7 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
 
+<<<<<<< Updated upstream
 [ 2016-04-14T19:23:58+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zsxx
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001419s ]
@@ -514,4 +515,462 @@ INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+=======
+[ 2016-04-14T18:03:21+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-04-14T18:03:25+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-04-14T18:03:25+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-04-14T18:03:32+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-04-14T18:03:39+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=tzgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-04-14T18:03:42+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=tzgg&hid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-04-14T18:03:42+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:03:42+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:04:33+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=zyfz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-04-14T18:04:37+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=mba_xm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-04-14T18:04:40+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=pyfa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-04-14T18:04:44+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lhhzc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-04-14T18:04:51+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-04-14T18:05:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-04-14T18:05:30+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lxwm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-04-14T18:05:38+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=tzgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-04-14T18:05:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=tzgg&hid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-04-14T18:05:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:05:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:05:45+08:00 ] ::1 /hzaumba/index.php/Admin/Index/links.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-04-14T18:06:00+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-04-14T18:06:02+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-04-14T18:06:02+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:06:02+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:06:07+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=tzgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-04-14T18:06:09+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=tzgg&hid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-04-14T18:06:10+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:06:10+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:06:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=xxjw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-04-14T18:06:19+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xxjw&hid=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-04-14T18:06:19+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:06:19+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:06:22+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=xxzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-04-14T18:06:25+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xxzs&hid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-04-14T18:06:25+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 非法操作:vendors
+
+[ 2016-04-14T18:06:25+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+ERR: 非法操作:css
+
+[ 2016-04-14T18:06:27+08:00 ] ::1 /hzaumba/index.php/Admin/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-04-14T18:07:45+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-04-14T18:08:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-04-14T18:08:53+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-04-14T18:08:53+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-04-14T18:09:15+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-04-14T18:09:15+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-04-14T18:09:46+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-04-14T18:09:46+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-04-14T18:10:02+08:00 ] ::1 /hzaumba/index.php/Admin/Index/delete_image?hid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-04-14T18:10:02+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-04-14T18:10:04+08:00 ] ::1 /hzaumba/index.php/Admin/Index/delete_image?hid=29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-04-14T18:10:04+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-04-14T18:10:11+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-04-14T18:10:11+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-04-14T18:10:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-04-14T18:10:17+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-04-14T18:11:06+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-04-14T18:11:41+08:00 ] ::1 /hzaumba/index.php/admin/Upload/upload_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-04-14T18:11:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-04-14T18:12:13+08:00 ] ::1 /hzaumba/index.php/admin/Upload/delete_logo?hid=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-04-14T18:12:13+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-04-14T18:12:33+08:00 ] ::1 /hzaumba/index.php/admin/Upload/upload_logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-04-14T18:12:33+08:00 ] ::1 /hzaumba/index.php/Admin/Index/logo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-04-14T18:15:10+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-04-14T18:16:37+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lhhzc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-04-14T18:16:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lhhzc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-04-14T18:16:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lhhzc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-04-14T18:16:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=org
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-04-14T18:17:03+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=org
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-04-14T18:17:03+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/org.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-04-14T18:17:05+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons.html?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-04-14T18:17:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-04-14T18:17:16+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lxwm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-04-14T18:17:43+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-04-14T18:17:43+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lxwm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-04-14T18:17:55+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-04-14T18:17:55+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lxwm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-04-14T18:18:08+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record?name=lxwm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-04-14T18:18:08+08:00 ] ::1 /hzaumba/index.php/Admin/Index/buttonsandicons/name/lxwm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-04-14T19:28:44+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-04-14T19:28:49+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-04-14T19:28:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-04-14T19:28:52+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+>>>>>>> Stashed changes
+
+[ 2016-04-14T19:58:16+08:00 ] ::1 /hzaumba/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-04-14T19:58:22+08:00 ] ::1 /hzaumba/index.php/Admin/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-04-14T19:58:23+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-04-14T19:58:59+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-04-14T19:59:08+08:00 ] ::1 /hzaumba/index.php/admin/Upload/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-04-14T19:59:29+08:00 ] ::1 /hzaumba/index.php/admin/Upload/delete_image?hid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-04-14T19:59:29+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-04-14T19:59:41+08:00 ] ::1 /hzaumba/index.php/admin/Upload/record_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-04-14T19:59:41+08:00 ] ::1 /hzaumba/index.php/Admin/Index/image.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
 

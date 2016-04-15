@@ -109,7 +109,7 @@ $(function(){
                     <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
                     <ul>
                         <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
-                            <a href=""><img src="/hzaumba/Public/image/<?php echo $info_image[0]['content']; ?>" style="width: 100%;" class="set-img"></a>
+                            <img src="/hzaumba/Public/image/<?php echo $info_image[0]['content']; ?>" style="width: 100%;" class="set-img">
                         </div>
                        		<?php $j=0; ?>
 						<?php if(is_array($info_image)): $i = 0; $__LIST__ = $info_image;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="num<?php echo $j;$j++; ?> img">
