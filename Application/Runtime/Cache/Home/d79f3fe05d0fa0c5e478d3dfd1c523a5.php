@@ -102,7 +102,7 @@ $(function(){
 		</div>
 		<div class="content">
 			<h1><?php echo ($str["title"]); ?></h1>
-			<pre class="information-pre"><?php echo ($str["content"]); ?></pre>
+			<div class="information-pre"><?php echo ($str["content"]); ?></div>
 		</div>
 	</div>
 </div>

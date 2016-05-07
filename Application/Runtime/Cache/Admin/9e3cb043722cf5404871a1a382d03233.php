@@ -206,7 +206,7 @@
 					
                                       <img src="/hzaumba/Public/image/<?php echo ($vo["content"]); ?>" 
                                             alt="" >
-                                      <div class="caption">
+                                      <div class="caption"  style="overflow:hidden;width:100%;height:30px;">
                                         <a href="<?php echo ($vo["title"]); ?>" target="_blanket"><?php echo ($vo["title"]); ?></a>
                                       </div>
                                      <div class="caption">
