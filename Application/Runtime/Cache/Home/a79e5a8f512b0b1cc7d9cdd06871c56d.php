@@ -30,7 +30,7 @@
         <ul class="first-ul">        
             <li><a href="/hzaumba/index.php/Home/Index/index" class="first-a">首页</a></li>
             <li>
-                <a href="/hzaumba/index.php/Home/Center/center" class="first-a">中心概况</a>
+                <a href="javascript:;" class="first-a">中心概况</a>
                 <ul class="second-ul">
                     <span></span>
                     <li><a href="/hzaumba/index.php/Home/Center/center">中心简介</a></li>
@@ -39,7 +39,7 @@
                 </ul>
             </li>
             <li>
-                <a href="/hzaumba/index.php/Home/Introduce/mbaprj" class="first-a">项目介绍</a>
+                <a href="javascript:;" class="first-a">项目介绍</a>
                 <ul class="second-ul">
                     <span></span>
                     <li><a href="/hzaumba/index.php/Home/Introduce/mbaprj">MBA项目</a></li>
@@ -47,7 +47,7 @@
                 </ul>
             </li>
             <li>
-                <a href="/hzaumba/index.php/Home/Teacher/inschool" class="first-a">师资力量</a>
+                <a href="javascript:;" class="first-a">师资力量</a>
                 <ul class="second-ul">
                     <span></span>
                     <li><a href="/hzaumba/index.php/Home/Teacher/inschool">校内导师</a></li>
@@ -57,7 +57,7 @@
             </li>
             <li><a href="/hzaumba/index.php/Home/Zhaosheng/zhaosheng" class="first-a">招生信息</a></li>
             <li>
-                <a href="/hzaumba/index.php/Home/Manage/peiyang" class="first-a">教学管理</a>
+                <a href="javascript:;" class="first-a">教学管理</a>
                 <ul class="second-ul">
                     <span></span>
                     <li><a href="/hzaumba/index.php/Home/Manage/peiyang">培养方案</a></li>
@@ -69,7 +69,7 @@
             </li>
             <li><a href="/hzaumba/index.php/Home/Career/career" class="first-a">职业发展</a></li>
             <li>
-                <a href="/hzaumba/index.php/Home/MbaUnion/zhangcheng" class="first-a">MBA联合会</a>
+                <a href="javascript:;" class="first-a">MBA联合会</a>
                 <ul class="second-ul">
                     <span></span>
                     <li><a href="/hzaumba/index.php/Home/MbaUnion/zhangcheng">联合会章程</a></li>
@@ -101,8 +101,9 @@ $(function(){
 			当前所在位置：<a href="/hzaumba/index.php/Home/Index/index">首页</a> > <a href="/hzaumba/index.php/Home/Teacher/inschool">师资力量</a> > <a href="/hzaumba/index.php/Home/Teacher/inschool">校内导师</a>
 		</div>
 		<div class="content">
-			<h1>校内导师</h1>
-<pre><?php echo ($con); ?></pre>
+			<!-- <h1>主题</h1> -->
+			<div class="content-div"><?php echo ($con); ?></div>
+
 			<ul class="teacher-ul">
 				<h1>教师名录</h1>
 				<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo ($vo["content"]); ?>" target="_blank"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>

@@ -101,8 +101,8 @@ $(function(){
 			当前所在位置：<a href="/hzaumba/index.php/Home/Index/index">首页</a> > <a href="/hzaumba/index.php/Home/Introduce/mbaprj">项目介绍</a> > <a href="/hzaumba/index.php/Home/Introduce/edpprj">EDP项目</a>
 		</div>
 		<div class="content">
-			<h1>EDP项目</h1>
-<pre><?php echo ($con); ?></pre>
+			<!-- <h1>主题</h1> -->
+			<div class="content-div"><?php echo ($con); ?></div>
 		</div>
 	</div>
 </div>

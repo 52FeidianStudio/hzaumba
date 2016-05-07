@@ -101,8 +101,8 @@ $(function(){
 			当前所在位置：<a href="/hzaumba/index.php/Home/Index/index">首页</a> > <a href="/hzaumba/index.php/Home/Career/career">职业发展</a>
 		</div>
 		<div class="content">
-			<h1>职业发展</h1>
-<pre><?php echo ($con); ?></pre>
+			<!-- <h1>主题</h1> -->
+<?php echo ($con); ?>
 		</div>
 	</div>
 </div>

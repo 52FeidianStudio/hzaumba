@@ -39,26 +39,26 @@
 	border:1px solid #cdd;
 }
 .content h1{
+	/*待使用*/
 	font-size:1.3em;
 	font-weight:400;
 	text-align: center;
 	color:#4782b2;
-	line-height:80px;
+	line-height:40px;
+	margin-top:18px;
+	margin-bottom:10px;
 }
-.content pre{
+.content div.content-div{
+	margin-top:20px;
 	width:92%;
 	margin-left:4%;
+	text-indent:2em;
 	float:left;
-	font-size:1.1em;
+	font-size:1.0em;
 	line-height:30px;
 	color:#000;
 	letter-spacing:1px;
 	margin-bottom:40px;
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	white-space: -pre-wrap;      /* Opera 4-6 */
-	white-space: -o-pre-wrap;    /* Opera 7 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 
@@ -149,9 +149,16 @@
 
 /*information*/
 .information-pre{
-	width:96;
-	text-align:left;
-	margin-left: 2%;
+	margin-top:0px;
+	width:92%;
+	margin-left:4%;
+	float:left;
+	font-size:1.0em;
+	text-indent:2em;
+	line-height:30px;
+	color:#000;
+	letter-spacing:1px;
+	margin-bottom:40px;
 }
 
 
