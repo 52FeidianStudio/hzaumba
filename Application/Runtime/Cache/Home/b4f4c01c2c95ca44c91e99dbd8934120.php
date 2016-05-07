@@ -10,7 +10,18 @@
     <script src="/hzaumba/Public/front/js/jquery-1.8.3.min.js"></script>
 	<style>
      .current{background-color:rgba(0,255,150,0.5);}
-     .prev,.num,.next,.current{width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);}
+     .prev,.num,.next,.current,.first,.end{
+     	width:auto;height:auto;margin:4px;padding:1px 2px;box-shadow:0 0 2px rgba(0,0,0,0.2);background-color:rgba(255,255,255,0.1);
+     }
+     .rows{
+     	width:auto;height:auto;margin:4px;padding:1px 2px;
+     	border: 0px;
+     }
+     span.current{
+     	background: #2A7EC3;
+     	font-weight:500;
+     	color:#fff;
+     }
     </style>
 </head>
 <body>

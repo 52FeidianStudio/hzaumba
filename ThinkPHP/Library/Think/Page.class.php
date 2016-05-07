@@ -16,7 +16,7 @@ class Page{
     public $parameter; // 分页跳转时要带的参数
     public $totalRows; // 总行数
     public $totalPages; // 分页总页面数
-    public $rollPage   = 10;// 分页栏每页显示的页数
+    public $rollPage   = 5;// 分页栏每页显示的页数
 	public $lastSuffix = true; // 最后一页是否显示总页数
 
     private $p       = 'p'; //分页参数名
@@ -25,12 +25,12 @@ class Page{
 
 	// 分页显示定制
     private $config  = array(
-        'header' => '<span class="rows">共 %TOTAL_ROW% 条记录</span>',
+        'header' => '<span class="rows">共 %TOTAL_PAGE% 页</span>',
         'prev'   => '上一页',
         'next'   => '下一页',
-        'first'  => '1...',
-        'last'   => '...%TOTAL_PAGE%',
-        'theme'  => '%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%',
+        'first'  => '首页',
+        'last'   => '末页',
+        'theme'  => '%HEADER% %FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%',
     );
 
     /**
@@ -39,7 +39,7 @@ class Page{
      * @param array $listRows  每页显示记录数
      * @param array $parameter  分页跳转的参数
      */
-    public function __construct($totalRows, $listRows=20, $parameter = array()) {
+    public function __construct($totalRows, $listRows, $parameter = array()) {
         C('VAR_PAGE') && $this->p = C('VAR_PAGE'); //设置分页参数名称
         /* 基础设置 */
         $this->totalRows  = $totalRows; //设置总记录数
@@ -108,7 +108,7 @@ class Page{
         //最后一页
         $the_end = '';
         if($this->totalPages > $this->rollPage && ($this->nowPage + $now_cool_page) < $this->totalPages){
-            $the_end = '<a class="end" href="' . $this->url($this->totalPages) . '">' . $this->config['last'] . '</a>';
+            $the_end = '<a class="end" href="' . $this->url($this->totalPages) . '">' . "末页" . '</a>';
         }
 
         //数字连接

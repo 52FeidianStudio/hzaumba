@@ -22,7 +22,7 @@ class IndexController extends Controller {
 			       $home=M('home');
 				   $hq['hid']=I('get.hid');
 				   if($hq['hid']){
-					    $ym="shouye_shouye";
+					    $ym="update_shouye";
 					    $info=$home->field('hid,title,content')->where($hq)->find();
 						$info['content']=htmlspecialchars_decode($info['content']);
 					    $this->assign('info',$info);	

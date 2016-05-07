@@ -1,0 +1,81 @@
+[ 2016-05-08T00:06:23+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-05-08T00:06:23+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 非法操作:css
+
+[ 2016-05-08T00:06:23+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 非法操作:vendors
+
+[ 2016-05-08T00:06:28+08:00 ] ::1 /hzaumba/index.php/Admin/Index/update_shouye?class=%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83&name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-05-08T00:06:28+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-05-08T00:06:31+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx&hid=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-05-08T00:06:32+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 非法操作:vendors
+
+[ 2016-05-08T00:06:32+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 非法操作:css
+
+[ 2016-05-08T00:06:46+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=tzgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-05-08T00:06:47+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-05-08T00:06:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/button.html?name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-05-08T00:06:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 非法操作:vendors
+
+[ 2016-05-08T00:06:49+08:00 ] ::1 /hzaumba/index.php/Admin/Index/css/bootstrap-switch-small.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 非法操作:css
+
+[ 2016-05-08T00:06:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/record_shouye?class=%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83&name=xwzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-05-08T00:06:57+08:00 ] ::1 /hzaumba/index.php/Admin/Index/shouye/name/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+

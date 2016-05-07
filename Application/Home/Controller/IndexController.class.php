@@ -34,7 +34,7 @@ class IndexController extends Controller {
 		 $count = $home->where($hq_d)->count();// 查询满足要求的总记录数
 		 $Page       = new \Think\Page($count,10);
 		 $show       = $Page->show();// 分页显示输出
-		 $Page->setConfig('header','页');
+		 //$Page->setConfig('header','页');
 	     $info_jwxx=$home->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq_d)->select();
 	    //dump($info);
         $this->assign('info_file',$info_jwxx);
@@ -48,7 +48,7 @@ class IndexController extends Controller {
 		 $count = $home->where($hq)->count();// 查询满足要求的总记录数
 		 $Page       = new \Think\Page($count,10);
 		 $show       = $Page->show();// 分页显示输出
-		 $Page->setConfig('header','页');
+		 //$Page->setConfig('header','页');
 	    $info=$home->field('title,content')->limit($Page->firstRow.','.$Page->listRows)->order('hid desc')->where($hq)->select();
 	    //dump($info);
         $this->assign('info',$info);		
@@ -58,16 +58,16 @@ class IndexController extends Controller {
     public function commen(){
 	   $hq['class']=I('get.class');
 	   $home=M('home');
-	     $count = $home->where($hq)->count();// 查询满足要求的总记录数
-		 $Page       = new \Think\Page($count,10);
-		 $show       = $Page->show();// 分页显示输出
-		 $Page->setConfig('header','页');
-	   $info=$home->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
-	  //  dump($info);
+	    $count = $home->where($hq)->count();// 查询满足要求的总记录数
+		$Page  = new \Think\Page($count,10);
+		$show  = $Page->show();// 分页显示输出
+		// $Page->setConfig('end','尾页');
+	  	$info=$home->order('hid desc')->limit($Page->firstRow.','.$Page->listRows)->where($hq)->select();
+	  	//  dump($info);
 		$this->assign('class',$hq['class']);	
         $this->assign('info',$info);	
-		 $this->assign('page',$show);// 赋值分页输出
-       $this->display();
+		$this->assign('page',$show);// 赋值分页输出
+        $this->display();
     }
     public function tongzhi(){
        $this->display();

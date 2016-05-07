@@ -32,11 +32,12 @@
 }
 .content{
 	width:100%;
-	min-height:450px;
+	min-height:540px;
 	margin-top:15px;
 	float:left;
 	background:#fff;
 	border:1px solid #cdd;
+	position: relative;
 }
 .content h1{
 	/*待使用*/
@@ -100,15 +101,17 @@
 	color:#333;
 }
 .ul-nav{
-	width:20%;
+	clear: both;
+	width:100%;
+	/*min-width: 100px;*/
 	height:40px;
-	margin-left:42%;
 	margin-bottom:50px;
-	/*background:red;*/
-	float:left;
+	
 	/*margin:0 auto;*/
 	text-align:center;
 	line-height:30px;
+	position: absolute;
+	bottom: -15px;
 }
 .ul-nav i{
 	font-style:normal;
@@ -121,12 +124,15 @@
 	color:#666;
 	display:inline-block;
 	font-weight:300;
-	margin-left:5px;
-	float:left;
+	margin-left:3px;
 	height:30px;
 	line-height:30px;
 	border:1px solid #aaa;
 	font-size:0.9em;
+}
+.ul-nav span.rows{
+	border:0px;
+	font-size:1.0em;
 }
 .ul-nav a{
 	padding-left:10px;
@@ -134,8 +140,7 @@
 	color:#666;
 	display:inline-block;
 	font-weight:300;
-	margin-left:5px;
-	float:left;
+	margin-left:3px;
 	height:30px;
 	line-height:30px;
 	border:1px solid #aaa;
